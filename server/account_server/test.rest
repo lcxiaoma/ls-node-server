@@ -1,0 +1,6 @@
+### 请求游戏服，重新装载转盘设置
+
+http://127.0.0.1:12581/reload_route_config
+
+### 添加系统消息
+http://127.0.0.1:12581/add_system_message?type=1&seq=0&loop_times=10&open_time=1498119947&end_time=1598119947&text=hello&create_id=10

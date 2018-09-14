@@ -1,0 +1,40 @@
+[2017-07-07 09:36:22.070] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-07 09:36:22.077] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-07 09:36:22.153] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-07 09:36:23.098] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-07 14:55:25.044] [DEBUG] sandaha - Http[enter_room][{"userid":"16","name":"长孙赌侠","ingot":"9","gold":"1000","roomid":"011148","sign":"b2af16c8640cb5d6"}]
+[2017-07-07 14:55:25.089] [DEBUG] sandaha - Socket[login][{"token":"f5bfc76387046abf22ab0841f04dd4de","roomid":"011148","time":1499410525067,"sign":"3ec26682cd5494f3d65aff9c19b140c0"}]
+[2017-07-07 14:55:25.090] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"011148","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":16,"double":false,"free":true,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":7,"seats":[{"userid":16,"ip":"::ffff:192.168.0.142","score":33,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0},{"userid":17,"score":33,"name":"上官自摸","online":false,"ready":false,"seatindex":1},{"userid":18,"score":-51,"name":"东方赌圣","online":false,"ready":false,"seatindex":2},{"userid":19,"score":-15,"name":"东阳自摸","online":false,"ready":false,"seatindex":3}]}}
+[2017-07-07 14:55:25.091] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":16,"ip":"::ffff:192.168.0.142","score":33,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0}],sender[16]
+[2017-07-07 14:55:25.092] [DEBUG] sandaha - login check  game state ==2
+[2017-07-07 14:55:25.092] [DEBUG] sandaha - base poker manager call set ready user[16],status[1]
+[2017-07-07 14:55:25.093] [DEBUG] sandaha - user[16],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":0,\"button\":3,\"turn\":1,\"now_max_index\":0,\"now_card_type\":0,\"now_card_data\":[],\"sandaha\":{\"main_color\":-1,\"call_score\":75,\"score\":0,\"max_index\":0,\"turn_card\":[]},\"seats\":[{\"user_id\":16,\"seat_index\":0,\"holds\":[0,44,32,43,11,40,15,33,1,41,34,9,24,14,41,45,45,30,6,29,3],\"folds\":[]},{\"user_id\":17,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[]},{\"user_id\":18,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[]},{\"user_id\":19,\"seat_index\":3,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[]}]}"
+[2017-07-07 14:55:25.093] [DEBUG] sandaha - send to room[sdh_call_turn_push] data[{"turn":1,"current_min_value":75}],room_id[11148]
+[2017-07-07 14:55:34.040] [DEBUG] sandaha - Socket[dissolve_request][null]
+[2017-07-07 14:55:34.040] [DEBUG] sandaha - broadcast[dissolve_notice_push] data[{"mask":2,"time":120,"states":[true,false,false,false]}],sender[16]
+[2017-07-07 14:55:37.259] [DEBUG] sandaha - Socket[dissolve_request][null]
+[2017-07-07 14:56:10.898] [DEBUG] sandaha - broadcast[user_state_push] data[{"userid":16,"online":false}],sender[16]
+[2017-07-07 14:56:10.900] [DEBUG] sandaha - base poker manager call set ready user[16],status[0]
+[2017-07-07 14:56:10.900] [DEBUG] sandaha - user[16],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":0,\"button\":3,\"turn\":1,\"now_max_index\":0,\"now_card_type\":0,\"now_card_data\":[],\"sandaha\":{\"main_color\":-1,\"call_score\":75,\"score\":0,\"max_index\":0,\"turn_card\":[]},\"seats\":[{\"user_id\":16,\"seat_index\":0,\"holds\":[0,44,32,43,11,40,15,33,1,41,34,9,24,14,41,45,45,30,6,29,3],\"folds\":[]},{\"user_id\":17,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[]},{\"user_id\":18,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[]},{\"user_id\":19,\"seat_index\":3,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[]}]}"
+[2017-07-07 14:56:10.900] [DEBUG] sandaha - send to room[sdh_call_turn_push] data[{"turn":1,"current_min_value":75}],room_id[11148]
+[2017-07-07 14:57:34.042] [DEBUG] sandaha - send to room[game_state_push] data[{"state":1}],room_id[11148]
+[2017-07-07 14:57:34.044] [DEBUG] sandaha - send to room[sdh_game_over] data[{"force":true,"has_dig":false,"give_up":false,"bury_card":[],"dig_score_cards":[],"dig_score_value":0,"dig_score_rate":1,"score_card":[],"call_score":75,"game_score":0,"winner":1,"end_seats_data":[{"user_id":16,"end_score":0,"total_score":33},{"user_id":17,"end_score":0,"total_score":33},{"user_id":18,"end_score":0,"total_score":-51},{"user_id":19,"end_score":0,"total_score":-15}],"win_lose_state":3}],room_id[11148]
+[2017-07-07 14:57:34.046] [DEBUG] sandaha - base poker manager call set ready user[16],status[0]
+[2017-07-07 14:57:34.047] [DEBUG] sandaha - base poker manager call set ready user[17],status[0]
+[2017-07-07 14:57:34.048] [DEBUG] sandaha - base poker manager call set ready user[18],status[0]
+[2017-07-07 14:57:34.051] [DEBUG] sandaha - base poker manager call set ready user[19],status[0]
+[2017-07-07 14:57:34.051] [DEBUG] sandaha - show me check game over ................. 7 10 7
+[2017-07-07 14:57:34.052] [DEBUG] sandaha - send to room[sdh_game_result] data[{"over_seats_data":[{"max_score":27,"win_counts":4,"lose_counts":2,"total_score":33},{"max_score":27,"win_counts":4,"lose_counts":2,"total_score":33},{"max_score":0,"win_counts":0,"lose_counts":6,"total_score":-51},{"max_score":6,"win_counts":2,"lose_counts":4,"total_score":-15}]}],room_id[11148]
+[2017-07-07 14:57:34.053] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 16
+[2017-07-07 14:57:34.054] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 17
+[2017-07-07 14:57:34.055] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 18
+[2017-07-07 14:57:34.055] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 19
+[2017-07-07 15:36:27.071] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-07 15:41:51.416] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-07 17:19:46.426] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-07 17:19:46.444] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-07 17:19:46.633] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-07 17:19:48.946] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-07 17:19:48.965] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-07 17:19:49.199] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-07 17:19:50.046] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

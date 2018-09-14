@@ -1,0 +1,987 @@
+[2017-07-10 10:15:28.758] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-10 10:15:28.765] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-10 10:15:29.006] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-10 10:15:29.795] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-10 14:04:02.699] [DEBUG] poker_ox - Http[create_room][{"userid":"16","ingot":"7","gold":"1000","conf":"{\"server_code\":20003,\"type_index\":\"2\",\"rule_index\":538698}","sign":"ef8ed4ffbbcdf6e1"}]
+[2017-07-10 14:04:02.703] [DEBUG] poker_ox - SELECT * FROM rooms WHERE id = "093114"
+[2017-07-10 14:04:02.715] [DEBUG] poker_ox - create room room config = {"uuid":"","id":"093114","num_of_games":0,"create_time":1499666643,"next_button":0,"seats":[],"watch_seats":[],"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"base_score":0,"banker_circle":[0,0]}}
+[2017-07-10 14:04:02.765] [DEBUG] poker_ox - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499666642764093114','093114','{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5}','127.0.0.1',10600,1499666643,20003,1)
+[2017-07-10 14:04:02.789] [DEBUG] poker_ox - Http[enter_room][{"userid":"16","name":"长孙赌侠","ingot":"7","gold":"1000","roomid":"093114","sign":"3021d3ba6cc781d0"}]
+[2017-07-10 14:04:02.833] [DEBUG] poker_ox - Socket[login][{"token":"6db88ebc8a3e9952969992034723b020","roomid":"093114","time":1499666642798,"sign":"3475f24cc5b039ee1cd5d5d7d08c8fac"}]
+[2017-07-10 14:04:02.836] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"093114","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":16,"ip":"::ffff:192.168.0.142","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-10 14:04:02.840] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":16,"ip":"::ffff:192.168.0.142","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false}],sender[16]
+[2017-07-10 14:04:14.162] [DEBUG] poker_ox - Http[enter_room][{"userid":"17","name":"上官自摸","ingot":"10","gold":"1000","roomid":"093114","sign":"098ffe28e8d82314"}]
+[2017-07-10 14:04:14.190] [DEBUG] poker_ox - Socket[login][{"token":"c7b72e461337ed8d7689235958da8a62","roomid":"093114","time":1499666654169,"sign":"55ce1640c3f6082df76cc0ec2c2fb554"}]
+[2017-07-10 14:04:14.191] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"093114","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":16,"ip":"::ffff:192.168.0.142","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":17,"ip":"::ffff:192.168.0.142","score":0,"name":"上官自摸","online":true,"ready":false,"seatindex":1,"watch":false}]}}
+[2017-07-10 14:04:14.192] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":17,"ip":"::ffff:192.168.0.142","score":0,"name":"上官自摸","online":true,"ready":false,"seatindex":1,"watch":false}],sender[17]
+[2017-07-10 14:04:24.664] [DEBUG] poker_ox - Http[enter_room][{"userid":"18","name":"东方赌圣","ingot":"10","gold":"1000","roomid":"093114","sign":"c917fb9e0fda02af"}]
+[2017-07-10 14:04:24.705] [DEBUG] poker_ox - Socket[login][{"token":"5a7947cbcfb1003a18faae3c274fc4d6","roomid":"093114","time":1499666664676,"sign":"99ecc6083e94713bcd0f12c0045e2dc7"}]
+[2017-07-10 14:04:24.705] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"093114","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":16,"ip":"::ffff:192.168.0.142","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":17,"ip":"::ffff:192.168.0.142","score":0,"name":"上官自摸","online":true,"ready":false,"seatindex":1,"watch":false},{"userid":18,"ip":"::ffff:192.168.0.142","score":0,"name":"东方赌圣","online":true,"ready":false,"seatindex":2,"watch":false}]}}
+[2017-07-10 14:04:24.706] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":18,"ip":"::ffff:192.168.0.142","score":0,"name":"东方赌圣","online":true,"ready":false,"seatindex":2,"watch":false}],sender[18]
+[2017-07-10 14:04:32.873] [DEBUG] poker_ox - Http[enter_room][{"userid":"19","name":"东阳自摸","ingot":"10","gold":"1000","roomid":"093114","sign":"3c13f718a08e1207"}]
+[2017-07-10 14:04:32.894] [DEBUG] poker_ox - Socket[login][{"token":"3503bcec0e422ab664ee1fc73b857543","roomid":"093114","time":1499666672878,"sign":"9f82065bdd9eb92e7dd3e8748af4e1ab"}]
+[2017-07-10 14:04:32.894] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"093114","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":16,"ip":"::ffff:192.168.0.142","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":17,"ip":"::ffff:192.168.0.142","score":0,"name":"上官自摸","online":true,"ready":false,"seatindex":1,"watch":false},{"userid":18,"ip":"::ffff:192.168.0.142","score":0,"name":"东方赌圣","online":true,"ready":false,"seatindex":2,"watch":false},{"userid":19,"ip":"::ffff:192.168.0.142","score":0,"name":"东阳自摸","online":true,"ready":false,"seatindex":3,"watch":false}]}}
+[2017-07-10 14:04:32.894] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":19,"ip":"::ffff:192.168.0.142","score":0,"name":"东阳自摸","online":true,"ready":false,"seatindex":3,"watch":false}],sender[19]
+[2017-07-10 14:04:37.161] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:04:37.162] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:04:38.197] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:04:38.199] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:04:39.381] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:04:39.381] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:04:44.454] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:04:44.455] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:05:42.708] [DEBUG] poker_ox - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"2","gold":"1000","roomid":"093114","sign":"493707489a492e25"}]
+[2017-07-10 14:05:42.744] [DEBUG] poker_ox - Socket[login][{"token":"03214e8a7e42dcb5626810768aff11fa","roomid":"093114","time":1499666742715,"sign":"a40628069a6ca48c32ba27cbdc7afe8a"}]
+[2017-07-10 14:05:42.745] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"093114","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":16,"ip":"::ffff:192.168.0.142","score":0,"name":"长孙赌侠","online":true,"ready":true,"seatindex":0,"watch":false},{"userid":17,"ip":"::ffff:192.168.0.142","score":0,"name":"上官自摸","online":true,"ready":true,"seatindex":1,"watch":false},{"userid":18,"ip":"::ffff:192.168.0.142","score":0,"name":"东方赌圣","online":true,"ready":true,"seatindex":2,"watch":false},{"userid":19,"ip":"::ffff:192.168.0.142","score":0,"name":"东阳自摸","online":true,"ready":true,"seatindex":3,"watch":false},{"userid":12,"ip":"::ffff:192.168.0.142","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":4,"watch":false}]}}
+[2017-07-10 14:05:42.745] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.142","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":4,"watch":false}],sender[12]
+[2017-07-10 14:05:47.394] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:05:47.394] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:05:47.395] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[15,49,33,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[41,21,29,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.398] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[32,48,8,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.399] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.400] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[4,39,23,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.400] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.400] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.401] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.401] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.401] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.401] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[12,37,30,-1,-1],"folds":[]}
+[2017-07-10 14:05:47.404] [DEBUG] poker_ox - send to room[game_num_push] data[1],room_id[93114]
+[2017-07-10 14:05:47.407] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:05:47.407] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:05:47.408] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":1,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[44,1,38,3,36,5,6,7,35,9,10,11,31,50,14,51,16,17,43,19,20,45,42,34,24,25,26,27,13,30,37,12,47,28,23,39,4,0,2,8,48,32,40,18,29,21,41,46,22,33,49,15]},"holds":[[15,49,33,22,46],[41,21,29,18,40],[32,48,8,2,0],[4,39,23,28,47],[12,37,30,13,27]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{},"total_score":0},{"banker_count":0,"ox_type_count":{},"total_score":0},{"banker_count":0,"ox_type_count":{},"total_score":0},{"banker_count":0,"ox_type_count":{},"total_score":0},{"banker_count":0,"ox_type_count":{},"total_score":0}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:05:52.894] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:05:52.895] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:05:53.995] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:05:53.995] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:05:56.122] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:05:56.123] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:06:01.794] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:06:01.794] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:06:05.710] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:06:05.710] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:06:05.712] [DEBUG] poker_ox - send to room[game_begin_push] data[3],room_id[93114]
+[2017-07-10 14:06:05.712] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:06:21.615] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:06:21.617] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:06:24.430] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:06:24.430] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:06:27.116] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:06:27.116] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":2,"coin":10}],room_id[93114]
+[2017-07-10 14:06:31.259] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:06:31.259] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[15,49,33,22,46],"folds":[]}
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[15,49,33,22,46],"folds":[]}
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[15,49,33,22,46],"folds":[]}
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[15,49,33,22,46],"folds":[]}
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[15,49,33,22,46],"folds":[]}
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[41,21,29,18,40],"folds":[]}
+[2017-07-10 14:06:31.260] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[41,21,29,18,40],"folds":[]}
+[2017-07-10 14:06:31.261] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[41,21,29,18,40],"folds":[]}
+[2017-07-10 14:06:31.261] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[41,21,29,18,40],"folds":[]}
+[2017-07-10 14:06:31.261] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[41,21,29,18,40],"folds":[]}
+[2017-07-10 14:06:31.261] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[32,48,8,2,0],"folds":[]}
+[2017-07-10 14:06:31.261] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[32,48,8,2,0],"folds":[]}
+[2017-07-10 14:06:31.261] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[32,48,8,2,0],"folds":[]}
+[2017-07-10 14:06:31.262] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[32,48,8,2,0],"folds":[]}
+[2017-07-10 14:06:31.262] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[32,48,8,2,0],"folds":[]}
+[2017-07-10 14:06:31.262] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[4,39,23,28,47],"folds":[]}
+[2017-07-10 14:06:31.262] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[4,39,23,28,47],"folds":[]}
+[2017-07-10 14:06:31.262] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[4,39,23,28,47],"folds":[]}
+[2017-07-10 14:06:31.262] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[4,39,23,28,47],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[4,39,23,28,47],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[12,37,30,13,27],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[12,37,30,13,27],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[12,37,30,13,27],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[12,37,30,13,27],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[12,37,30,13,27],"folds":[]}
+[2017-07-10 14:06:31.263] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:06:31.265] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:06:31.266] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[49,46,33,22,15],"card_type":{"type":2,"max_value":9},"bet_coin":10,"end_score":30,"total_score":30},{"user_id":17,"holds":[41,40,29,21,18],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-10},{"user_id":18,"holds":[48,32,8,2,0],"card_type":{"type":2,"max_value":4},"bet_coin":10,"end_score":-10,"total_score":-10},{"user_id":19,"holds":[47,39,28,23,4],"card_type":{"type":2,"max_value":6},"bet_coin":0,"end_score":0,"total_score":0},{"user_id":12,"holds":[37,30,27,13,12],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-10}],"force":false}],room_id[93114]
+[2017-07-10 14:06:31.267] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:06:31.267] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:06:31.268] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:06:31.269] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:06:31.271] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:06:31.272] [DEBUG] poker_ox - user[16] lose ingot[ingot_value]..... 1
+[2017-07-10 14:06:45.632] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:06:45.632] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:06:47.576] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:06:47.576] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:06:59.130] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:06:59.130] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:07:03.860] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:07:03.872] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:07:08.100] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:07:08.100] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:07:08.101] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:07:08.101] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[5,23,25,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.101] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.101] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.102] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.102] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.102] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.102] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[32,35,39,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.103] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.103] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.103] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.103] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.103] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[14,37,29,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.104] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[44,1,16,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.105] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.105] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.105] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.105] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.105] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.106] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[22,40,24,-1,-1],"folds":[]}
+[2017-07-10 14:07:08.106] [DEBUG] poker_ox - send to room[game_num_push] data[2],room_id[93114]
+[2017-07-10 14:07:08.107] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:07:08.107] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:07:08.109] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":2,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[30,28,2,3,4,51,6,7,43,9,10,11,38,13,41,15,46,17,18,42,20,21,31,50,33,49,26,0,45,24,40,22,34,36,16,1,44,47,12,29,37,14,19,48,39,35,32,27,8,25,23,5]},"holds":[[5,23,25,8,27],[32,35,39,48,19],[14,37,29,12,47],[44,1,16,36,34],[22,40,24,45,0]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"2":1},"total_score":30},{"banker_count":0,"ox_type_count":{"1":1},"total_score":-10},{"banker_count":0,"ox_type_count":{"2":1},"total_score":-10},{"banker_count":1,"ox_type_count":{"2":1},"total_score":0},{"banker_count":0,"ox_type_count":{"1":1},"total_score":-10}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:07:17.369] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:07:17.371] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:07:20.046] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:07:20.047] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:07:22.963] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:07:22.964] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:07:26.679] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:07:26.679] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:07:29.401] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:07:29.402] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:07:29.404] [DEBUG] poker_ox - send to room[game_begin_push] data[3],room_id[93114]
+[2017-07-10 14:07:29.404] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:07:35.563] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:07:35.563] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:07:38.477] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:07:38.478] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:07:41.027] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:07:41.027] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:07:44.458] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:07:44.458] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":2,"coin":10}],room_id[93114]
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[5,23,25,8,27],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[5,23,25,8,27],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[5,23,25,8,27],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[5,23,25,8,27],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[5,23,25,8,27],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[32,35,39,48,19],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[32,35,39,48,19],"folds":[]}
+[2017-07-10 14:07:44.459] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[32,35,39,48,19],"folds":[]}
+[2017-07-10 14:07:44.460] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[32,35,39,48,19],"folds":[]}
+[2017-07-10 14:07:44.460] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[32,35,39,48,19],"folds":[]}
+[2017-07-10 14:07:44.460] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[14,37,29,12,47],"folds":[]}
+[2017-07-10 14:07:44.460] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[14,37,29,12,47],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[14,37,29,12,47],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[14,37,29,12,47],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[14,37,29,12,47],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[44,1,16,36,34],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[44,1,16,36,34],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[44,1,16,36,34],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[44,1,16,36,34],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[44,1,16,36,34],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[22,40,24,45,0],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[22,40,24,45,0],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[22,40,24,45,0],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[22,40,24,45,0],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[22,40,24,45,0],"folds":[]}
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:07:44.461] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:07:44.462] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[27,25,23,8,5],"card_type":{"type":2,"max_value":5},"bet_coin":10,"end_score":-10,"total_score":20},{"user_id":17,"holds":[48,39,35,32,19],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-20},{"user_id":18,"holds":[47,37,29,14,12],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-20},{"user_id":19,"holds":[44,36,34,16,1],"card_type":{"type":2,"max_value":5},"bet_coin":0,"end_score":40,"total_score":40},{"user_id":12,"holds":[45,40,24,22,0],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-20}],"force":false}],room_id[93114]
+[2017-07-10 14:07:44.462] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:07:44.462] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:07:44.463] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:07:44.463] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:07:44.463] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:08:35.061] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:08:35.061] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:08:36.881] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:08:36.881] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:08:38.097] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:08:38.098] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:08:41.311] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:08:41.311] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:08:43.316] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:08:43.316] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[5,21,38,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[51,40,11,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[27,22,46,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.317] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[9,2,34,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.318] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.319] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[19,3,16,-1,-1],"folds":[]}
+[2017-07-10 14:08:43.319] [DEBUG] poker_ox - send to room[game_num_push] data[3],room_id[93114]
+[2017-07-10 14:08:43.319] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:08:43.319] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:08:43.320] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":3,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[0,1,35,30,4,39,37,7,8,41,10,44,12,13,14,15,29,48,42,31,33,50,45,47,49,25,26,28,36,16,3,19,23,20,34,2,9,6,24,46,22,27,18,17,11,40,51,32,43,38,21,5]},"holds":[[5,21,38,43,32],[51,40,11,17,18],[27,22,46,24,6],[9,2,34,20,23],[19,3,16,36,28]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"2":2},"total_score":20},{"banker_count":0,"ox_type_count":{"1":2},"total_score":-20},{"banker_count":0,"ox_type_count":{"1":1,"2":1},"total_score":-20},{"banker_count":2,"ox_type_count":{"2":2},"total_score":40},{"banker_count":0,"ox_type_count":{"1":2},"total_score":-20}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:08:46.547] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:08:46.547] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:08:47.695] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:08:47.695] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:08:49.294] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:08:49.294] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:08:51.596] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:08:51.597] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:08:53.734] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:08:53.734] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:08:53.736] [DEBUG] poker_ox - send to room[game_begin_push] data[4],room_id[93114]
+[2017-07-10 14:08:53.736] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:09:01.809] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:09:01.809] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:09:04.116] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:09:04.116] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:09:07.042] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:09:07.042] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":2,"coin":10}],room_id[93114]
+[2017-07-10 14:09:10.832] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:09:10.833] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:09:10.835] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[5,21,38,43,32],"folds":[]}
+[2017-07-10 14:09:10.835] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[5,21,38,43,32],"folds":[]}
+[2017-07-10 14:09:10.835] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[5,21,38,43,32],"folds":[]}
+[2017-07-10 14:09:10.835] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[5,21,38,43,32],"folds":[]}
+[2017-07-10 14:09:10.835] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[5,21,38,43,32],"folds":[]}
+[2017-07-10 14:09:10.836] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[51,40,11,17,18],"folds":[]}
+[2017-07-10 14:09:10.837] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[51,40,11,17,18],"folds":[]}
+[2017-07-10 14:09:10.838] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[51,40,11,17,18],"folds":[]}
+[2017-07-10 14:09:10.838] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[51,40,11,17,18],"folds":[]}
+[2017-07-10 14:09:10.838] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[51,40,11,17,18],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[27,22,46,24,6],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[27,22,46,24,6],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[27,22,46,24,6],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[27,22,46,24,6],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[27,22,46,24,6],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[9,2,34,20,23],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[9,2,34,20,23],"folds":[]}
+[2017-07-10 14:09:10.839] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[9,2,34,20,23],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[9,2,34,20,23],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[9,2,34,20,23],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[19,3,16,36,28],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[19,3,16,36,28],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[19,3,16,36,28],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[19,3,16,36,28],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[19,3,16,36,28],"folds":[]}
+[2017-07-10 14:09:10.840] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:09:10.841] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:09:10.841] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[43,38,32,21,5],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-30,"total_score":-10},{"user_id":17,"holds":[51,40,18,17,11],"card_type":{"type":2,"max_value":3},"bet_coin":10,"end_score":-30,"total_score":-50},{"user_id":18,"holds":[46,27,24,22,6],"card_type":{"type":2,"max_value":2},"bet_coin":10,"end_score":-30,"total_score":-50},{"user_id":19,"holds":[34,23,20,9,2],"card_type":{"type":2,"max_value":5},"bet_coin":10,"end_score":-30,"total_score":10},{"user_id":12,"holds":[36,28,19,16,3],"card_type":{"type":2,"max_value":9},"bet_coin":0,"end_score":120,"total_score":100}],"force":false}],room_id[93114]
+[2017-07-10 14:09:10.842] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:09:10.845] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:09:10.846] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:09:10.846] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:09:10.847] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:10:01.760] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:10:01.761] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:10:05.233] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:10:05.233] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:10:08.582] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:10:08.582] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:10:11.142] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:10:11.143] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:10:14.617] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:10:14.617] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:10:14.618] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:10:14.618] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[7,13,45,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.618] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[27,29,34,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[5,43,24,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.619] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[42,46,25,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.620] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[14,11,18,-1,-1],"folds":[]}
+[2017-07-10 14:10:14.621] [DEBUG] poker_ox - send to room[game_num_push] data[4],room_id[93114]
+[2017-07-10 14:10:14.621] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:10:14.621] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:10:14.622] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":4,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[0,1,2,3,4,32,38,51,8,9,10,30,12,37,31,15,16,17,49,19,35,47,36,48,39,33,28,20,26,18,11,14,40,44,25,46,42,50,6,24,43,5,22,41,34,29,27,21,23,45,13,7]},"holds":[[7,13,45,23,21],[27,29,34,41,22],[5,43,24,6,50],[42,46,25,44,40],[14,11,18,26,20]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":1,"2":2},"total_score":-10},{"banker_count":0,"ox_type_count":{"1":2,"2":1},"total_score":-50},{"banker_count":0,"ox_type_count":{"1":1,"2":2},"total_score":-50},{"banker_count":2,"ox_type_count":{"2":3},"total_score":10},{"banker_count":1,"ox_type_count":{"1":2,"2":1},"total_score":100}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:11:03.529] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:11:03.530] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:11:05.930] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:11:05.930] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:11:07.712] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:11:07.713] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:11:11.900] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:11:11.901] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:11:15.319] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:11:15.320] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:11:15.322] [DEBUG] poker_ox - send to room[game_begin_push] data[2],room_id[93114]
+[2017-07-10 14:11:15.323] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:11:22.909] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:11:22.909] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:11:23.730] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:11:23.730] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:11:25.530] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:11:25.530] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:11:26.930] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:11:26.931] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:11:26.931] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[7,13,45,23,21],"folds":[]}
+[2017-07-10 14:11:26.931] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[7,13,45,23,21],"folds":[]}
+[2017-07-10 14:11:26.931] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[7,13,45,23,21],"folds":[]}
+[2017-07-10 14:11:26.931] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[7,13,45,23,21],"folds":[]}
+[2017-07-10 14:11:26.931] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[7,13,45,23,21],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[27,29,34,41,22],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[27,29,34,41,22],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[27,29,34,41,22],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[27,29,34,41,22],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[27,29,34,41,22],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[5,43,24,6,50],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[5,43,24,6,50],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[5,43,24,6,50],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[5,43,24,6,50],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[5,43,24,6,50],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[42,46,25,44,40],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[42,46,25,44,40],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[42,46,25,44,40],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[42,46,25,44,40],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[42,46,25,44,40],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[14,11,18,26,20],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[14,11,18,26,20],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[14,11,18,26,20],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[14,11,18,26,20],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[14,11,18,26,20],"folds":[]}
+[2017-07-10 14:11:26.932] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:11:26.933] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:11:26.933] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[45,23,21,13,7],"card_type":{"type":2,"max_value":8},"bet_coin":10,"end_score":20,"total_score":10},{"user_id":17,"holds":[41,34,29,27,22],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-60},{"user_id":18,"holds":[50,43,24,6,5],"card_type":{"type":1,"max_value":0},"bet_coin":0,"end_score":-10,"total_score":-60},{"user_id":19,"holds":[46,44,42,40,25],"card_type":{"type":2,"max_value":7},"bet_coin":10,"end_score":10,"total_score":20},{"user_id":12,"holds":[26,20,18,14,11],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":90}],"force":false}],room_id[93114]
+[2017-07-10 14:11:26.933] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:11:26.934] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:11:26.934] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:11:26.935] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:11:26.935] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:12:14.123] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:12:14.123] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:12:15.582] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:12:15.582] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:12:16.812] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:12:16.812] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:12:19.731] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:12:19.731] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:12:21.696] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:12:21.697] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[34,51,14,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[38,50,39,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[20,28,16,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.698] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[27,26,18,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[44,1,42,-1,-1],"folds":[]}
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - send to room[game_num_push] data[5],room_id[93114]
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:12:21.699] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":5,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[29,30,40,3,4,5,47,7,8,32,10,11,36,48,33,15,31,46,45,19,41,21,22,23,24,37,35,12,2,42,1,44,9,49,18,26,27,25,17,16,28,20,0,13,39,50,38,6,43,14,51,34]},"holds":[[34,51,14,43,6],[38,50,39,13,0],[20,28,16,17,25],[27,26,18,49,9],[44,1,42,2,12]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":1,"2":3},"total_score":10},{"banker_count":0,"ox_type_count":{"1":3,"2":1},"total_score":-60},{"banker_count":1,"ox_type_count":{"1":2,"2":2},"total_score":-60},{"banker_count":2,"ox_type_count":{"2":4},"total_score":20},{"banker_count":1,"ox_type_count":{"1":3,"2":1},"total_score":90}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:12:23.861] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:12:23.862] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:12:27.350] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:12:27.350] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:12:28.538] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:12:28.539] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:12:31.015] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:12:31.015] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:12:34.156] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:12:34.156] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:12:34.156] [DEBUG] poker_ox - send to room[game_begin_push] data[2],room_id[93114]
+[2017-07-10 14:12:34.156] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:12:40.025] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:12:40.025] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:12:42.077] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:12:42.077] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:12:43.551] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:12:43.551] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:12:48.460] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:12:48.461] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:12:48.461] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[34,51,14,43,6],"folds":[]}
+[2017-07-10 14:12:48.461] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[34,51,14,43,6],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[34,51,14,43,6],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[34,51,14,43,6],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[34,51,14,43,6],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[38,50,39,13,0],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[38,50,39,13,0],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[38,50,39,13,0],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[38,50,39,13,0],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[38,50,39,13,0],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[20,28,16,17,25],"folds":[]}
+[2017-07-10 14:12:48.462] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[20,28,16,17,25],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[20,28,16,17,25],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[20,28,16,17,25],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[20,28,16,17,25],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[27,26,18,49,9],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[27,26,18,49,9],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[27,26,18,49,9],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[27,26,18,49,9],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[27,26,18,49,9],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[44,1,42,2,12],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[44,1,42,2,12],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[44,1,42,2,12],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[44,1,42,2,12],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[44,1,42,2,12],"folds":[]}
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:12:48.463] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[51,43,34,14,6],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":0},{"user_id":17,"holds":[50,39,38,13,0],"card_type":{"type":2,"max_value":5},"bet_coin":10,"end_score":10,"total_score":-50},{"user_id":18,"holds":[28,25,20,17,16],"card_type":{"type":2,"max_value":1},"bet_coin":0,"end_score":0,"total_score":-60},{"user_id":19,"holds":[49,27,26,18,9],"card_type":{"type":2,"max_value":2},"bet_coin":10,"end_score":10,"total_score":30},{"user_id":12,"holds":[44,42,12,2,1],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":80}],"force":false}],room_id[93114]
+[2017-07-10 14:12:48.464] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:12:48.464] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:12:48.464] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:12:48.466] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:12:48.466] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:13:02.896] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:02.896] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:13:04.131] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:04.131] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:13:05.200] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:05.200] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:13:06.079] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:06.079] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:13:08.541] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:08.541] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:13:08.544] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:13:08.545] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[37,0,14,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.545] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.545] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[47,9,18,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.546] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[13,25,36,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[39,8,15,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.547] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.548] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.548] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.548] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.549] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[50,1,44,-1,-1],"folds":[]}
+[2017-07-10 14:13:08.549] [DEBUG] poker_ox - send to room[game_num_push] data[6],room_id[93114]
+[2017-07-10 14:13:08.549] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:13:08.549] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:13:08.549] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":6,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[31,30,2,3,4,5,6,32,33,51,10,48,12,41,43,34,16,17,42,19,20,21,38,23,24,40,27,26,28,44,1,50,46,35,15,8,39,45,22,36,25,13,29,49,18,9,47,7,11,14,0,37]},"holds":[[37,0,14,11,7],[47,9,18,49,29],[13,25,36,22,45],[39,8,15,35,46],[50,1,44,28,26]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":2,"2":3},"total_score":0},{"banker_count":0,"ox_type_count":{"1":3,"2":2},"total_score":-50},{"banker_count":2,"ox_type_count":{"1":2,"2":3},"total_score":-60},{"banker_count":2,"ox_type_count":{"2":5},"total_score":30},{"banker_count":1,"ox_type_count":{"1":4,"2":1},"total_score":80}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:13:10.316] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:10.316] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:13:12.450] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:12.450] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:13:13.302] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:13.302] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:13:14.329] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:14.329] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:13:18.400] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:18.400] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:13:18.402] [DEBUG] poker_ox - send to room[game_begin_push] data[4],room_id[93114]
+[2017-07-10 14:13:18.402] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:13:24.260] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:13:24.260] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:13:26.155] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:13:26.155] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:13:28.081] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:13:28.082] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:13:32.501] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:13:32.502] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":2,"coin":10}],room_id[93114]
+[2017-07-10 14:13:32.503] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[37,0,14,11,7],"folds":[]}
+[2017-07-10 14:13:32.504] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[37,0,14,11,7],"folds":[]}
+[2017-07-10 14:13:32.505] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[37,0,14,11,7],"folds":[]}
+[2017-07-10 14:13:32.505] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[37,0,14,11,7],"folds":[]}
+[2017-07-10 14:13:32.505] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[37,0,14,11,7],"folds":[]}
+[2017-07-10 14:13:32.505] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[47,9,18,49,29],"folds":[]}
+[2017-07-10 14:13:32.505] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[47,9,18,49,29],"folds":[]}
+[2017-07-10 14:13:32.505] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[47,9,18,49,29],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[47,9,18,49,29],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[47,9,18,49,29],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[13,25,36,22,45],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[13,25,36,22,45],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[13,25,36,22,45],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[13,25,36,22,45],"folds":[]}
+[2017-07-10 14:13:32.506] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[13,25,36,22,45],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[39,8,15,35,46],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[39,8,15,35,46],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[39,8,15,35,46],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[39,8,15,35,46],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[39,8,15,35,46],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[50,1,44,28,26],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[50,1,44,28,26],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[50,1,44,28,26],"folds":[]}
+[2017-07-10 14:13:32.507] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[50,1,44,28,26],"folds":[]}
+[2017-07-10 14:13:32.508] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[50,1,44,28,26],"folds":[]}
+[2017-07-10 14:13:32.508] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:13:32.509] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:13:32.509] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[37,14,11,7,0],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-10},{"user_id":17,"holds":[49,47,29,18,9],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-60},{"user_id":18,"holds":[45,36,25,22,13],"card_type":{"type":2,"max_value":7},"bet_coin":10,"end_score":10,"total_score":-50},{"user_id":19,"holds":[46,39,35,15,8],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":20},{"user_id":12,"holds":[50,44,28,26,1],"card_type":{"type":1,"max_value":0},"bet_coin":0,"end_score":20,"total_score":100}],"force":false}],room_id[93114]
+[2017-07-10 14:13:32.510] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:13:32.510] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:13:32.511] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:13:32.511] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:13:32.511] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:13:43.006] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:43.007] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:13:43.580] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:43.580] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:13:45.078] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:45.078] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:13:45.562] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:45.563] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:13:49.550] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:13:49.550] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:13:49.553] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:13:49.554] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[26,29,47,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.554] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.554] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.554] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.554] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.554] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[30,7,11,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.555] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[36,32,44,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[37,50,10,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.556] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.557] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.557] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.557] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[2,20,41,-1,-1],"folds":[]}
+[2017-07-10 14:13:49.557] [DEBUG] poker_ox - send to room[game_num_push] data[7],room_id[93114]
+[2017-07-10 14:13:49.557] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:13:49.558] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:13:49.561] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":7,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[0,1,31,3,40,5,6,48,8,9,38,39,28,35,14,15,16,17,18,19,46,21,22,23,24,25,42,49,33,41,20,2,4,12,10,50,37,13,34,44,32,36,51,45,11,7,30,27,43,47,29,26]},"holds":[[26,29,47,43,27],[30,7,11,45,51],[36,32,44,34,13],[37,50,10,12,4],[2,20,41,33,49]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":3,"2":3},"total_score":-10},{"banker_count":0,"ox_type_count":{"1":4,"2":2},"total_score":-60},{"banker_count":2,"ox_type_count":{"1":2,"2":4},"total_score":-50},{"banker_count":2,"ox_type_count":{"1":1,"2":5},"total_score":20},{"banker_count":2,"ox_type_count":{"1":5,"2":1},"total_score":100}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:13:50.894] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:50.894] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:13:52.128] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:52.128] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:13:55.094] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:55.094] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:13:57.385] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:13:57.385] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:14:00.407] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:14:00.407] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:14:00.410] [DEBUG] poker_ox - send to room[game_begin_push] data[2],room_id[93114]
+[2017-07-10 14:14:00.410] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:14:05.549] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:05.549] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:14:06.148] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:06.148] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:14:07.994] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:07.994] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:14:09.349] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:09.350] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:14:09.351] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[26,29,47,43,27],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[26,29,47,43,27],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[26,29,47,43,27],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[26,29,47,43,27],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[26,29,47,43,27],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[30,7,11,45,51],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[30,7,11,45,51],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[30,7,11,45,51],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[30,7,11,45,51],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[30,7,11,45,51],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[36,32,44,34,13],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[36,32,44,34,13],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[36,32,44,34,13],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[36,32,44,34,13],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[36,32,44,34,13],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[37,50,10,12,4],"folds":[]}
+[2017-07-10 14:14:09.352] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[37,50,10,12,4],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[37,50,10,12,4],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[37,50,10,12,4],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[37,50,10,12,4],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[2,20,41,33,49],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[2,20,41,33,49],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[2,20,41,33,49],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[2,20,41,33,49],"folds":[]}
+[2017-07-10 14:14:09.353] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[2,20,41,33,49],"folds":[]}
+[2017-07-10 14:14:09.354] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:14:09.354] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:14:09.354] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[47,43,29,27,26],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":10,"total_score":0},{"user_id":17,"holds":[51,45,30,11,7],"card_type":{"type":2,"max_value":3},"bet_coin":10,"end_score":10,"total_score":-50},{"user_id":18,"holds":[44,36,34,32,13],"card_type":{"type":1,"max_value":0},"bet_coin":0,"end_score":-40,"total_score":-90},{"user_id":19,"holds":[50,37,12,10,4],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":10,"total_score":30},{"user_id":12,"holds":[49,41,33,20,2],"card_type":{"type":2,"max_value":6},"bet_coin":10,"end_score":10,"total_score":110}],"force":false}],room_id[93114]
+[2017-07-10 14:14:09.354] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:14:09.356] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:14:09.357] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:14:09.358] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:14:09.358] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:14:17.343] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:17.343] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:14:17.712] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:17.712] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:14:18.880] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:18.880] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:14:21.246] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:21.246] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:14:23.162] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:23.162] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[28,36,42,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[21,51,29,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.163] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[4,5,45,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[49,40,27,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[15,39,38,-1,-1],"folds":[]}
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - send to room[game_num_push] data[8],room_id[93114]
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:14:23.164] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:14:23.165] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":8,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[0,1,2,3,41,35,6,34,8,9,37,11,33,47,14,31,16,17,43,19,20,46,22,23,50,32,26,30,7,38,39,15,44,12,27,40,49,48,25,45,5,4,24,18,29,51,21,13,10,42,36,28]},"holds":[[28,36,42,10,13],[21,51,29,18,24],[4,5,45,25,48],[49,40,27,12,44],[15,39,38,7,30]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":4,"2":3},"total_score":0},{"banker_count":0,"ox_type_count":{"1":4,"2":3},"total_score":-50},{"banker_count":3,"ox_type_count":{"1":3,"2":4},"total_score":-90},{"banker_count":2,"ox_type_count":{"1":2,"2":5},"total_score":30},{"banker_count":2,"ox_type_count":{"1":5,"2":2},"total_score":110}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:14:24.338] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:14:24.339] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:14:25.562] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:14:25.562] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:14:26.495] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:14:26.495] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:14:29.279] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:14:29.280] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:14:31.598] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:14:31.598] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:14:31.599] [DEBUG] poker_ox - send to room[game_begin_push] data[4],room_id[93114]
+[2017-07-10 14:14:31.599] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:14:39.026] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:39.026] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:14:40.413] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:40.413] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:14:43.845] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:43.845] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":2,"coin":10}],room_id[93114]
+[2017-07-10 14:14:46.716] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:14:46.716] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:14:46.716] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[28,36,42,10,13],"folds":[]}
+[2017-07-10 14:14:46.716] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[28,36,42,10,13],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[28,36,42,10,13],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[28,36,42,10,13],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[28,36,42,10,13],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[21,51,29,18,24],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[21,51,29,18,24],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[21,51,29,18,24],"folds":[]}
+[2017-07-10 14:14:46.717] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[21,51,29,18,24],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[21,51,29,18,24],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[4,5,45,25,48],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[4,5,45,25,48],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[4,5,45,25,48],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[4,5,45,25,48],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[4,5,45,25,48],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[49,40,27,12,44],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[49,40,27,12,44],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[49,40,27,12,44],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[49,40,27,12,44],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[49,40,27,12,44],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[15,39,38,7,30],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[15,39,38,7,30],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[15,39,38,7,30],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[15,39,38,7,30],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[15,39,38,7,30],"folds":[]}
+[2017-07-10 14:14:46.718] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:14:46.719] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:14:46.719] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[42,36,28,13,10],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-10},{"user_id":17,"holds":[51,29,24,21,18],"card_type":{"type":2,"max_value":6},"bet_coin":10,"end_score":10,"total_score":-40},{"user_id":18,"holds":[48,45,25,5,4],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-100},{"user_id":19,"holds":[49,44,40,27,12],"card_type":{"type":2,"max_value":1},"bet_coin":10,"end_score":-10,"total_score":20},{"user_id":12,"holds":[39,38,30,15,7],"card_type":{"type":2,"max_value":4},"bet_coin":0,"end_score":20,"total_score":130}],"force":false}],room_id[93114]
+[2017-07-10 14:14:46.719] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:14:46.720] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:14:46.722] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:14:46.724] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:14:46.725] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:14:55.924] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:55.925] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:14:56.826] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:56.826] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:14:58.406] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:58.407] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:14:59.712] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:14:59.712] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:15:02.000] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:15:02.000] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:15:02.004] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:15:02.004] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[14,16,25,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[48,12,28,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.005] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[30,6,42,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.006] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[51,45,19,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.007] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.008] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[23,2,33,-1,-1],"folds":[]}
+[2017-07-10 14:15:02.008] [DEBUG] poker_ox - send to room[game_num_push] data[9],room_id[93114]
+[2017-07-10 14:15:02.008] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:15:02.008] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:15:02.010] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":9,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[39,1,41,32,4,37,40,46,8,9,10,44,35,13,36,15,50,17,18,34,20,21,29,43,24,49,26,11,27,33,2,23,38,22,19,45,51,5,3,42,6,30,0,31,28,12,48,7,47,25,16,14]},"holds":[[14,16,25,47,7],[48,12,28,31,0],[30,6,42,3,5],[51,45,19,22,38],[23,2,33,27,11]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":5,"2":3},"total_score":-10},{"banker_count":0,"ox_type_count":{"1":4,"2":4},"total_score":-40},{"banker_count":3,"ox_type_count":{"1":4,"2":4},"total_score":-100},{"banker_count":2,"ox_type_count":{"1":2,"2":6},"total_score":20},{"banker_count":3,"ox_type_count":{"1":5,"2":3},"total_score":130}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:15:03.553] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:03.554] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:15:04.048] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:04.049] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:15:05.300] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:05.300] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:15:07.599] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:07.599] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:15:11.228] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:11.229] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:15:11.229] [DEBUG] poker_ox - send to room[game_begin_push] data[2],room_id[93114]
+[2017-07-10 14:15:11.229] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:15:18.361] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:18.361] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:15:19.329] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:19.330] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:15:21.831] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:21.831] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":1,"coin":10}],room_id[93114]
+[2017-07-10 14:15:23.278] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[14,16,25,47,7],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[14,16,25,47,7],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[14,16,25,47,7],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[14,16,25,47,7],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[14,16,25,47,7],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[48,12,28,31,0],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[48,12,28,31,0],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[48,12,28,31,0],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[48,12,28,31,0],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[48,12,28,31,0],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[30,6,42,3,5],"folds":[]}
+[2017-07-10 14:15:23.279] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[30,6,42,3,5],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[30,6,42,3,5],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[30,6,42,3,5],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[30,6,42,3,5],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[51,45,19,22,38],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[51,45,19,22,38],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[51,45,19,22,38],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[51,45,19,22,38],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[51,45,19,22,38],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[23,2,33,27,11],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[23,2,33,27,11],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[23,2,33,27,11],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[23,2,33,27,11],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[23,2,33,27,11],"folds":[]}
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[47,25,16,14,7],"card_type":{"type":1,"max_value":0},"bet_coin":10,"end_score":-10,"total_score":-20},{"user_id":17,"holds":[48,31,28,12,0],"card_type":{"type":2,"max_value":1},"bet_coin":10,"end_score":-10,"total_score":-50},{"user_id":18,"holds":[42,30,6,5,3],"card_type":{"type":2,"max_value":3},"bet_coin":0,"end_score":20,"total_score":-80},{"user_id":19,"holds":[51,45,38,22,19],"card_type":{"type":2,"max_value":1},"bet_coin":10,"end_score":-10,"total_score":10},{"user_id":12,"holds":[33,27,23,11,2],"card_type":{"type":2,"max_value":6},"bet_coin":10,"end_score":10,"total_score":140}],"force":false}],room_id[93114]
+[2017-07-10 14:15:23.280] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:15:23.281] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:15:23.281] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:15:23.281] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:15:23.281] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:15:32.178] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:15:32.178] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":true}],room_id[93114]
+[2017-07-10 14:15:33.295] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:15:33.295] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":true}],room_id[93114]
+[2017-07-10 14:15:34.339] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:15:34.339] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":true}],room_id[93114]
+[2017-07-10 14:15:36.665] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:15:36.666] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":true}],room_id[93114]
+[2017-07-10 14:15:38.749] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-10 14:15:38.749] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":true}],room_id[93114]
+[2017-07-10 14:15:38.749] [DEBUG] poker_ox - game begin  room_id = 93114
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[5,49,4,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[31,16,17,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[1,22,43,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[32,2,15,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.750] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[-1,-1,-1,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[40,26,23,-1,-1],"folds":[]}
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - send to room[game_num_push] data[10],room_id[93114]
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - send to room[game_begin_push] data[-1],room_id[93114]
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":3}],room_id[93114]
+[2017-07-10 14:15:38.751] [DEBUG] poker_ox - Init game base Info to DB===> {"uuid":"1499666642764093114","game_index":10,"create_time":1499666643,"base_info":{"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"current_index":0,"poker":[0,47,35,3,50,36,6,7,8,9,10,11,37,13,14,34,45,44,27,33,20,21,46,29,24,39,30,42,25,23,26,40,51,19,15,2,32,12,41,43,22,1,18,28,17,16,31,38,48,4,49,5]},"holds":[[5,49,4,48,38],[31,16,17,28,18],[1,22,43,41,12],[32,2,15,19,51],[40,26,23,25,42]],"folds":[[],[],[],[],[]],"actions":[[],[],[],[],[]],"result":[0,0,0,0,0],"statistic":[{"banker_count":0,"ox_type_count":{"1":6,"2":3},"total_score":-20},{"banker_count":0,"ox_type_count":{"1":4,"2":5},"total_score":-50},{"banker_count":4,"ox_type_count":{"1":4,"2":5},"total_score":-80},{"banker_count":2,"ox_type_count":{"1":2,"2":7},"total_score":10},{"banker_count":3,"ox_type_count":{"1":5,"2":4},"total_score":140}],"change_info":{"state":3,"button":-1,"less_begin":false,"call_banker_index":0,"call_banker_list":[-1,-1,-1,-1,-1],"bet_coin_index":0,"bet_coin_list":[0,0,0,0,0],"current_banker_count":0}}
+[2017-07-10 14:15:40.428] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:40.428] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":3}],room_id[93114]
+[2017-07-10 14:15:41.396] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:41.396] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":1}],room_id[93114]
+[2017-07-10 14:15:42.875] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:42.876] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":0}],room_id[93114]
+[2017-07-10 14:15:45.984] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:45.985] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":2}],room_id[93114]
+[2017-07-10 14:15:48.431] [DEBUG] poker_ox - Socket[call_banker][{"call":1}]
+[2017-07-10 14:15:48.431] [DEBUG] poker_ox - send to room[call_banker] data[{"call":1,"seat_index":4}],room_id[93114]
+[2017-07-10 14:15:48.431] [DEBUG] poker_ox - send to room[game_begin_push] data[1],room_id[93114]
+[2017-07-10 14:15:48.431] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":4}],room_id[93114]
+[2017-07-10 14:15:53.995] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:53.995] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":4,"coin":10}],room_id[93114]
+[2017-07-10 14:15:55.400] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:55.400] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":0,"coin":10}],room_id[93114]
+[2017-07-10 14:15:59.485] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:15:59.486] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":2,"coin":10}],room_id[93114]
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - Socket[betting][{"coin":10}]
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - send to room[betting] data[{"error_code":0,"seat_index":3,"coin":10}],room_id[93114]
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":16,"holds":[5,49,4,48,38],"folds":[]}
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":16,"holds":[5,49,4,48,38],"folds":[]}
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":16,"holds":[5,49,4,48,38],"folds":[]}
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":16,"holds":[5,49,4,48,38],"folds":[]}
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":16,"holds":[5,49,4,48,38],"folds":[]}
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":17,"holds":[31,16,17,28,18],"folds":[]}
+[2017-07-10 14:16:02.066] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":17,"holds":[31,16,17,28,18],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":17,"holds":[31,16,17,28,18],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":17,"holds":[31,16,17,28,18],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":17,"holds":[31,16,17,28,18],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":18,"holds":[1,22,43,41,12],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":18,"holds":[1,22,43,41,12],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":18,"holds":[1,22,43,41,12],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":18,"holds":[1,22,43,41,12],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":18,"holds":[1,22,43,41,12],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":19,"holds":[32,2,15,19,51],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":19,"holds":[32,2,15,19,51],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":19,"holds":[32,2,15,19,51],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":19,"holds":[32,2,15,19,51],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":19,"holds":[32,2,15,19,51],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[16],event = game_holds_push,data = {"user_id":12,"holds":[40,26,23,25,42],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[17],event = game_holds_push,data = {"user_id":12,"holds":[40,26,23,25,42],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[18],event = game_holds_push,data = {"user_id":12,"holds":[40,26,23,25,42],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[19],event = game_holds_push,data = {"user_id":12,"holds":[40,26,23,25,42],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - user[12],event = game_holds_push,data = {"user_id":12,"holds":[40,26,23,25,42],"folds":[]}
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - send to room[game_state_push] data[{"state":1}],room_id[93114]
+[2017-07-10 14:16:02.067] [DEBUG] poker_ox - send to room[game_over] data[{"end_seats_data":[{"user_id":16,"holds":[49,48,38,5,4],"card_type":{"type":2,"max_value":4},"bet_coin":10,"end_score":10,"total_score":-10},{"user_id":17,"holds":[31,28,18,17,16],"card_type":{"type":1,"max_value":0},"bet_coin":0,"end_score":-90,"total_score":-140},{"user_id":18,"holds":[43,41,22,12,1],"card_type":{"type":2,"max_value":1},"bet_coin":10,"end_score":10,"total_score":-70},{"user_id":19,"holds":[51,32,19,15,2],"card_type":{"type":2,"max_value":9},"bet_coin":10,"end_score":30,"total_score":40},{"user_id":12,"holds":[42,40,26,25,23],"card_type":{"type":3,"max_value":0},"bet_coin":10,"end_score":40,"total_score":180}],"force":false}],room_id[93114]
+[2017-07-10 14:16:02.068] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.068] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.068] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.068] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.068] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.069] [DEBUG] poker_ox - send to room[game_result] data[{"over_seats_data":[{"banker_count":0,"ox_type_count":{"1":6,"2":4},"total_score":-10},{"banker_count":1,"ox_type_count":{"1":5,"2":5},"total_score":-140},{"banker_count":4,"ox_type_count":{"1":4,"2":6},"total_score":-70},{"banker_count":2,"ox_type_count":{"1":2,"2":8},"total_score":40},{"banker_count":3,"ox_type_count":{"1":5,"2":4,"3":1},"total_score":180}],"off_banker":false}],room_id[93114]
+[2017-07-10 14:16:02.072] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":16,"online":false}],sender[16]
+[2017-07-10 14:16:02.073] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.075] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":17,"online":false}],sender[17]
+[2017-07-10 14:16:02.075] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":17,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.076] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":18,"online":false}],sender[18]
+[2017-07-10 14:16:02.076] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":18,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.076] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":19,"online":false}],sender[19]
+[2017-07-10 14:16:02.077] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":19,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.077] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-10 14:16:02.077] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":12,"ready":false}],room_id[93114]
+[2017-07-10 14:16:02.077] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 16
+[2017-07-10 14:16:02.077] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 17
+[2017-07-10 14:16:02.078] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 18
+[2017-07-10 14:16:02.078] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 19
+[2017-07-10 14:16:02.078] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 12
+[2017-07-10 15:48:48.721] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-10 15:48:48.727] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-10 15:48:48.881] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-10 15:48:49.758] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-10 18:31:32.409] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-10 18:31:40.365] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-10 18:31:40.371] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-10 18:31:40.681] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-10 18:32:33.292] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-10 18:32:33.312] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-10 18:32:33.569] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-10 18:32:34.343] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

@@ -1,0 +1,42 @@
+[2017-07-13 09:53:50.802] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-13 09:53:50.808] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-13 09:53:51.246] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-13 09:53:51.858] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:38:40.485] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:39:57.070] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:57:25.549] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:58:54.092] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:03:25.738] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:06:41.845] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:08:52.902] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:11:51.965] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:12:55.990] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:24:48.293] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:29:24.422] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:34:03.526] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:53:34.968] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:54:51.015] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:15.068] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-13 16:00:15.075] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-13 16:00:15.208] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-13 16:00:16.099] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:30.103] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:07:25.287] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:08:43.343] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:09:50.396] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:11:21.418] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:16.508] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-13 16:15:16.516] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-13 16:15:16.747] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-13 16:15:17.536] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:35.080] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:22.793] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-13 16:20:22.806] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-13 16:20:22.960] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-13 16:20:23.829] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:35.837] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:23:17.448] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:27:40.042] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:29:32.082] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:35:33.340] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:49:45.715] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

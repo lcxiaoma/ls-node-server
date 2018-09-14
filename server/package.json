@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "poker game server",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "log4js": "^1.0.1",
+    "mongodb": "^2.2.22",
+    "mysql": "^2.11.1",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "None."
+  },
+  "repository": {
+    "type": "git",
+    "url": "None."
+  },
+  "keywords": [
+    "None"
+  ],
+  "author": "zh",
+  "license": "ISC"
+}

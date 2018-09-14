@@ -1,0 +1,4 @@
+[2017-07-18 22:01:07.594] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-18 22:01:07.604] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-18 22:01:08.751] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-18 22:01:08.804] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

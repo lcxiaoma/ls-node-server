@@ -1,0 +1,5 @@
+[2017-07-06 09:53:57.298] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-06 09:53:57.298] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-06 09:53:57.782] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-06 09:53:58.329] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-06 16:02:56.255] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

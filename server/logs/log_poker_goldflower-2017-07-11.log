@@ -1,0 +1,52 @@
+[2017-07-11 09:47:23.539] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-11 09:47:23.555] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-11 09:47:24.100] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-11 09:47:24.606] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:51:00.297] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-11 17:51:00.306] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-11 17:51:00.449] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-11 17:51:01.346] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:54:15.491] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:58:09.629] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:01:43.922] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-11 18:01:43.932] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-11 18:01:44.057] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-11 18:01:44.959] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:02:47.054] [DEBUG] poker_goldflower - Http[create_room][{"userid":"21","ingot":"10","gold":"1000","conf":"{\"server_code\":20004,\"type_index\":2,\"rule_index\":530826}","sign":"d6ec89cdfaee221e"}]
+[2017-07-11 18:02:47.056] [DEBUG] poker_goldflower - SELECT * FROM rooms WHERE id = "587329"
+[2017-07-11 18:02:47.066] [DEBUG] poker_goldflower - create room room config = {"uuid":"","id":"587329","num_of_games":0,"create_time":1499767368,"next_button":0,"seats":[],"watch_seats":[],"less_begin":false,"conf":{"server_type":20004,"type_index":2,"rule_index":530826,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3,"base_score":2},"seats_num":5,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"banker_circle":[0,0]}}
+[2017-07-11 18:02:47.071] [DEBUG] poker_goldflower - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499767367071587329','587329','{"server_type":20004,"type_index":2,"rule_index":530826,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3,"base_score":2}','127.0.0.1',10800,1499767368,20004,1)
+[2017-07-11 18:02:47.084] [DEBUG] poker_goldflower - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"587329","sign":"240a963f4f100e25"}]
+[2017-07-11 18:02:47.118] [DEBUG] poker_goldflower - Socket[login][{"token":"f078c836d9652061a2eda2a4bd2c4c12","roomid":"587329","time":1499767367089,"sign":"1dab3d4830ae60e23c6e059c8c9a7647"}]
+[2017-07-11 18:02:47.118] [DEBUG] poker_goldflower - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"587329","conf":{"server_type":20004,"type_index":2,"rule_index":530826,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3,"base_score":2},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-11 18:02:47.119] [DEBUG] poker_goldflower - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}],sender[21]
+[2017-07-11 18:02:54.054] [DEBUG] poker_goldflower - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"587329","sign":"11670bab34e29366"}]
+[2017-07-11 18:02:54.077] [DEBUG] poker_goldflower - Socket[login][{"token":"cb4d0127f55c1396ef977c638947ab2e","roomid":"587329","time":1499767374061,"sign":"f0c17550f100859f3d131e99fc1b14c4"}]
+[2017-07-11 18:02:54.077] [DEBUG] poker_goldflower - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"587329","conf":{"server_type":20004,"type_index":2,"rule_index":530826,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3,"base_score":2},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}]}}
+[2017-07-11 18:02:54.078] [DEBUG] poker_goldflower - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}],sender[22]
+[2017-07-11 18:02:54.999] [DEBUG] poker_goldflower - Socket[ready][null]
+[2017-07-11 18:02:55.000] [DEBUG] poker_goldflower - send to room[user_ready_push] data[{"userid":22,"ready":true}],room_id[587329]
+[2017-07-11 18:02:57.026] [DEBUG] poker_goldflower - Socket[transfer][{"target":22}]
+[2017-07-11 18:02:57.026] [DEBUG] poker_goldflower - UPDATE rooms SET base_info='{"server_type":20004,"type_index":2,"rule_index":530826,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3,"base_score":2}' WHERE uuid='1499767367071587329'
+[2017-07-11 18:02:57.026] [DEBUG] poker_goldflower - send to room[transfer] data[{"new_seat":[22,21]}],room_id[587329]
+[2017-07-11 18:02:59.661] [DEBUG] poker_goldflower - Socket[kick][{"target":21}]
+[2017-07-11 18:02:59.661] [DEBUG] poker_goldflower - user[21],event = kick,data = {"kicked":21,"new_seat":[]}
+[2017-07-11 18:02:59.662] [DEBUG] poker_goldflower - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:02:59.663] [DEBUG] poker_goldflower - send to room[user_ready_push] data[{"userid":21,"ready":false}],room_id[587329]
+[2017-07-11 18:02:59.663] [DEBUG] poker_goldflower - UPDATE users SET roomid = null WHERE userid = 21
+[2017-07-11 18:02:59.664] [DEBUG] poker_goldflower - send to room[kick] data[{"kicked":21,"new_seat":[22]}],room_id[587329]
+[2017-07-11 18:03:01.444] [DEBUG] poker_goldflower - Socket[dispress][null]
+[2017-07-11 18:03:01.444] [DEBUG] poker_goldflower - check is room creator .....
+[2017-07-11 18:03:01.444] [DEBUG] poker_goldflower - check all kick all.........
+[2017-07-11 18:03:01.444] [DEBUG] poker_goldflower - broadcast[dispress_push] data[{}],sender[22]
+[2017-07-11 18:03:01.445] [DEBUG] poker_goldflower - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:03:01.446] [DEBUG] poker_goldflower - send to room[user_ready_push] data[{"userid":22,"ready":false}],room_id[587329]
+[2017-07-11 18:03:01.446] [DEBUG] poker_goldflower - UPDATE users SET roomid = null WHERE userid = 22
+[2017-07-11 18:17:46.322] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-11 18:17:46.339] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-11 18:17:46.466] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-11 18:17:47.365] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:29:41.321] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-11 18:29:41.330] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-11 18:29:41.504] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-11 18:29:42.353] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

@@ -1,0 +1,30 @@
+[2017-07-12 09:39:58.596] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-12 09:39:58.603] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-12 09:39:58.816] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-12 09:39:59.625] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:48:03.292] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:22:33.549] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:24:58.121] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:27:50.215] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:31:40.362] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:43:51.725] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:23:01.953] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:32.995] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:26:16.078] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:31:30.287] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:32:21.316] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:35:34.943] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:36:32.957] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:36.129] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-12 16:37:36.136] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-12 16:37:36.313] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-12 16:37:37.161] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:41:47.932] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-12 16:41:47.939] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-12 16:41:48.058] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-12 16:41:48.962] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:43:09.021] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:02:55.769] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:04:46.833] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:11:15.044] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 18:39:25.671] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

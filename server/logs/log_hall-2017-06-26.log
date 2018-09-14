@@ -1,0 +1,700 @@
+[2017-06-26 17:19:47.274] [INFO] hall - HALL DB READY.
+[2017-06-26 17:19:47.289] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-26 17:19:47.289] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-26 17:19:47.289] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-26 17:19:47.352] [ERROR] hall - GET GOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.get_global_value (E:\WorkSpace\server\server\utils\db.js:1337:5)
+    at Object.exports.init (E:\WorkSpace\server\server\hall_server\route_service.js:413:8)
+    at Object.exports.start (E:\WorkSpace\server\server\hall_server\client_service.js:1325:16)
+    at Object.<anonymous> (E:\WorkSpace\server\server\hall_server\app.js:14:20)
+    at Module._compile (module.js:571:32)
+[2017-06-26 17:19:47.352] [ERROR] hall - INIT ROUTE SERVICE ERROR, LOAD GLOBAL VLAUE FAILED.
+[2017-06-26 17:19:48.285] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-06-26 17:19:48.341] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-06-26 17:19:48.375] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-06-26 17:19:48.528] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-06-26 17:19:48.572] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 17:19:48.703] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-06-26 17:19:48.861] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-06-26 17:19:48.877] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-06-26 17:19:48.958] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-06-26 17:19:49.171] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:19:49.171] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:19:51.178] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:19:51.178] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:19:53.186] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:19:53.186] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:19:55.199] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:19:55.199] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:19:57.202] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:19:57.202] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:19:59.206] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:19:59.206] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:20:01.206] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:20:01.206] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:20:03.206] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:20:03.206] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:20:05.207] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:20:05.207] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:20:07.209] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:20:07.210] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:20:09.208] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:20:09.209] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:20:11.208] [ERROR] hall - REPLACE GLOBAL VALUE ERROR: Error: ER_BAD_DB_ERROR: Unknown database 'game_100001'
+    at Handshake.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:48:16)
+    at query2 (E:\WorkSpace\server\server\utils\db.js:29:10)
+    at Object.exports.replace_global_value (E:\WorkSpace\server\server\utils\db.js:1356:5)
+    at Timeout.tick [as _onTimeout] (E:\WorkSpace\server\server\hall_server\route_service.js:467:12)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+[2017-06-26 17:20:11.209] [ERROR] hall - DAILY CLEAR RELOAD ERROR.
+[2017-06-26 17:21:57.123] [INFO] hall - HALL DB READY.
+[2017-06-26 17:21:57.162] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-26 17:21:57.165] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-26 17:21:57.166] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-26 17:21:57.213] [DEBUG] hall - Route service try to load config.
+[2017-06-26 17:21:57.900] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-06-26 17:21:57.998] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-06-26 17:21:58.228] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 17:21:58.314] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-06-26 17:21:58.396] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-06-26 17:21:58.474] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-06-26 17:21:58.639] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-06-26 17:21:58.645] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-06-26 17:21:58.679] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-06-26 17:22:22.830] [INFO] hall - HALL DB READY.
+[2017-06-26 17:22:22.840] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-26 17:22:22.841] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-26 17:22:22.842] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-26 17:22:22.872] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-06-26 17:22:22.879] [DEBUG] hall - Route service try to load config.
+[2017-06-26 17:22:22.937] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-06-26 17:22:22.937] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-06-26 17:22:23.015] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-06-26 17:22:23.046] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-06-26 17:22:23.182] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-06-26 17:22:23.186] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-06-26 17:22:23.244] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-06-26 17:22:23.262] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 17:23:14.128] [INFO] hall - HALL DB READY.
+[2017-06-26 17:23:14.140] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-26 17:23:14.142] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-26 17:23:14.143] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-26 17:23:14.154] [DEBUG] hall - Route service try to load config.
+[2017-06-26 17:23:40.476] [INFO] hall - HALL DB READY.
+[2017-06-26 17:23:40.494] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-26 17:23:40.495] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-26 17:23:40.496] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-26 17:23:40.514] [DEBUG] hall - Route service try to load config.
+[2017-06-26 17:23:41.610] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 17:23:41.674] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-06-26 17:23:41.742] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-06-26 17:23:41.974] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-06-26 17:23:42.001] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-06-26 17:23:42.072] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-06-26 17:23:42.149] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-06-26 17:23:42.240] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-06-26 17:23:42.337] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-06-26 17:24:06.505] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20002
+	server id   :1
+	server addr :127.0.0.1
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 17:24:17.402] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 18:09:41.373] [INFO] hall - HALL DB READY.
+[2017-06-26 18:09:41.415] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-26 18:09:41.418] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-26 18:09:41.420] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-26 18:09:41.487] [DEBUG] hall - Route service try to load config.
+[2017-06-26 18:09:42.149] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-06-26 18:09:42.187] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-06-26 18:09:42.229] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-06-26 18:09:42.278] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-26 18:09:42.284] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-06-26 18:09:42.393] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-06-26 18:09:42.420] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-06-26 18:09:42.441] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-06-26 18:09:42.916] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-06-26 18:10:11.183] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:10:12.571] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:10:12.575] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 1
+[2017-06-26 18:10:12.886] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:16:03.234] [DEBUG] hall - Http[hall creat private room][{"account":"guest_aaa1","sign":"2140e6c3a689c656e8b433a38cda1a7a","conf":"{\"server_code\":20004,\"type_index\":2,\"rule_index\":530570}"}]
+[2017-06-26 18:16:03.234] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:16:03.236] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 1
+[2017-06-26 18:16:03.309] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "353702"
+[2017-06-26 18:16:03.324] [DEBUG] hall - UPDATE users SET roomid = "353702" WHERE userid = 1
+[2017-06-26 18:16:12.905] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:16:16.902] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:16:21.950] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:16:21.951] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "622230"
+[2017-06-26 18:16:25.007] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:16:25.007] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "321456"
+[2017-06-26 18:40:16.992] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:40:23.663] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:40:23.664] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 2
+[2017-06-26 18:40:23.943] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:40:58.891] [DEBUG] hall - SELECT userid,name,headimg,coins,gems,roomid,reg_time,`lock`,agent FROM users WHERE userid = 123456
+[2017-06-26 18:41:14.424] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:17.041] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:35.500] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:38.122] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:39.321] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:41.966] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:43.174] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:46.753] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:47.960] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:50.796] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:51.997] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:41:55.531] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:42:01.271] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:42:04.127] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:43.990] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:45.266] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:45.887] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:46.287] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:47.055] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:47.978] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:43:48.984] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-26 18:56:28.169] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-26 18:56:28.170] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 1

@@ -1,0 +1,42 @@
+[2017-07-13 09:53:50.842] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-13 09:53:50.853] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-13 09:53:51.243] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-13 09:53:51.889] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:38:40.560] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:39:57.098] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:57:25.691] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:58:54.234] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:03:25.877] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:06:41.946] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:08:51.005] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:11:52.070] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:12:58.097] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:24:48.387] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:29:24.521] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:34:03.641] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:53:34.074] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:54:51.107] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:14.716] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-13 16:00:14.725] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-13 16:00:14.906] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-13 16:00:15.748] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:29.755] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:07:24.944] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:08:43.461] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:09:50.493] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:11:21.032] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:17.188] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-13 16:15:17.199] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-13 16:15:17.305] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-13 16:15:18.219] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:35.230] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:23.697] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-13 16:20:23.703] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-13 16:20:23.838] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-13 16:20:24.724] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:35.731] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:23:20.809] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:27:40.916] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:29:33.957] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:35:32.694] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:49:48.555] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

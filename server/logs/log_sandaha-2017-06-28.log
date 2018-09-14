@@ -1,0 +1,20 @@
+[2017-06-28 09:51:25.827] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-06-28 09:51:25.838] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-06-28 09:51:25.915] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-06-28 09:51:26.866] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-06-28 10:03:04.980] [DEBUG] sandaha - Http[enter_room][{"userid":"2","name":"东阳赌圣","ingot":"132","gold":"525","roomid":"111927","sign":"d11bab3ccb4af221"}]
+[2017-06-28 10:03:05.036] [DEBUG] sandaha - Socket[login][{"token":"21fbac487acd1293972ded706acb1c44","roomid":"111927","time":1498615385006,"sign":"63062830a8cb88644d315d585dcfa2d6"}]
+[2017-06-28 10:03:05.040] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"111927","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":2,"max_games":10,"poker_nums":108,"card_nums":34},"num_of_games":0,"seats":[{"userid":2,"ip":"::ffff:192.168.0.142","score":0,"name":"东阳赌圣","online":true,"ready":true,"seatindex":0},{"userid":1,"score":0,"name":"端木赌圣","online":false,"ready":false,"seatindex":1}]}}
+[2017-06-28 10:03:05.042] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":2,"ip":"::ffff:192.168.0.142","score":0,"name":"东阳赌圣","online":true,"ready":true,"seatindex":0}],sender[2]
+[2017-06-28 10:03:47.005] [DEBUG] sandaha - Socket[dispress][null]
+[2017-06-28 10:03:47.006] [DEBUG] sandaha - check is room creator .....
+[2017-06-28 10:03:47.007] [DEBUG] sandaha - check all kick all.........
+[2017-06-28 10:03:47.008] [DEBUG] sandaha - broadcast[dispress_push] data[{}],sender[2]
+[2017-06-28 10:03:47.010] [DEBUG] sandaha - broadcast[user_state_push] data[{"userid":2,"online":false}],sender[2]
+[2017-06-28 10:03:47.010] [DEBUG] sandaha - base poker manager call set ready user[2],status[0]
+[2017-06-28 10:03:47.010] [DEBUG] sandaha - roominfo.seats.length 4 seats_num 4
+[2017-06-28 10:03:47.011] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 2
+[2017-06-28 10:03:47.013] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 1
+[2017-06-28 11:11:03.644] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-06-28 11:11:03.655] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-06-28 11:11:03.762] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800

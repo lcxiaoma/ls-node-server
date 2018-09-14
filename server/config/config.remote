@@ -1,0 +1,472 @@
+﻿var HALL_IP = "39.108.129.174";
+var HALL_CLIENT_PORT = 9001;
+var HALL_ROOM_PORT = 9002;
+
+var ACCOUNT_PRI_KEY = "^&*#$%()@";
+var ROOM_PRI_KEY = "~!@#$(*&^%$&";
+
+var LOCAL_IP = 'localhost';
+
+//服务器类型编码
+var MAJIANG_TYPE = 10000;//麻将类型
+var SERVER_TYPE_MJ_SC = MAJIANG_TYPE+1;//四川麻将
+
+var POKER_TYPE = 20000;//扑克类型
+var SERVER_TYPE_PK_RUN = POKER_TYPE+1;//跑得快
+var SERVER_TYPE_PK_LANDLORD = POKER_TYPE +2;//斗地主
+var SERVER_TYPE_PK_OX =POKER_TYPE +3;//牛牛
+var SERVER_TYPE_PK_JINH = POKER_TYPE+4;//炸金花
+var SERVER_TYPE_PK_DEZ = POKER_TYPE +5;//德州扑克
+var SERVER_TYPE_PK_PHZ = POKER_TYPE +6;//跑胡子
+var SERVER_TYPE_PK_21 = POKER_TYPE +7;//21点
+var SERVER_TYPE_PK_SANGONG = POKER_TYPE+8;//三公
+var SERVER_TYPE_PK_SHISANSHUI = POKER_TYPE+9;//十三水
+var SERVER_TYPE_PK_SANDAHA = POKER_TYPE+10;//三打哈
+var SERVER_TYPE_PK_10POINT = POKER_TYPE +11;//10点半
+var MAX_SERVER_COUNT = 100; //最多配置服务器数量
+
+exports.mysql = function(){
+	return {
+		HOST:'172.18.149.194',
+		USER:'98055b5eef05054c766897b22dc5214f',
+		PSWD:'98055b5eef05054c766897b22dc5214f',
+		DB:'game_100001',
+		PORT:3306,
+	}
+};
+
+exports.mysqllog = function(){
+	return {
+		HOST:'172.18.149.194',
+		USER:'98055b5eef05054c766897b22dc5214f',
+		PSWD:'98055b5eef05054c766897b22dc5214f',
+		DB:'log_100001',
+		PORT:3306,
+	}
+}
+
+//账号服配置
+exports.account_server = function(){
+	return {
+		CLIENT_PORT:9000,
+		HALL_IP:HALL_IP,
+		HALL_CLIENT_PORT:HALL_CLIENT_PORT,
+		ACCOUNT_PRI_KEY:ACCOUNT_PRI_KEY,
+		
+		//
+		DEALDER_API_IP:'172.18.149.194',
+		DEALDER_API_PORT:12581,
+		VERSION:'20161227',
+		APP_WEB:'http://fir.im/17ew',
+	};
+};
+
+//大厅服配置
+exports.hall_server = function(){
+	return {
+		HALL_IP:HALL_IP,
+		CLEINT_PORT:HALL_CLIENT_PORT,
+		FOR_ROOM_IP:LOCAL_IP,
+		ROOM_PORT:HALL_ROOM_PORT,
+		ACCOUNT_PRI_KEY:ACCOUNT_PRI_KEY,
+		ROOM_PRI_KEY:ROOM_PRI_KEY,
+		PAY_IP:LOCAL_IP, //充值IP
+		PAY_PORT:55588,  //充值端口
+	};	
+};
+
+//四川麻将游戏服配置
+var SC_MJ_BASE_SERVER_ID =1;
+var SC_MJ_BASE_HTTP_PORT =20100;
+var SC_MJ_BASE_CLIENT_PORT = 20200;
+exports.game_server_mjsc = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_MJ_SC,
+			//服务器ID
+			SERVER_ID:SC_MJ_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:SC_MJ_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:SC_MJ_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+	return server_config;
+};
+
+//游戏服配置跑得快
+//创建服务器组配置
+var RUN_BASE_SERVER_ID =1;
+var RUN_BASE_HTTP_PORT =10100;
+var RUN_BASE_CLIENT_PORT =10200;
+
+exports.game_server_poker = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_RUN,
+			//服务器ID
+			SERVER_ID:RUN_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:RUN_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:RUN_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+var LANDLORD_BASE_SERVER_ID =1;
+var LANDLORD_BASE_HTTP_PORT =10300;
+var LANDLORD_BASE_CLIENT_PORT =10400;
+//游戏服配置 斗地主
+exports.game_server_poker_landlord = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_LANDLORD,
+			//服务器ID
+			SERVER_ID:LANDLORD_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:LANDLORD_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:LANDLORD_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+
+//游戏服配置 牛牛
+//创建服务器组配置
+var OX_BASE_SERVER_ID =1;
+var OX_BASE_HTTP_PORT =10500;
+var OX_BASE_CLIENT_PORT =10600;
+exports.game_server_poker_ox = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_OX,
+			//服务器ID
+			SERVER_ID:OX_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:OX_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:OX_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+//游戏服配置 扎金花
+//创建服务器组配置
+var GLOD_BASE_SERVER_ID =1;
+var GOLD_BASE_HTTP_PORT =10700;
+var GOLD_BASE_CLIENT_PORT =10800;
+exports.game_server_poker_goldflower = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_JINH,
+			//服务器ID
+			SERVER_ID:GLOD_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:GOLD_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:GOLD_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+
+//游戏服配置 德州扑克
+//创建服务器组配置
+var TAXAS_BASE_SERVER_ID =1;
+var TAXAS_BASE_HTTP_PORT =10900;
+var TAXAS_BASE_CLIENT_PORT =11000;
+exports.game_server_poker_taxas = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_DEZ,
+			//服务器ID
+			SERVER_ID:TAXAS_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:TAXAS_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:TAXAS_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+//游戏服配置21点
+//创建服务器组配置
+var P21_BASE_SERVER_ID =1;
+var P21_BASE_HTTP_PORT =11100;
+var P21_BASE_CLIENT_PORT =11200;
+exports.game_server_poker_P21 = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_21,
+			//服务器ID
+			SERVER_ID:P21_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:P21_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:P21_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+//游戏服配置三公
+//创建服务器组配置
+var SANGONG_BASE_SERVER_ID =1;
+var SANGONG_BASE_HTTP_PORT =11300;
+var SANGONG_BASE_CLIENT_PORT =11400;
+exports.game_server_poker_sangong = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_SANGONG,
+			//服务器ID
+			SERVER_ID:SANGONG_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:SANGONG_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:SANGONG_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+//游戏服配置十三水
+//创建服务器组配置
+var SHISANSHUI_BASE_SERVER_ID =1;
+var SHISANSHUI_BASE_HTTP_PORT =11500;
+var SHISANSHUI_BASE_CLIENT_PORT =11600;
+exports.game_server_poker_shisanshui = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_SHISANSHUI,
+			//服务器ID
+			SERVER_ID:SHISANSHUI_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:SHISANSHUI_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:SHISANSHUI_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+//游戏服配置三打哈
+//创建服务器组配置
+var SANDAHA_BASE_SERVER_ID =1;
+var SANDAHA_BASE_HTTP_PORT =11700;
+var SANDAHA_BASE_CLIENT_PORT =11800;
+exports.game_server_poker_sandaha = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_SANDAHA,
+			//服务器ID
+			SERVER_ID:SANDAHA_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:SANDAHA_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:SANDAHA_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};
+
+//游戏服配置十点半
+//创建服务器组配置
+var TEN_BASE_SERVER_ID =1;
+var TEN_BASE_HTTP_PORT =11900;
+var TEN_BASE_CLIENT_PORT =12000;
+exports.game_server_poker_point10 = function(){
+	var server_config ={}
+	for(var i =0;i<MAX_SERVER_COUNT;++i){
+		var base_config={
+			//服务器类型
+			SERVER_TYPE:SERVER_TYPE_PK_10POINT,
+			//服务器ID
+			SERVER_ID:TEN_BASE_SERVER_ID+i,
+			//暴露给大厅服的HTTP端口号
+			HTTP_PORT:TEN_BASE_HTTP_PORT+i,
+			//HTTP TICK的间隔时间，用于向大厅服汇报情况
+			HTTP_TICK_TIME:5000,
+			//大厅服IP
+			HALL_IP:LOCAL_IP,
+			FOR_HALL_IP:LOCAL_IP,
+			//大厅服端口
+			HALL_PORT:HALL_ROOM_PORT,
+			//与大厅服协商好的通信加密KEY
+			ROOM_PRI_KEY:ROOM_PRI_KEY,
+			
+			//暴露给客户端的接口
+			CLIENT_IP:HALL_IP,
+			CLIENT_PORT:TEN_BASE_CLIENT_PORT+i,
+			MAX_CLIENT:2000,
+		}
+		server_config[i] = base_config;
+	}
+
+	return server_config;
+};

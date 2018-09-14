@@ -1,0 +1,82 @@
+[2017-07-18 22:01:07.590] [INFO] hall - HALL DB READY.
+[2017-07-18 22:01:07.610] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-18 22:01:07.611] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-18 22:01:07.611] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-18 22:01:07.920] [DEBUG] hall - Route service try to load config.
+[2017-07-18 22:01:08.755] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.1.211
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-18 22:01:08.763] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.1.211
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-18 22:01:08.767] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.1.211
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-18 22:01:08.785] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.1.211
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-18 22:01:08.792] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.1.211
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-18 22:01:08.808] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.1.211
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-18 22:01:08.813] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.1.211
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-07-18 22:01:08.817] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.1.211
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-18 22:01:08.829] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.1.211
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-18 22:01:08.848] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.1.211
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-18 22:01:08.881] [ERROR] hall - Get Token Failed. { errcode: 40164,
+  errmsg: 'invalid ip 222.182.197.167, not in whitelist hint: [Cy77aA0467e575]' }
+[2017-07-18 22:01:08.881] [ERROR] hall - can not load tick1[wechat_default]
+[2017-07-18 22:01:09.658] [DEBUG] hall - Route service try to load config.
+[2017-07-18 22:02:15.945] [WARN] hall - Try to get user info by account get None!!!
+[2017-07-18 22:02:17.458] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10001
+[2017-07-18 22:02:17.893] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_t1"

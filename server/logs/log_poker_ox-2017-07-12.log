@@ -1,0 +1,30 @@
+[2017-07-12 09:39:58.297] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-12 09:39:58.314] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-12 09:39:58.807] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-12 09:39:59.370] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:48:03.696] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:22:34.172] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:24:58.262] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:27:48.347] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:31:43.473] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:43:48.873] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:23:01.121] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:31.681] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:26:15.739] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:31:29.986] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:32:21.459] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:35:37.554] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:36:33.576] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:35.606] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-12 16:37:35.617] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-12 16:37:35.846] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-12 16:37:36.637] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:41:47.581] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-12 16:41:47.588] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-12 16:41:47.774] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-12 16:41:48.610] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:43:08.656] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:02:55.373] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:04:45.452] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:11:17.659] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 18:39:26.305] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

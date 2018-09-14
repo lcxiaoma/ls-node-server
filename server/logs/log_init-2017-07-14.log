@@ -1,0 +1,91 @@
+[2017-07-14 23:55:43.287] [DEBUG] init - HOST: 127.0.0.1
+[2017-07-14 23:55:43.291] [DEBUG] init - PORT: 3306
+[2017-07-14 23:55:43.292] [DEBUG] init - DB  : game_100001
+[2017-07-14 23:55:43.292] [DEBUG] init - USER: 98055b5eef05054c766897b22dc5214f
+[2017-07-14 23:55:43.293] [DEBUG] init - PSWD: 1da8c72ea36bd5dff54cb0aa2bddd55d
+[2017-07-14 23:55:43.337] [DEBUG] init - HOST: 127.0.0.1
+[2017-07-14 23:55:43.338] [DEBUG] init - PORT: 3306
+[2017-07-14 23:55:43.339] [DEBUG] init - DB  : log_100001
+[2017-07-14 23:55:43.339] [DEBUG] init - USER: 98055b5eef05054c766897b22dc5214f
+[2017-07-14 23:55:43.340] [DEBUG] init - PSWD: 1da8c72ea36bd5dff54cb0aa2bddd55d
+[2017-07-14 23:55:43.404] [DEBUG] init - create database success
+[2017-07-14 23:55:43.413] [DEBUG] init - All SQL:  67
+[2017-07-14 23:55:43.428] [DEBUG] init - create database success
+[2017-07-14 23:55:43.447] [DEBUG] init - All SQL:  10
+[2017-07-14 23:55:44.243] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:44.388] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:44.679] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:44.975] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:45.258] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:45.508] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:45.984] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:46.089] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:46.438] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:46.680] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:47.021] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:47.465] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:47.584] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:47.592] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:47.597] [DEBUG] init - SQL:  10  success
+[2017-07-14 23:55:47.605] [WARN] init - ER_EMPTY_QUERY: Query was empty
+[2017-07-14 23:55:47.972] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:48.601] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:49.026] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:49.516] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:49.913] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:50.760] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:51.477] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:52.072] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:52.394] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:52.657] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:52.919] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:53.263] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:55:53.353] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.569] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.573] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.620] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.627] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.631] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.679] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.683] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.689] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.693] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.698] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.702] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.707] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.711] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.716] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.723] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.729] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.733] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.739] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.745] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.763] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.770] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.776] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.780] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.790] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.795] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.800] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.805] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.810] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.814] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.818] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.823] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.827] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.839] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.844] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.847] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.854] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.861] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.865] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.869] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.874] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.878] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.882] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.886] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.889] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.893] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.898] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.903] [DEBUG] init - SQL:  67  success
+[2017-07-14 23:56:10.908] [WARN] init - ER_EMPTY_QUERY: Query was empty

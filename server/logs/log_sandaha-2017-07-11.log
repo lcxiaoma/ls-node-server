@@ -1,0 +1,79 @@
+[2017-07-11 09:47:58.204] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-11 09:47:58.212] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-11 09:47:58.298] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-11 09:47:59.232] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:50:59.286] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:51:11.714] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-11 17:51:11.721] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-11 17:51:11.809] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-11 17:54:15.891] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:58:10.061] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:01:42.743] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:04:39.837] [DEBUG] sandaha - Http[create_room][{"userid":"21","ingot":"10","gold":"1000","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}","sign":"3f4e40ec9963f740"}]
+[2017-07-11 18:04:39.839] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "017321"
+[2017-07-11 18:04:39.850] [DEBUG] sandaha - create room room config = {"uuid":"","id":"017321","num_of_games":0,"create_time":1499767480,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-11 18:04:39.855] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499767479855017321','017321','{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499767480,20010,1)
+[2017-07-11 18:04:39.868] [DEBUG] sandaha - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"017321","sign":"707ccf9d6bca7332"}]
+[2017-07-11 18:04:39.900] [DEBUG] sandaha - Socket[login][{"token":"cf242e0abc3213c6bc09070a1c4c71b4","roomid":"017321","time":1499767479874,"sign":"bb4a235c126616254c61784abd993505"}]
+[2017-07-11 18:04:39.901] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"017321","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-11 18:04:39.902] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0}],sender[21]
+[2017-07-11 18:04:45.459] [DEBUG] sandaha - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"017321","sign":"3586d3c94fafdf49"}]
+[2017-07-11 18:04:45.473] [DEBUG] sandaha - Socket[login][{"token":"86c2efbc10a38590f8b008fa8d31a310","roomid":"017321","time":1499767485466,"sign":"f9acab3a74757bc772c5bde5747d0fe5"}]
+[2017-07-11 18:04:45.474] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"017321","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-11 18:04:45.474] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1}],sender[22]
+[2017-07-11 18:04:47.691] [DEBUG] sandaha - Socket[transfer][{"target":22}]
+[2017-07-11 18:04:47.692] [DEBUG] sandaha - UPDATE rooms SET base_info='{"server_type":20010,"type_index":"2","rule_index":532514,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}' WHERE uuid='1499767479855017321'
+[2017-07-11 18:04:47.693] [DEBUG] sandaha - send to room[transfer] data[{"new_seat":[22,21]}],room_id[17321]
+[2017-07-11 18:04:50.036] [DEBUG] sandaha - Socket[kick][{"target":21}]
+[2017-07-11 18:06:12.624] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-11 18:06:12.632] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-11 18:06:12.731] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-11 18:06:13.662] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:06:42.174] [DEBUG] sandaha - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"017321","sign":"707ccf9d6bca7332"}]
+[2017-07-11 18:06:42.224] [DEBUG] sandaha - Socket[login][{"token":"21d17bbc15c48c3cd4c784a4be44c9a6","roomid":"017321","time":1499767602197,"sign":"413acce57440e8ae7f7730ef6fa33de5"}]
+[2017-07-11 18:06:42.225] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"017321","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":0,"seats":[{"userid":22,"score":0,"name":"皇甫有钱","online":false,"ready":false,"seatindex":0},{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-11 18:06:42.226] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":1}],sender[21]
+[2017-07-11 18:06:44.830] [DEBUG] sandaha - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"017321","sign":"3586d3c94fafdf49"}]
+[2017-07-11 18:06:44.874] [DEBUG] sandaha - Socket[login][{"token":"d927a7793ec54ab8e79f37f48b0415e4","roomid":"017321","time":1499767604839,"sign":"108cee70720125822c36c3ae597eeb11"}]
+[2017-07-11 18:06:44.875] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"017321","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":0,"seats":[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":0},{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-11 18:06:44.876] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":0}],sender[22]
+[2017-07-11 18:06:48.655] [DEBUG] sandaha - Socket[transfer][{"target":21}]
+[2017-07-11 18:06:48.656] [DEBUG] sandaha - UPDATE rooms SET base_info='{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}' WHERE uuid='1499767479855017321'
+[2017-07-11 18:06:48.657] [DEBUG] sandaha - send to room[transfer] data[{"new_seat":[21,22]}],room_id[17321]
+[2017-07-11 18:07:07.758] [DEBUG] sandaha - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:07:07.759] [DEBUG] sandaha - base poker manager call set ready user[21],status[0]
+[2017-07-11 18:07:07.760] [DEBUG] sandaha - roominfo.seats.length 4 seats_num 4
+[2017-07-11 18:07:09.537] [DEBUG] sandaha - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:07:09.539] [DEBUG] sandaha - base poker manager call set ready user[22],status[0]
+[2017-07-11 18:07:09.539] [DEBUG] sandaha - roominfo.seats.length 4 seats_num 4
+[2017-07-11 18:07:14.396] [DEBUG] sandaha - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"017321","sign":"707ccf9d6bca7332"}]
+[2017-07-11 18:07:14.428] [DEBUG] sandaha - Socket[login][{"token":"61bcdcd58a15642fe1c1f7482409627c","roomid":"017321","time":1499767634402,"sign":"27908a0496e9a5fe0e87f06a42fc3e6f"}]
+[2017-07-11 18:07:14.431] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"017321","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":false,"ready":false,"seatindex":1}]}}
+[2017-07-11 18:07:14.434] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0}],sender[21]
+[2017-07-11 18:07:16.490] [DEBUG] sandaha - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"017321","sign":"3586d3c94fafdf49"}]
+[2017-07-11 18:07:16.524] [DEBUG] sandaha - Socket[login][{"token":"c1577260ef82013d81e23c8fab25f327","roomid":"017321","time":1499767636496,"sign":"5b63207e433976ed9e7746a4818cb573"}]
+[2017-07-11 18:07:16.526] [DEBUG] sandaha - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"017321","conf":{"server_type":20010,"type_index":"2","rule_index":532514,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-11 18:07:16.531] [DEBUG] sandaha - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1}],sender[22]
+[2017-07-11 18:07:20.178] [DEBUG] sandaha - Socket[kick][{"target":22}]
+[2017-07-11 18:07:20.184] [DEBUG] sandaha - user[22],event = kick,data = {"kicked":22,"new_seat":[]}
+[2017-07-11 18:07:20.186] [DEBUG] sandaha - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:07:20.187] [DEBUG] sandaha - base poker manager call set ready user[22],status[0]
+[2017-07-11 18:07:20.187] [DEBUG] sandaha - roominfo.seats.length 4 seats_num 4
+[2017-07-11 18:07:20.192] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 22
+[2017-07-11 18:07:20.199] [DEBUG] sandaha - send to room[kick] data[{"kicked":22,"new_seat":[21]}],room_id[17321]
+[2017-07-11 18:07:22.590] [DEBUG] sandaha - Socket[dispress][null]
+[2017-07-11 18:07:22.592] [DEBUG] sandaha - check is room creator .....
+[2017-07-11 18:07:22.598] [DEBUG] sandaha - check all kick all.........
+[2017-07-11 18:07:22.599] [DEBUG] sandaha - broadcast[dispress_push] data[{}],sender[21]
+[2017-07-11 18:07:22.602] [DEBUG] sandaha - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:07:22.603] [DEBUG] sandaha - base poker manager call set ready user[21],status[0]
+[2017-07-11 18:07:22.607] [DEBUG] sandaha - roominfo.seats.length 1 seats_num 4
+[2017-07-11 18:07:22.609] [DEBUG] sandaha - UPDATE users SET roomid = null WHERE userid = 21
+[2017-07-11 18:17:49.535] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-11 18:17:49.541] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-11 18:17:49.658] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-11 18:17:50.563] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:29:41.725] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-11 18:29:41.735] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-11 18:29:41.865] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-11 18:29:42.757] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

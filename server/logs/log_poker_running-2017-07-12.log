@@ -1,0 +1,84 @@
+[2017-07-12 09:39:58.305] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-12 09:39:58.312] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-12 09:39:58.833] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-12 09:39:59.349] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:48:03.238] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:52:37.152] [DEBUG] poker_running - Http[create_room][{"userid":"23","ingot":"10","gold":"1000","conf":"{\"server_code\":20001,\"type_index\":\"2\",\"rule_index\":525258}","sign":"e847fc6659b557b8"}]
+[2017-07-12 11:52:37.153] [WARN] poker_running - rule not invalid type classic but not 16 cards
+[2017-07-12 11:52:37.153] [DEBUG] poker_running - create room,game_index = 2,game_rule= 527306
+[2017-07-12 11:52:37.154] [DEBUG] poker_running - SELECT * FROM rooms WHERE id = "448436"
+[2017-07-12 11:52:37.170] [DEBUG] poker_running - create room room config = {"uuid":"","id":"448436","num_of_games":0,"create_time":1499831558,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527306,"creator":23,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-07-12 11:52:37.219] [DEBUG] poker_running - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499831557219448436','448436','{"server_type":20001,"type_index":"2","rule_index":527306,"creator":23,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16}','127.0.0.1',10200,1499831558,20001,1)
+[2017-07-12 11:52:37.234] [DEBUG] poker_running - Http[enter_room][{"userid":"23","name":"诸葛稳赢","ingot":"10","gold":"1000","roomid":"448436","sign":"9c3db3e1bb98c4eb"}]
+[2017-07-12 11:52:37.350] [DEBUG] poker_running - Socket[login][{"token":"2c6a39d3067b37b8e529031c9dac73b9","roomid":"448436","time":1499831557245,"sign":"88f9a8d259a06c0dcdbe0d2a5d6f89b5"}]
+[2017-07-12 11:52:37.352] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"448436","conf":{"server_type":20001,"type_index":"2","rule_index":527306,"creator":23,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":23,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-12 11:52:37.353] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":23,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":0}],sender[23]
+[2017-07-12 11:52:41.436] [DEBUG] poker_running - Socket[dispress][null]
+[2017-07-12 11:52:41.437] [DEBUG] poker_running - broadcast[dispress_push] data[{}],sender[23]
+[2017-07-12 11:52:41.438] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":23,"online":false}],sender[23]
+[2017-07-12 11:52:41.438] [DEBUG] poker_running - base poker manager call set ready user[23],status[0]
+[2017-07-12 11:52:41.438] [DEBUG] poker_running - UPDATE users SET roomid = null WHERE userid = 23
+[2017-07-12 11:52:58.013] [DEBUG] poker_running - Http[create_room][{"userid":"13","ingot":"109","gold":"600","conf":"{\"server_code\":20001,\"type_index\":\"2\",\"rule_index\":525258}","sign":"930be09f9257896d"}]
+[2017-07-12 11:52:58.013] [WARN] poker_running - rule not invalid type classic but not 16 cards
+[2017-07-12 11:52:58.013] [DEBUG] poker_running - create room,game_index = 2,game_rule= 527306
+[2017-07-12 11:52:58.014] [DEBUG] poker_running - SELECT * FROM rooms WHERE id = "927470"
+[2017-07-12 11:52:58.015] [DEBUG] poker_running - create room room config = {"uuid":"","id":"927470","num_of_games":0,"create_time":1499831579,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527306,"creator":13,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-07-12 11:52:58.016] [DEBUG] poker_running - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499831578016927470','927470','{"server_type":20001,"type_index":"2","rule_index":527306,"creator":13,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16}','127.0.0.1',10200,1499831579,20001,1)
+[2017-07-12 11:52:58.026] [DEBUG] poker_running - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"109","gold":"600","roomid":"927470","sign":"965d8c6389e01ec7"}]
+[2017-07-12 11:52:58.046] [DEBUG] poker_running - Socket[login][{"token":"93ca8317f189a829ca9b9edfadceced7","roomid":"927470","time":1499831578032,"sign":"ddb5731309e0fe9c97ddc6aa637eefe8"}]
+[2017-07-12 11:52:58.047] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"927470","conf":{"server_type":20001,"type_index":"2","rule_index":527306,"creator":13,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":13,"ip":"::ffff:192.168.0.142","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-12 11:52:58.048] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.142","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":0}],sender[13]
+[2017-07-12 11:53:00.015] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-12 11:53:00.016] [DEBUG] poker_running - base poker manager call set ready user[13],status[0]
+[2017-07-12 11:53:15.327] [DEBUG] poker_running - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"109","gold":"600","roomid":"927470","sign":"965d8c6389e01ec7"}]
+[2017-07-12 11:53:15.355] [DEBUG] poker_running - Socket[login][{"token":"96d2b4354538b7183bb9873116bfb938","roomid":"927470","time":1499831595329,"sign":"7abe81241547554af7ffb232a13d918f"}]
+[2017-07-12 11:53:15.357] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"927470","conf":{"server_type":20001,"type_index":"2","rule_index":527306,"creator":13,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":13,"ip":"::ffff:192.168.0.142","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-12 11:53:15.357] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.142","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":0}],sender[13]
+[2017-07-12 11:53:34.503] [DEBUG] poker_running - Http[enter_room][{"userid":"14","name":"诸葛稳赢","ingot":"111","gold":"592","roomid":"927470","sign":"06c4a6bffcb90f0d"}]
+[2017-07-12 11:53:34.548] [DEBUG] poker_running - Socket[login][{"token":"8e4c7c0210f349311107aab500d7d4e1","roomid":"927470","time":1499831614517,"sign":"f4a95566f4673e4d3cb8b56827a13375"}]
+[2017-07-12 11:53:34.550] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"927470","conf":{"server_type":20001,"type_index":"2","rule_index":527306,"creator":13,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":13,"ip":"::ffff:192.168.0.142","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":0},{"userid":14,"ip":"::ffff:192.168.0.142","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-12 11:53:34.550] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":14,"ip":"::ffff:192.168.0.142","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":1}],sender[14]
+[2017-07-12 11:53:57.313] [DEBUG] poker_running - Socket[exit][null]
+[2017-07-12 11:53:57.313] [DEBUG] poker_running - broadcast[exit_notify_push] data[14],sender[14]
+[2017-07-12 11:53:57.313] [DEBUG] poker_running - UPDATE users SET roomid = null WHERE userid = 14
+[2017-07-12 11:53:57.314] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":14,"online":false}],sender[14]
+[2017-07-12 11:53:57.314] [DEBUG] poker_running - base poker manager call set ready user[14],status[0]
+[2017-07-12 11:55:49.200] [DEBUG] poker_running - Socket[dispress][null]
+[2017-07-12 11:55:49.200] [DEBUG] poker_running - broadcast[dispress_push] data[{}],sender[13]
+[2017-07-12 11:55:49.201] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-12 11:55:49.201] [DEBUG] poker_running - base poker manager call set ready user[13],status[0]
+[2017-07-12 11:55:49.201] [DEBUG] poker_running - UPDATE users SET roomid = null WHERE userid = 13
+[2017-07-12 15:22:33.651] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:24:58.235] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:25:15.485] [DEBUG] poker_running - Http[create_room][{"userid":"19","ingot":"10","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":2442,\"server_code\":20001}","sign":"8ac56c1ced5c9156"}]
+[2017-07-12 15:25:15.486] [DEBUG] poker_running - create room,game_index = 2,game_rule= 2442
+[2017-07-12 15:25:15.486] [WARN] poker_running - invalid rule or type index 
+[2017-07-12 15:27:48.322] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:28:05.023] [DEBUG] poker_running - Http[create_room][{"userid":"19","ingot":"10","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":2442,\"server_code\":20001}","sign":"8ac56c1ced5c9156"}]
+[2017-07-12 15:28:05.024] [DEBUG] poker_running - create room,game_index = 2,game_rule= 2442
+[2017-07-12 15:28:05.024] [WARN] poker_running - invalid rule or type index 
+[2017-07-12 15:31:40.454] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:31:46.912] [DEBUG] poker_running - Http[create_room][{"userid":"19","ingot":"10","gold":"1000","conf":"{\"type_index\":16,\"rule_index\":8482,\"server_code\":20001}","sign":"7e308424b6ee135b"}]
+[2017-07-12 15:31:46.913] [DEBUG] poker_running - create room,game_index = 16,game_rule= 8482
+[2017-07-12 15:31:46.913] [WARN] poker_running - invalid rule or type index 
+[2017-07-12 15:43:51.819] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:23:01.112] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:32.150] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:26:15.732] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:31:30.425] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:32:21.446] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:35:35.554] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:36:32.587] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:35.562] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-12 16:37:35.570] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-12 16:37:35.739] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-12 16:37:36.605] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:41:47.339] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-12 16:41:47.346] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-12 16:41:47.546] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-12 16:41:48.367] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:43:08.412] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:02:55.128] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:04:46.185] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:11:17.390] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 18:39:25.550] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

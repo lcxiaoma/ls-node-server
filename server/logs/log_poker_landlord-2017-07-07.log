@@ -1,0 +1,30 @@
+[2017-07-07 09:35:43.327] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-07 09:35:43.343] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-07 09:35:43.764] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-07 09:35:44.371] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-07 14:56:26.898] [DEBUG] poker_landlord - create room room config = {"uuid":"","id":"072551","num_of_games":0,"create_time":1499410587,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":16,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-07-07 15:36:27.891] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-07 15:36:27.905] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-07 15:36:28.213] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-07 15:36:28.967] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-07 15:41:49.085] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-07 15:41:49.094] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-07 15:41:49.281] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-07 15:41:50.131] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-07 15:52:14.637] [ERROR] poker_landlord - undefined
+[2017-07-07 15:55:55.575] [DEBUG] poker_landlord - create room room config = {"uuid":"","id":"909545","num_of_games":0,"create_time":1499414156,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":16,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-07-07 15:57:34.002] [DEBUG] poker_landlord - config======================> undefined
+[2017-07-07 15:57:34.031] [ERROR] poker_landlord - undefined
+[2017-07-07 16:01:32.642] [DEBUG] poker_landlord - create room room config = {"uuid":"","id":"049994","num_of_games":0,"create_time":1499414493,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":16,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-07-07 16:02:12.467] [DEBUG] poker_landlord - room.conf======================> { server_type: 20001,
+  type_index: '2',
+  rule_index: 527178,
+  creator: '17',
+  doubles: false,
+  free: false,
+  max_games: 10,
+  poker_nums: 48,
+  card_nums: 16 }
+[2017-07-07 16:06:15.218] [ERROR] poker_landlord - undefined
+[2017-07-07 16:16:23.120] [DEBUG] poker_landlord - create room room config = {"uuid":"","id":"085430","num_of_games":0,"create_time":1499415384,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":16,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-07-07 16:16:43.960] [ERROR] poker_landlord - undefined

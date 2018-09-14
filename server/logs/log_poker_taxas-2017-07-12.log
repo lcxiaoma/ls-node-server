@@ -1,0 +1,30 @@
+[2017-07-12 09:39:58.275] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-12 09:39:58.283] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-12 09:39:58.829] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-12 09:39:59.316] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:48:03.092] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:22:33.923] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:24:58.021] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:27:47.617] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:31:42.256] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:43:49.637] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:23:01.869] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:32.919] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:26:15.988] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:31:30.178] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:32:21.210] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:35:35.307] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:36:32.832] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:35.544] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-12 16:37:35.550] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-12 16:37:35.697] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-12 16:37:36.587] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:41:47.755] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-12 16:41:47.761] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-12 16:41:47.901] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-12 16:41:48.780] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:43:08.826] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:02:55.576] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:04:47.620] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:11:16.819] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 18:39:25.454] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

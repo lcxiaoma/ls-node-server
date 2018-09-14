@@ -1,0 +1,42 @@
+[2017-07-13 09:53:50.824] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-13 09:53:50.832] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-13 09:53:51.243] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-13 09:53:51.865] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:38:40.944] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:39:57.482] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:57:25.509] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:58:54.049] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:03:25.712] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:06:41.788] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:08:50.849] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:11:52.911] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:12:55.938] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:24:47.216] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:29:24.374] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:34:03.495] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:53:32.904] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:54:50.946] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:14.843] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-13 16:00:14.851] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-13 16:00:15.033] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-13 16:00:15.877] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:29.886] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:07:25.086] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:08:43.120] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:09:50.658] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:11:22.189] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:16.654] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-13 16:15:16.660] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-13 16:15:16.828] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-13 16:15:17.682] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:35.203] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:23.820] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-13 16:20:23.828] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-13 16:20:23.942] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-13 16:20:24.848] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:35.850] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:23:19.942] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:27:40.063] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:29:34.110] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:35:34.337] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:49:46.680] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

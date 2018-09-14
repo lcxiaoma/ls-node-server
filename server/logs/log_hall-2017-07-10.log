@@ -1,0 +1,2253 @@
+[2017-07-10 10:15:28.669] [INFO] hall - HALL DB READY.
+[2017-07-10 10:15:28.684] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-10 10:15:28.685] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-10 10:15:28.686] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-10 10:15:28.771] [DEBUG] hall - Route service try to load config.
+[2017-07-10 10:15:29.677] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 10:15:29.746] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-10 10:15:29.784] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-10 10:15:29.923] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-10 10:15:30.079] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-10 10:15:30.095] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-10 10:15:30.235] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-10 10:15:30.360] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-10 10:15:30.563] [DEBUG] hall - Route service try to load config.
+[2017-07-10 10:16:28.039] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-10 11:39:18.686] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5" and `lock` =0
+[2017-07-10 11:39:18.695] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-10 11:39:20.711] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-10 11:39:23.892] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6" and `lock` =0
+[2017-07-10 11:39:23.895] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 17
+[2017-07-10 11:39:25.378] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq6"
+[2017-07-10 11:39:28.160] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7" and `lock` =0
+[2017-07-10 11:39:28.161] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 18
+[2017-07-10 11:39:29.605] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq7"
+[2017-07-10 11:39:32.357] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8" and `lock` =0
+[2017-07-10 11:39:32.358] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 19
+[2017-07-10 11:39:33.365] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq8"
+[2017-07-10 11:39:39.995] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq5","sign":"874fdbf29094b53e1b5b2ac552b8214a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-10 11:39:39.996] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5" and `lock` =0
+[2017-07-10 11:39:40.000] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-10 11:39:40.060] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "238337"
+[2017-07-10 11:39:40.077] [DEBUG] hall - UPDATE users SET roomid = "238337" WHERE userid = 16
+[2017-07-10 11:40:35.563] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5" and `lock` =0
+[2017-07-10 11:40:35.564] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-10 11:40:36.298] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-10 11:40:42.328] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq5","sign":"874fdbf29094b53e1b5b2ac552b8214a","conf":"{\"server_code\":20002,\"type_index\":\"2\",\"rule_index\":528386}"}]
+[2017-07-10 11:40:42.328] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5" and `lock` =0
+[2017-07-10 11:40:42.331] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-10 11:40:42.399] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "363334"
+[2017-07-10 11:40:42.410] [DEBUG] hall - UPDATE users SET roomid = "363334" WHERE userid = 16
+[2017-07-10 11:40:55.116] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6" and `lock` =0
+[2017-07-10 11:40:55.117] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "363334"
+[2017-07-10 11:40:55.130] [DEBUG] hall - UPDATE users SET roomid = "363334" WHERE userid = 17
+[2017-07-10 11:41:01.062] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7" and `lock` =0
+[2017-07-10 11:41:01.065] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "363334"
+[2017-07-10 11:41:01.076] [DEBUG] hall - UPDATE users SET roomid = "363334" WHERE userid = 18
+[2017-07-10 11:41:07.463] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8" and `lock` =0
+[2017-07-10 11:41:07.468] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "363334"
+[2017-07-10 12:07:09.162] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq6"
+[2017-07-10 12:07:13.210] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-10 12:07:17.593] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq7"
+[2017-07-10 14:04:02.690] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq5","sign":"874fdbf29094b53e1b5b2ac552b8214a","conf":"{\"server_code\":20003,\"type_index\":\"2\",\"rule_index\":538698}"}]
+[2017-07-10 14:04:02.690] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5" and `lock` =0
+[2017-07-10 14:04:02.692] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-10 14:04:02.778] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "093114"
+[2017-07-10 14:04:02.795] [DEBUG] hall - UPDATE users SET roomid = "093114" WHERE userid = 16
+[2017-07-10 14:04:14.154] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6" and `lock` =0
+[2017-07-10 14:04:14.156] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "093114"
+[2017-07-10 14:04:14.165] [DEBUG] hall - UPDATE users SET roomid = "093114" WHERE userid = 17
+[2017-07-10 14:04:24.650] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7" and `lock` =0
+[2017-07-10 14:04:24.655] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "093114"
+[2017-07-10 14:04:24.666] [DEBUG] hall - UPDATE users SET roomid = "093114" WHERE userid = 18
+[2017-07-10 14:04:32.860] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8" and `lock` =0
+[2017-07-10 14:04:32.861] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "093114"
+[2017-07-10 14:04:32.875] [DEBUG] hall - UPDATE users SET roomid = "093114" WHERE userid = 19
+[2017-07-10 14:05:33.914] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 14:05:33.916] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 14:05:35.264] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 14:05:42.687] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 14:05:42.690] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "093114"
+[2017-07-10 14:05:42.711] [DEBUG] hall - UPDATE users SET roomid = "093114" WHERE userid = 12
+[2017-07-10 14:16:58.193] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 14:16:58.917] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq6"
+[2017-07-10 14:17:00.533] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-10 14:17:05.447] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq7"
+[2017-07-10 14:17:11.624] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq8"
+[2017-07-10 15:48:47.577] [INFO] hall - HALL DB READY.
+[2017-07-10 15:48:47.591] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-10 15:48:47.593] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-10 15:48:47.594] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-10 15:48:47.617] [DEBUG] hall - Route service try to load config.
+[2017-07-10 15:48:48.047] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-10 15:48:49.000] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-10 15:48:49.023] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-10 15:48:49.748] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 15:48:49.751] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-10 15:48:50.617] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-10 15:48:50.886] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-07-10 15:48:51.672] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-10 15:48:51.981] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-10 15:48:52.735] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-10 16:22:19.740] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 16:22:20.060] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 16:22:20.065] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 16:23:23.839] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 16:23:24.151] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 16:23:24.155] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 16:26:06.743] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 16:26:07.100] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 16:26:07.101] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 16:50:17.995] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 16:50:18.272] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 16:50:18.275] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 16:51:41.473] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"c913a296b86173fa13473376e12d5021","conf":"{\"server_code\":20004,\"type_index\":2,\"rule_index\":530828}"}]
+[2017-07-10 16:51:41.474] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 16:51:41.475] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 16:51:41.507] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 16:51:41.521] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 12
+[2017-07-10 16:51:49.315] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 16:51:49.675] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 16:51:49.677] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 16:51:59.059] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 16:51:59.060] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 16:51:59.073] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 13
+[2017-07-10 16:57:01.272] [WARN] hall - Try to get user info by account get None, IF SUCCESS check evn!!!
+[2017-07-10 16:57:05.691] [WARN] hall - Try to get user info by account get None, IF SUCCESS check evn!!!
+[2017-07-10 16:57:16.273] [WARN] hall - Try to get user info by account get None, IF SUCCESS check evn!!!
+[2017-07-10 16:57:36.624] [WARN] hall - Try to get user info by account get None, IF SUCCESS check evn!!!
+[2017-07-10 18:08:16.728] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 18:08:16.733] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 18:08:17.720] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 18:08:17.724] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:08:17.821] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 18:08:17.822] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:08:17.836] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 12
+[2017-07-10 18:08:19.953] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 18:08:19.954] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 18:08:20.709] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 18:08:20.714] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:08:20.777] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 18:08:20.779] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:08:20.785] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 13
+[2017-07-10 18:08:23.400] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 18:08:24.192] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 18:08:24.199] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:08:34.792] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 18:08:34.793] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:08:34.811] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 14
+[2017-07-10 18:09:14.765] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 18:09:14.772] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 18:09:15.408] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 18:09:15.414] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:09:15.513] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 18:09:15.520] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:09:15.526] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 12
+[2017-07-10 18:27:40.218] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 18:27:40.219] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 18:27:40.224] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:27:40.226] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Handshake.onConnect [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:27:40.503] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 18:27:40.504] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:27:40.512] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 18:27:40.523] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:27:41.011] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 18:27:41.014] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:27:41.030] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 18:27:41.037] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:27:48.936] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20004
+	server id   :1
+	server addr :127.0.0.1
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 18:27:58.112] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 18:28:23.452] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 18:28:23.457] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 18:28:24.315] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 18:28:24.322] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:28:24.394] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 18:28:24.395] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:28:24.467] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 12
+[2017-07-10 18:28:28.760] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 18:28:28.760] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 18:28:29.794] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 18:28:29.803] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:28:29.965] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 18:28:29.970] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:28:29.987] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 13
+[2017-07-10 18:28:32.578] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 18:28:32.579] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 18:28:33.344] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 18:28:33.358] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:28:33.495] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 18:28:33.496] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:28:33.510] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 14
+[2017-07-10 18:31:14.790] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 18:31:14.791] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 18:31:14.792] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:31:14.793] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:31:15.057] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 18:31:15.058] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:31:15.058] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 18:31:15.061] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:31:15.403] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 18:31:15.404] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 18:31:15.404] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 18:31:15.411] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 18:31:21.391] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20004
+	server id   :1
+	server addr :127.0.0.1
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 18:31:30.626] [INFO] hall - HALL DB READY.
+[2017-07-10 18:31:30.670] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-10 18:31:30.675] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-10 18:31:30.677] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-10 18:31:30.738] [DEBUG] hall - Route service try to load config.
+[2017-07-10 18:31:30.797] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-10 18:31:31.197] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-10 18:31:31.369] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-10 18:31:31.395] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-07-10 18:31:31.507] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-10 18:31:31.617] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-10 18:31:32.405] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-10 18:31:32.617] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-10 18:31:34.090] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-10 18:31:41.791] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 18:32:30.013] [INFO] hall - HALL DB READY.
+[2017-07-10 18:32:30.092] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-10 18:32:30.095] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-10 18:32:30.096] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-10 18:32:30.135] [DEBUG] hall - Route service try to load config.
+[2017-07-10 18:32:31.026] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-10 18:32:32.418] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-10 18:32:32.770] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-10 18:32:34.335] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-10 18:32:34.850] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-10 18:32:37.152] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-10 18:32:37.715] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-07-10 18:32:41.057] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-10 18:32:41.506] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-10 18:32:45.350] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-10 19:24:28.707] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:24:38.261] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 19:24:38.266] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 19:24:39.232] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:24:39.273] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:24:39.358] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:24:39.362] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 19:24:39.413] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 12
+[2017-07-10 19:24:41.379] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 19:24:41.385] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 19:24:41.789] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 19:24:41.797] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:24:41.848] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:24:41.850] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 19:24:41.855] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 13
+[2017-07-10 19:24:44.406] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 19:24:44.407] [DEBUG] hall - SELECT * FROM rooms WHERE id = "665614"
+[2017-07-10 19:24:45.121] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 19:24:45.123] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:24:45.200] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:24:45.203] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "665614"
+[2017-07-10 19:24:45.219] [DEBUG] hall - UPDATE users SET roomid = "665614" WHERE userid = 14
+[2017-07-10 19:36:25.326] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 19:36:25.331] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:36:29.266] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:36:29.269] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:36:31.421] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 19:36:31.423] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:37:21.518] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:21.519] [DEBUG] hall - insert ingot log
+[2017-07-10 19:37:27.523] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:27.523] [DEBUG] hall - insert ingot log
+[2017-07-10 19:37:31.693] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:31.695] [DEBUG] hall - insert ingot log
+[2017-07-10 19:37:33.241] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:33.242] [DEBUG] hall - insert ingot log
+[2017-07-10 19:37:34.208] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:34.208] [DEBUG] hall - insert ingot log
+[2017-07-10 19:37:38.812] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:38.813] [DEBUG] hall - insert ingot log
+[2017-07-10 19:37:51.455] [DEBUG] hall - insert gold log
+[2017-07-10 19:37:51.457] [DEBUG] hall - insert ingot log
+[2017-07-10 19:38:07.738] [DEBUG] hall - insert gold log
+[2017-07-10 19:38:07.738] [DEBUG] hall - insert ingot log
+[2017-07-10 19:38:24.648] [DEBUG] hall - insert gold log
+[2017-07-10 19:38:24.649] [DEBUG] hall - insert ingot log
+[2017-07-10 19:38:40.663] [DEBUG] hall - insert gold log
+[2017-07-10 19:38:40.664] [DEBUG] hall - insert ingot log
+[2017-07-10 19:39:32.490] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:39:33.825] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:39:34.240] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:39:34.619] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:39:50.016] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:39:51.200] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:39:52.611] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:39:53.529] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:39:53.877] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:39:55.875] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:40:00.498] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:40:01.816] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:40:03.429] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:40:06.687] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:40:08.641] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:40:10.635] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:19.942] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:24.619] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:26.091] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:26.922] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:29.623] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:30.018] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:30.369] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:30.808] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:31.372] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:32.207] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:32.609] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:32.971] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:37.043] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:37.995] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:38.693] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:39.184] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:39.653] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:39.996] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:41:58.740] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:41:58.743] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:42:05.122] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:42:05.140] [DEBUG] hall - insert gold log
+[2017-07-10 19:42:08.541] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:42:13.167] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:42:13.182] [DEBUG] hall - insert gold log
+[2017-07-10 19:42:17.402] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:42:18.607] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:42:18.623] [DEBUG] hall - insert gold log
+[2017-07-10 19:42:22.049] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:42:23.257] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:42:23.280] [DEBUG] hall - insert gold log
+[2017-07-10 19:42:25.766] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:42:26.968] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:42:26.984] [DEBUG] hall - insert gold log
+[2017-07-10 19:42:29.482] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:42:30.685] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:42:53.955] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 19:42:54.716] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:42:54.723] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:43:13.633] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:43:37.961] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 19:43:38.511] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:43:38.513] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:43:42.424] [DEBUG] hall - SELECT gems,coins,userid,daily_value,daily_clear_time FROM users,user_extro_info WHERE userid = user_id and account = "guest_qq1"
+[2017-07-10 19:50:28.626] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"c913a296b86173fa13473376e12d5021","conf":"{\"server_code\":20001,\"type_index\":\"4\",\"rule_index\":525258}"}]
+[2017-07-10 19:50:28.626] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:50:28.627] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 19:50:28.662] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "102803"
+[2017-07-10 19:50:28.676] [DEBUG] hall - UPDATE users SET roomid = "102803" WHERE userid = 12
+[2017-07-10 19:50:29.537] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:50:36.754] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:50:36.767] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "102803"
+[2017-07-10 19:50:36.779] [DEBUG] hall - UPDATE users SET roomid = "102803" WHERE userid = 13
+[2017-07-10 19:50:46.142] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:50:46.143] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "102803"
+[2017-07-10 19:50:46.155] [DEBUG] hall - UPDATE users SET roomid = "102803" WHERE userid = 14
+[2017-07-10 19:51:16.237] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 19:51:16.241] [DEBUG] hall - SELECT * FROM rooms WHERE id = "102803"
+[2017-07-10 19:51:17.109] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 19:51:17.112] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:51:17.229] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 19:51:17.232] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "102803"
+[2017-07-10 19:51:17.245] [DEBUG] hall - UPDATE users SET roomid = "102803" WHERE userid = 13
+[2017-07-10 19:51:35.831] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 19:51:35.837] [DEBUG] hall - SELECT * FROM rooms WHERE id = "102803"
+[2017-07-10 19:51:36.787] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 19:51:36.792] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:51:36.862] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 19:51:36.863] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "102803"
+[2017-07-10 19:51:36.873] [DEBUG] hall - UPDATE users SET roomid = "102803" WHERE userid = 14
+[2017-07-10 19:51:38.561] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 19:51:38.562] [DEBUG] hall - SELECT * FROM rooms WHERE id = "102803"
+[2017-07-10 19:51:39.205] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:51:39.208] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:51:39.273] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 19:51:39.274] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "102803"
+[2017-07-10 19:51:39.282] [DEBUG] hall - UPDATE users SET roomid = "102803" WHERE userid = 12
+[2017-07-10 19:52:42.396] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 19:52:42.403] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:52:44.389] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 19:52:44.390] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 19:52:47.522] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 19:52:47.523] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:06:41.475] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:06:41.984] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:06:41.989] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:06:44.349] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:06:44.974] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:06:44.978] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:06:50.421] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"8699b490d544e4c4dc253a0e8a81df1a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-10 22:06:50.422] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:06:50.425] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:06:50.441] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "543868"
+[2017-07-10 22:06:50.451] [DEBUG] hall - UPDATE users SET roomid = "543868" WHERE userid = 12
+[2017-07-10 22:06:54.601] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:06:54.601] [DEBUG] hall - SELECT * FROM rooms WHERE id = "543868"
+[2017-07-10 22:06:55.023] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:06:55.028] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:06:55.066] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:06:55.067] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "543868"
+[2017-07-10 22:06:55.076] [DEBUG] hall - UPDATE users SET roomid = "543868" WHERE userid = 12
+[2017-07-10 22:07:00.170] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:07:00.602] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:07:00.604] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:07:05.750] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:07:05.751] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "543868"
+[2017-07-10 22:07:05.764] [DEBUG] hall - UPDATE users SET roomid = "543868" WHERE userid = 13
+[2017-07-10 22:07:13.939] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:07:13.942] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:07:13.944] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:07:13.946] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:07:19.418] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:07:20.015] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:07:20.030] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:07:22.305] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:07:22.798] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:07:22.801] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:07:32.341] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"8699b490d544e4c4dc253a0e8a81df1a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-10 22:07:32.341] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:07:32.345] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:07:32.379] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:07:32.387] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:07:39.987] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:07:39.990] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:07:40.001] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:07:40.435] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:07:40.436] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:07:40.448] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:07:46.386] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:07:46.387] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:07:46.403] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:08:03.124] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 22:08:03.656] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:08:03.668] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:08:06.869] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-10 22:08:06.967] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:08:06.968] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:08:07.417] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-10 22:08:07.419] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:08:07.430] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:08:07.434] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:08:07.484] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:08:07.485] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:08:07.497] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:08:10.118] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:08:10.118] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:08:10.446] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:08:10.449] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:08:10.493] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:08:10.495] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:08:10.503] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:08:14.660] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:08:14.662] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:08:14.669] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:08:21.373] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4" and `lock` =0
+[2017-07-10 22:08:21.378] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:08:21.387] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 15
+[2017-07-10 22:31:12.939] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 22:31:12.940] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:13.532] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:31:13.537] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:31:13.593] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:31:13.598] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:13.608] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:31:14.187] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:31:14.188] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:14.591] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:31:14.597] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:31:14.637] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:31:14.638] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:14.652] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:31:16.421] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-10 22:31:16.422] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:16.773] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:31:16.774] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:16.941] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-10 22:31:16.947] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:31:16.984] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4" and `lock` =0
+[2017-07-10 22:31:16.985] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:17.002] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 15
+[2017-07-10 22:31:17.150] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:31:17.153] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:31:17.188] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:31:17.189] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:31:17.205] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:32:45.524] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 22:32:45.525] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:46.103] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:32:46.105] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:32:46.159] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:32:46.160] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:46.175] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:32:48.287] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-10 22:32:48.287] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:48.931] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-10 22:32:48.936] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:32:49.001] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4" and `lock` =0
+[2017-07-10 22:32:49.003] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:49.010] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 15
+[2017-07-10 22:32:56.706] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:32:56.707] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:57.079] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:32:57.085] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:32:57.148] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:32:57.149] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:57.156] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:32:59.241] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:32:59.242] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:59.618] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:32:59.620] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:32:59.654] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:32:59.655] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:32:59.666] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:34:10.499] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 22:34:10.503] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:34:11.079] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:34:11.085] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:34:11.122] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:34:11.123] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:34:11.136] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:35:25.192] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-10 22:35:25.193] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:25.742] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:35:25.747] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:35:25.758] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:35:25.759] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:25.802] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:35:25.805] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:25.811] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:35:26.359] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:35:26.361] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:35:26.403] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:35:26.405] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:26.419] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:35:27.891] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-10 22:35:27.892] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:28.323] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:35:28.323] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:28.394] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-10 22:35:28.400] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:35:28.438] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4" and `lock` =0
+[2017-07-10 22:35:28.439] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:28.453] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 15
+[2017-07-10 22:35:28.838] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:35:28.840] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:35:28.875] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:35:28.876] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:35:28.887] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:37:37.234] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-10 22:37:37.236] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:37:37.600] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:37:37.604] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:37:37.655] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1" and `lock` =0
+[2017-07-10 22:37:37.656] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:37:37.669] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 12
+[2017-07-10 22:37:48.891] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-10 22:37:48.892] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:37:49.257] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:37:49.260] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:37:49.294] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2" and `lock` =0
+[2017-07-10 22:37:49.296] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:37:49.305] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 13
+[2017-07-10 22:41:17.851] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:41:17.854] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:41:17.855] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:41:17.858] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:41:17.876] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:45:34.157] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3" and `lock` =0
+[2017-07-10 22:45:34.158] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:45:34.174] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:45:34.175] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 14
+[2017-07-10 22:45:34.179] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:45:43.290] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-10 22:45:43.291] [DEBUG] hall - SELECT * FROM rooms WHERE id = "546489"
+[2017-07-10 22:45:43.722] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-10 22:45:43.724] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:45:43.764] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4" and `lock` =0
+[2017-07-10 22:45:43.767] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "546489"
+[2017-07-10 22:45:43.778] [DEBUG] hall - UPDATE users SET roomid = "546489" WHERE userid = 15
+[2017-07-10 22:50:38.432] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-10 22:50:38.439] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:50:39.442] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-10 22:50:39.444] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:50:45.093] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-10 22:50:45.095] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 22:50:46.727] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-10 22:50:46.729] [ERROR] hall - Error: ER_BAD_FIELD_ERROR: Unknown column 'disabled' in 'where clause'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:58:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-10 23:20:57.665] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000

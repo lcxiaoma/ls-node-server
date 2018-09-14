@@ -1,0 +1,16 @@
+[2017-07-14 09:37:48.211] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-14 09:37:48.211] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-14 09:37:48.414] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-14 09:37:49.242] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:38:12.397] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-14 23:38:12.407] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-14 23:38:12.546] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-14 23:38:13.426] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:27.462] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:31.561] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-14 23:58:31.569] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-14 23:58:31.676] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-14 23:58:50.945] [INFO] poker_taxas - POKER TAXAS DB READY.
+[2017-07-14 23:58:50.956] [INFO] poker_taxas - POKER TAXAS HTTP SERVICE RUNNING ON:127.0.0.1:10900
+[2017-07-14 23:58:51.157] [INFO] poker_taxas - POKER TAXAS SOCKET RUNNING ON: 11000
+[2017-07-14 23:58:51.977] [DEBUG] poker_taxas - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

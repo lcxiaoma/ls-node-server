@@ -1,0 +1,16 @@
+[2017-07-14 09:37:47.698] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-14 09:37:47.698] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-14 09:37:48.430] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-14 09:37:48.743] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:38:12.140] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-14 23:38:12.149] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-14 23:38:12.373] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-14 23:38:13.181] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:28.676] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-14 23:58:28.682] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-14 23:58:28.789] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-14 23:58:29.702] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:50.688] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-14 23:58:50.699] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-14 23:58:50.863] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-14 23:58:51.728] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

@@ -1,0 +1,5 @@
+[2017-07-06 09:53:57.298] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-06 09:53:57.314] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-06 09:53:57.798] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-06 09:53:58.345] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-06 16:02:56.802] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

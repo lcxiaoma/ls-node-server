@@ -1,0 +1,4 @@
+[2017-07-15 00:00:00.632] [DEBUG] hall - Route service try to load config.
+[2017-07-15 00:36:36.079] [WARN] hall - Try to get user info by account get None!!!
+[2017-07-15 00:36:37.059] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10000
+[2017-07-15 00:36:37.365] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"

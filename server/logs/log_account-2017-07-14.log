@@ -1,0 +1,122 @@
+[2017-07-14 09:37:47.651] [INFO] account - ACCOUNT DB READY.
+[2017-07-14 09:37:47.666] [INFO] account - ACCOUNT SERVER RUNNING ON: 9000
+[2017-07-14 09:37:47.666] [INFO] account - AGENT CHALLENGE READY FOR CLIENT.
+[2017-07-14 09:37:47.666] [INFO] account - AGENT API RUNING ON: 127.0.0.1:12581
+[2017-07-14 10:45:45.854] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:45:55.852] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:05.853] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:10.854] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:10.855] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:10.855] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:15.855] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:20.857] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:20.858] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:20.858] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:25.859] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:30.860] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:30.861] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:30.861] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:35.864] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:39.663] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:39.663] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:39.664] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:43.643] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:48.645] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:48.646] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:48.647] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:46:55.601] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:00.603] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:00.604] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:00.614] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:05.604] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:10.605] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:10.607] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:10.608] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:15.606] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:20.608] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:20.609] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:20.610] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:25.611] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:30.611] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:30.612] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:30.612] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:35.615] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:40.619] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:40.619] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:40.620] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:45.618] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:50.621] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:50.621] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:50.621] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:47:55.620] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:00.621] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:00.622] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:00.622] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:05.623] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:10.628] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:10.629] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:10.629] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:15.626] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:20.628] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:20.628] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:20.628] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:25.628] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:30.628] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:30.630] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:30.631] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:35.630] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:40.632] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:40.633] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:40.635] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:45.630] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:50.631] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:50.631] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:50.631] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:48:55.632] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:00.633] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:00.633] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:00.633] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:05.634] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:10.635] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:10.635] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:10.636] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:15.636] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:20.638] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:20.638] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:20.638] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:25.638] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:30.639] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:30.640] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:30.642] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:35.642] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:39.930] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:39.930] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:39.930] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:43.782] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:48.783] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:48.783] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:48.784] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:53.784] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:58.786] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:58.787] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:49:58.787] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:03.787] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:08.788] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:08.788] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:08.788] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:13.788] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:18.794] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:18.794] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 10:50:18.794] [WARN] account - get_serverinfo: error sign===> {}
+[2017-07-14 23:38:12.051] [INFO] account - ACCOUNT DB READY.
+[2017-07-14 23:38:12.066] [INFO] account - ACCOUNT SERVER RUNNING ON: 9000
+[2017-07-14 23:38:12.067] [INFO] account - AGENT CHALLENGE READY FOR CLIENT.
+[2017-07-14 23:38:12.069] [INFO] account - AGENT API RUNING ON: 127.0.0.1:12581
+[2017-07-14 23:58:27.165] [INFO] account - ACCOUNT DB READY.
+[2017-07-14 23:58:27.173] [INFO] account - ACCOUNT SERVER RUNNING ON: 9000
+[2017-07-14 23:58:27.173] [INFO] account - AGENT CHALLENGE READY FOR CLIENT.
+[2017-07-14 23:58:27.175] [INFO] account - AGENT API RUNING ON: 127.0.0.1:12581
+[2017-07-14 23:58:50.626] [INFO] account - ACCOUNT DB READY.
+[2017-07-14 23:58:50.639] [INFO] account - ACCOUNT SERVER RUNNING ON: 9000
+[2017-07-14 23:58:50.639] [INFO] account - AGENT CHALLENGE READY FOR CLIENT.
+[2017-07-14 23:58:50.643] [INFO] account - AGENT API RUNING ON: 127.0.0.1:12581

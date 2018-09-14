@@ -1,0 +1,8 @@
+http://127.0.0.1:12581/lock_user?user_id=10000&lock_status=0
+
+###
+http://127.0.0.1:12581/agent_status?user_id=10000&agent_status=1
+
+
+###
+

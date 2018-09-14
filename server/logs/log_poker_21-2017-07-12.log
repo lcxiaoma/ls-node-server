@@ -1,0 +1,30 @@
+[2017-07-12 09:39:58.283] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-12 09:39:58.290] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-12 09:39:58.797] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-12 09:39:59.323] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:48:03.721] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:22:34.101] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:24:58.192] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:27:48.277] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:31:41.400] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:43:49.782] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:23:01.998] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:32.056] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:26:15.653] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:31:30.334] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:32:21.352] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:35:37.464] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:36:32.998] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:36.627] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-12 16:37:36.637] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-12 16:37:36.773] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-12 16:37:37.667] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:41:48.035] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-12 16:41:48.052] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-12 16:41:48.170] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-12 16:41:49.074] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:43:09.117] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:02:55.332] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:04:45.429] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:11:17.147] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 18:39:25.734] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

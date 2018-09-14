@@ -1,0 +1,16 @@
+[2017-07-14 09:37:48.476] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-14 09:37:48.476] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-14 09:37:48.570] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-14 09:37:49.508] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:38:12.340] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-14 23:38:12.355] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-14 23:38:12.501] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-14 23:38:13.375] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:28.965] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:30.239] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-14 23:58:30.245] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-14 23:58:30.353] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-14 23:58:50.979] [INFO] poker_goldflower - POKER GOLDFLOWER DB READY.
+[2017-07-14 23:58:50.993] [INFO] poker_goldflower - POKER GOLDFLOWER HTTP SERVICE RUNNING ON:127.0.0.1:10700
+[2017-07-14 23:58:51.155] [INFO] poker_goldflower - POKER GOLD FLOWER SOCKET RUNNING ON:10800
+[2017-07-14 23:58:52.015] [DEBUG] poker_goldflower - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

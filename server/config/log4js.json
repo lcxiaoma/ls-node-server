@@ -1,0 +1,175 @@
+{
+    "appenders":
+        [
+            {
+                "type":"console"
+            },
+            {
+                "category":"account",
+                "type": "dateFile",
+                "filename": "./logs/log_account",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"hall",
+                "type": "dateFile",
+                "filename": "./logs/log_hall",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"sichuan_majiang",
+                "type": "dateFile",
+                "filename": "./logs/log_majiang",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"poker_running",
+                "type": "dateFile",
+                "filename": "./logs/log_poker_running",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"init",
+                "type": "dateFile",
+                "filename": "./logs/log_init",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"poker_landlord",
+                "type": "dateFile",
+                "filename": "./logs/log_poker_landlord",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"poker_ox",
+                "type": "dateFile",
+                "filename": "./logs/log_poker_ox",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"poker_goldflower",
+                "type": "dateFile",
+                "filename": "./logs/log_poker_goldflower",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },
+            {
+                "category":"poker_taxas",
+                "type": "dateFile",
+                "filename": "./logs/log_poker_taxas",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"poker_21",
+                "type": "dateFile",
+                "filename": "./logs/log_poker_21",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"pay",
+                "type": "dateFile",
+                "filename": "./logs/log_pay",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"log",
+                "type": "dateFile",
+                "filename": "./logs/log_log",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"http",
+                "type": "dateFile",
+                "filename": "./logs/log_http",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"shisanshui",
+                "type": "dateFile",
+                "filename": "./logs/log_shisanshui",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"sangong",
+                "type": "dateFile",
+                "filename": "./logs/log_sangong",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"sandaha",
+                "type": "dateFile",
+                "filename": "./logs/log_sandaha",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            },{
+                "category":"points10",
+                "type": "dateFile",
+                "filename": "./logs/log_points10",
+                "alwaysIncludePattern": true,
+                "pattern": "-yyyy-MM-dd.log",
+                "maxLogSize": 104800,
+                "backups": 100
+            }
+        ],
+    "replaceConsole": true,
+    "levels":
+    {
+        "console":"ALL",
+        "account":"ALL",
+        "hall":"ALL",
+        "sichuan_majiang":"ALL",
+        "poker_running":"ALL",
+        "poker_landlord":"ALL",
+        "poker_ox":"ALL",
+        "poker_goldflower":"ALL",
+        "poker_taxas":"ALL",
+        "poker_21":"ALL",
+        "shisanshui":"ALL",
+        "sangong":"ALL",
+        "sandaha":"ALL",
+        "points10":"ALL",
+        "pay":"ALL",
+        "log":"ALL",
+        "http":"ALL",
+        "init":"ALL"
+    }
+}

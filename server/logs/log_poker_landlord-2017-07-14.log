@@ -1,0 +1,16 @@
+[2017-07-14 09:37:48.446] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-14 09:37:48.446] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-14 09:37:48.555] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-14 09:37:49.477] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:38:12.210] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-14 23:38:12.220] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-14 23:38:12.398] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-14 23:38:13.244] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:27.907] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:28.735] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-14 23:58:28.742] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-14 23:58:28.848] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-14 23:58:50.746] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-14 23:58:50.758] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-14 23:58:50.924] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-14 23:58:51.778] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

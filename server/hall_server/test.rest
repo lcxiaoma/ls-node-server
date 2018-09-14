@@ -1,0 +1,62 @@
+### 转盘状态
+http://192.168.0.152:9001/route_state?account=guest_aaa1&sign=xxx
+
+### 转转盘
+http://192.168.0.152:9001/do_route?account=guest_aaa1&sign=xxx
+
+### 用钱转转盘
+http://192.168.0.152:9001/pay_route?account=guest_aaa1&sign=xxx
+
+### 登录
+http://192.168.0.152:9001/login?account=guest_aaa1&sign=xxx
+
+### 转盘日志
+http://192.168.0.152:9001/route_log?account=guest_aaa1&sign=xxx
+
+### 分享
+http://192.168.0.152:9001/daily_share?account=guest_aaa1&sign=xxx
+
+### 通告消息
+http://192.168.0.152:9001/get_message?account=guest_aaa1&page=0&sign=xxx
+
+### 创建订单
+
+http://192.168.0.152:9001/pay_order?account=guest_aaa1&good_sn=10001&good_count=1&pay_platform=win32
+
+### 支付成功
+http://127.0.0.1:8888/pay_success?account=guest_aaa1&pay_id=1498618729100011000024191&order_id=11000000001&good_sn=10001&pay_platform=win32
+
+### 获取玩家扩展信息
+http://192.168.0.152:9001/get_user_extro_info?account=guest_aaa1&sign=xxx
+
+### 邀请码状态
+http://192.168.0.152:9001/invitation_state?account=guest_aaa1&sign=xxx
+
+### 设置个人邀请码
+http://192.168.0.152:9001/invitation_code?account=guest_aaa1&invitation=10001&sign=xxx
+### 设置平台邀请码
+http://192.168.0.152:9001/invitation_code?account=guest_aaa1&invitation=ABCDEFG&sign=xxx
+
+### 邮件信息
+http://192.168.0.152:9001/user_mail?account=guest_aaa1&page=0&sign=xxx
+
+### 操作邮件 
+http://192.168.0.152:9001/user_operate_mail?account=guest_aaa1&operate_code=1&mail_id=6&sign=xx
+
+### 获取签名
+http://39.108.129.174:9001/web_wechat_signature?account=guest_aaa1&url=http://home.com/&channel=wechat_default&sign=xx
+
+### 查看其它玩家信息
+http://192.168.0.152:9001/other_user_info?account=guest_aaa1&target=10001&sign=xxx
+
+### 大厅登录消息修改
+http://192.168.0.152:9001/login?account=guest_aaa1&sign=xx
+
+### 代开房间
+http://192.168.0.142:9001/create_agent_room?account=guest_qq8&conf=1111&sign=xx
+
+### 查询代开房间
+http://192.168.0.142:9001/get_agent_room?account=guest_qq8&sign=xx
+
+### 删除代开房间
+http://192.168.0.142:9001/delete_agent_room?account=guest_qq8&roomid=309936&sign=xx

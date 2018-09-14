@@ -1,0 +1,631 @@
+[2017-07-13 09:53:50.789] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-13 09:53:50.795] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-13 09:53:51.285] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-13 09:53:51.837] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:38:40.773] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:39:57.310] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:57:25.443] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 14:58:53.991] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:03:25.640] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:06:41.213] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:08:51.747] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:11:51.839] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:12:57.852] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:24:49.107] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:29:24.252] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:34:03.376] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:53:33.772] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 15:54:50.827] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:14.338] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-13 16:00:14.390] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-13 16:00:14.594] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-13 16:00:15.411] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:00:29.421] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:07:25.580] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:08:43.612] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:09:50.640] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:11:20.693] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:16.434] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-13 16:15:16.440] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-13 16:15:16.669] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-13 16:15:17.469] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:15:35.468] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:23.303] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-07-13 16:20:23.312] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-07-13 16:20:23.524] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-07-13 16:20:24.333] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:20:36.347] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:21:49.477] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:21:49.584] [DEBUG] poker_landlord - Socket[login][{"token":"3b1ff39374b97774197aebed21f3fcb3","roomid":"751512","time":1499934109527,"sign":"4b5bc51eea14b2d0c8211cbaca7aa8a2"}]
+[2017-07-13 16:21:49.585] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"score":0,"name":"上官不输","online":false,"ready":true,"seatindex":1},{"userid":14,"score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:21:49.586] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:21:49.586] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:21:49.586] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:21:49.587] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:21:49.587] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:22:08.570] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:22:08.570] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:22:08.570] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:22:08.570] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:22:15.815] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:22:15.963] [DEBUG] poker_landlord - Socket[login][{"token":"0a9255d254a681c4ef7b587bd146e523","roomid":"751512","time":1499934135821,"sign":"0f69fa09c3806ffcc4467618b6f6f664"}]
+[2017-07-13 16:22:15.963] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"score":0,"name":"上官不输","online":false,"ready":true,"seatindex":1},{"userid":14,"score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:22:15.963] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:22:15.965] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:22:15.965] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:22:15.965] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:22:15.965] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:22:42.248] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:22:42.249] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:22:42.249] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:22:42.249] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:23:02.579] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:23:02.712] [DEBUG] poker_landlord - Socket[login][{"token":"07b7e3f3ef0631082745e00d9e735ce2","roomid":"751512","time":1499934182585,"sign":"9b90bb3fbd82ed5760c2fcf92be7374e"}]
+[2017-07-13 16:23:02.712] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"score":0,"name":"上官不输","online":false,"ready":true,"seatindex":1},{"userid":14,"score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:23:02.712] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:23:02.712] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:23:02.712] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:23:02.713] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:23:02.713] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:23:19.418] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:23:34.661] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:23:34.662] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:23:34.662] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:23:34.662] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:23:42.327] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:23:42.467] [DEBUG] poker_landlord - Socket[login][{"token":"84677f48ca85ca1f09ee4fb7b9f32480","roomid":"751512","time":1499934222336,"sign":"863701237f939172c0ca45aea496a64f"}]
+[2017-07-13 16:23:42.467] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"score":0,"name":"上官不输","online":false,"ready":true,"seatindex":1},{"userid":14,"score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:23:42.467] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:23:42.467] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:23:42.468] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:23:42.468] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:23:42.468] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:24:02.524] [DEBUG] poker_landlord - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"115","gold":"586","roomid":"751512","sign":"48c032e891ca411b"}]
+[2017-07-13 16:24:02.629] [DEBUG] poker_landlord - Socket[login][{"token":"9d2cbb68768c77182f335bb0645a94ac","roomid":"751512","time":1499934242529,"sign":"c53b84f5eb21bdd112f0c97e84013210"}]
+[2017-07-13 16:24:02.629] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":true,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":true,"seatindex":1},{"userid":14,"score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:24:02.629] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":true,"seatindex":1}],sender[13]
+[2017-07-13 16:24:02.630] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:24:02.630] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[1]
+[2017-07-13 16:24:02.630] [DEBUG] poker_landlord - user[13],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[30,34,46,11,1,14,28,23,22,42,4,37,29,16],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:24:02.630] [DEBUG] poker_landlord - user[13],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:24:05.090] [DEBUG] poker_landlord - Http[enter_room][{"userid":"14","name":"诸葛稳赢","ingot":"106","gold":"592","roomid":"751512","sign":"6821e6d9ca6a8fd3"}]
+[2017-07-13 16:24:05.199] [DEBUG] poker_landlord - Socket[login][{"token":"4aa553e05967f1b62d2d10f9285cc917","roomid":"751512","time":1499934245097,"sign":"762e591ff95d9d8495515fac2d7d6d04"}]
+[2017-07-13 16:24:05.200] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":true,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":true,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:24:05.200] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":2}],sender[14]
+[2017-07-13 16:24:05.200] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:24:05.201] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[1]
+[2017-07-13 16:24:05.201] [DEBUG] poker_landlord - user[14],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":2,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[20],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[0,2],[48,49],[3]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[8,43,19,15,13,51,26,44,40,52,45,39,17,9,21],\"folds\":[[32,33],[]]}]}"
+[2017-07-13 16:24:05.201] [DEBUG] poker_landlord - user[14],event = turn_push,data = {"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[20]}
+[2017-07-13 16:24:13.875] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[26]}]
+[2017-07-13 16:24:13.875] [DEBUG] poker_landlord - game base manager call out card. [ 26 ]
+[2017-07-13 16:24:13.876] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:13.878] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26]]}
+[2017-07-13 16:24:13.878] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26]]}
+[2017-07-13 16:24:13.878] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[8,43,19,15,13,51,44,40,52,45,39,17,9,21],"folds":[[32,33],[],[26]]}
+[2017-07-13 16:24:13.878] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:13.878] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[26],"rate":1}],sender[14]
+[2017-07-13 16:24:13.879] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[1]
+[2017-07-13 16:24:13.879] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,36,47,38,31,27,50,18,35,12,41,53,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,52,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3]],[[24,25],[],[20]],[[32,33],[],[26]]],"actions":[[2,2,1],[2,0,1],[2,0,1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[26],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:13.880] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[26]}],sender[14]
+[2017-07-13 16:24:19.880] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[36]}]
+[2017-07-13 16:24:19.880] [DEBUG] poker_landlord - game base manager call out card. [ 36 ]
+[2017-07-13 16:24:19.880] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:19.880] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[6,5,47,38,31,27,50,18,35,12,41,53,7,10],"folds":[[0,2],[48,49],[3],[36]]}
+[2017-07-13 16:24:19.880] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36]]}
+[2017-07-13 16:24:19.881] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36]]}
+[2017-07-13 16:24:19.881] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:19.881] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[36],"rate":1}],sender[12]
+[2017-07-13 16:24:19.881] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:24:19.881] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,47,38,31,27,50,18,35,12,41,53,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,52,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36]],[[24,25],[],[20]],[[32,33],[],[26]]],"actions":[[2,2,1,1],[2,0,1],[2,0,1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[36],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:19.882] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[36]}],sender[12]
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:24:29.001] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,47,38,31,27,50,18,35,12,41,53,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,52,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36]],[[24,25],[],[20],[]],[[32,33],[],[26]]],"actions":[[2,2,1,1],[2,0,1,0],[2,0,1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[36],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:29.002] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[36]}],sender[13]
+[2017-07-13 16:24:32.106] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[52]}]
+[2017-07-13 16:24:32.106] [DEBUG] poker_landlord - game base manager call out card. [ 52 ]
+[2017-07-13 16:24:32.106] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:32.107] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52]]}
+[2017-07-13 16:24:32.107] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52]]}
+[2017-07-13 16:24:32.107] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[8,43,19,15,13,51,44,40,45,39,17,9,21],"folds":[[32,33],[],[26],[52]]}
+[2017-07-13 16:24:32.107] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:32.107] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[52],"rate":1}],sender[14]
+[2017-07-13 16:24:32.107] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:24:32.108] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,47,38,31,27,50,18,35,12,41,53,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36]],[[24,25],[],[20],[]],[[32,33],[],[26],[52]]],"actions":[[2,2,1,1],[2,0,1,0],[2,0,1,1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[52],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:32.108] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[52]}],sender[14]
+[2017-07-13 16:24:38.191] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[53]}]
+[2017-07-13 16:24:38.191] [DEBUG] poker_landlord - game base manager call out card. [ 53 ]
+[2017-07-13 16:24:38.191] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:38.191] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[6,5,47,38,31,27,50,18,35,12,41,7,10],"folds":[[0,2],[48,49],[3],[36],[53]]}
+[2017-07-13 16:24:38.192] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53]]}
+[2017-07-13 16:24:38.192] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53]]}
+[2017-07-13 16:24:38.192] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:38.195] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[53],"rate":1}],sender[12]
+[2017-07-13 16:24:38.195] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:24:38.195] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,47,38,31,27,50,18,35,12,41,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53]],[[24,25],[],[20],[]],[[32,33],[],[26],[52]]],"actions":[[2,2,1,1,1],[2,0,1,0],[2,0,1,1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[53],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:38.195] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[53]}],sender[12]
+[2017-07-13 16:24:40.279] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:24:40.280] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:24:40.280] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:40.280] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:40.280] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:24:40.281] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:24:40.281] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,47,38,31,27,50,18,35,12,41,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53]],[[24,25],[],[20],[],[]],[[32,33],[],[26],[52]]],"actions":[[2,2,1,1,1],[2,0,1,0,0],[2,0,1,1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[53],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:40.281] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[53]}],sender[13]
+[2017-07-13 16:24:42.621] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:24:42.621] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:24:42.621] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:42.624] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:42.624] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[14]
+[2017-07-13 16:24:42.624] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:24:42.624] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[6,5,47,38,31,27,50,18,35,12,41,7,10],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53]],[[24,25],[],[20],[],[]],[[32,33],[],[26],[52],[]]],"actions":[[2,2,1,1,1],[2,0,1,0,0],[2,0,1,1,0]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:42.624] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":0,"now_card_type":0,"now_card_data":[]}],sender[14]
+[2017-07-13 16:24:47.584] [DEBUG] poker_landlord - Socket[out_card][{"card_type":10,"cards_data":[5,6,7,10]}]
+[2017-07-13 16:24:47.584] [DEBUG] poker_landlord - game base manager call out card. [ 5, 6, 7, 10 ]
+[2017-07-13 16:24:47.584] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[47,38,31,27,50,18,35,12,41],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10]]}
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10]]}
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10]]}
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":10,"out_cards_data":[5,6,7,10],"rate":1}],sender[12]
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[0]
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,50,18,35,12,41],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10]],[[24,25],[],[20],[],[]],[[32,33],[],[26],[52],[]]],"actions":[[2,2,1,1,1,10],[2,0,1,0,0],[2,0,1,1,0]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":10,"now_card_data":[5,6,7,10],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:47.585] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":10,"now_card_data":[5,6,7,10]}],sender[12]
+[2017-07-13 16:24:50.645] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:24:50.645] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:24:50.645] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:50.645] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:50.645] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:24:50.646] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:24:50.646] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,50,18,35,12,41],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10]],[[24,25],[],[20],[],[],[]],[[32,33],[],[26],[52],[]]],"actions":[[2,2,1,1,1,10],[2,0,1,0,0,0],[2,0,1,1,0]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":10,"now_card_data":[5,6,7,10],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:50.646] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":10,"now_card_data":[5,6,7,10]}],sender[13]
+[2017-07-13 16:24:51.781] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:24:51.781] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:24:51.781] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:24:51.781] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:24:51.781] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[14]
+[2017-07-13 16:24:51.782] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:24:51.782] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,50,18,35,12,41],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10]],[[24,25],[],[20],[],[],[]],[[32,33],[],[26],[52],[],[]]],"actions":[[2,2,1,1,1,10],[2,0,1,0,0,0],[2,0,1,1,0,0]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:24:51.782] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":0,"now_card_type":0,"now_card_data":[]}],sender[14]
+[2017-07-13 16:25:04.057] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[12]}]
+[2017-07-13 16:25:04.057] [DEBUG] poker_landlord - game base manager call out card. [ 12 ]
+[2017-07-13 16:25:04.057] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:04.057] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[47,38,31,27,50,18,35,41],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12]]}
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12]]}
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12]]}
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[12],"rate":1}],sender[12]
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[0]
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,50,18,35,41],[30,34,46,11,1,14,28,23,22,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12]],[[24,25],[],[20],[],[],[]],[[32,33],[],[26],[52],[],[]]],"actions":[[2,2,1,1,1,10,1],[2,0,1,0,0,0],[2,0,1,1,0,0]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[12],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:04.058] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[12]}],sender[12]
+[2017-07-13 16:25:06.580] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[22]}]
+[2017-07-13 16:25:06.580] [DEBUG] poker_landlord - game base manager call out card. [ 22 ]
+[2017-07-13 16:25:06.580] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:06.580] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[24,25],[],[20],[],[],[],[22]]}
+[2017-07-13 16:25:06.582] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":13,"holds":[30,34,46,11,1,14,28,23,42,4,37,29,16],"folds":[[24,25],[],[20],[],[],[],[22]]}
+[2017-07-13 16:25:06.583] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[24,25],[],[20],[],[],[],[22]]}
+[2017-07-13 16:25:06.583] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:06.583] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":1,"out_cards_data":[22],"rate":1}],sender[13]
+[2017-07-13 16:25:06.584] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:25:06.584] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,50,18,35,41],[30,34,46,11,1,14,28,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,39,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12]],[[24,25],[],[20],[],[],[],[22]],[[32,33],[],[26],[52],[],[]]],"actions":[[2,2,1,1,1,10,1],[2,0,1,0,0,0,1],[2,0,1,1,0,0]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":1,"now_card_type":1,"now_card_data":[22],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:06.584] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":1,"now_card_type":1,"now_card_data":[22]}],sender[13]
+[2017-07-13 16:25:08.160] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[39]}]
+[2017-07-13 16:25:08.160] [DEBUG] poker_landlord - game base manager call out card. [ 39 ]
+[2017-07-13 16:25:08.160] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39]]}
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39]]}
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[8,43,19,15,13,51,44,40,45,17,9,21],"folds":[[32,33],[],[26],[52],[],[],[39]]}
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[39],"rate":1}],sender[14]
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[1]
+[2017-07-13 16:25:08.161] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,50,18,35,41],[30,34,46,11,1,14,28,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12]],[[24,25],[],[20],[],[],[],[22]],[[32,33],[],[26],[52],[],[],[39]]],"actions":[[2,2,1,1,1,10,1],[2,0,1,0,0,0,1],[2,0,1,1,0,0,1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[39],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:08.162] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[39]}],sender[14]
+[2017-07-13 16:25:14.426] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[50]}]
+[2017-07-13 16:25:14.426] [DEBUG] poker_landlord - game base manager call out card. [ 50 ]
+[2017-07-13 16:25:14.426] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:14.426] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[47,38,31,27,18,35,41],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50]]}
+[2017-07-13 16:25:14.427] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50]]}
+[2017-07-13 16:25:14.427] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50]]}
+[2017-07-13 16:25:14.427] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:14.427] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[50],"rate":1}],sender[12]
+[2017-07-13 16:25:14.427] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:25:14.427] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,18,35,41],[30,34,46,11,1,14,28,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50]],[[24,25],[],[20],[],[],[],[22]],[[32,33],[],[26],[52],[],[],[39]]],"actions":[[2,2,1,1,1,10,1,1],[2,0,1,0,0,0,1],[2,0,1,1,0,0,1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[50],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:14.428] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[50]}],sender[12]
+[2017-07-13 16:25:16.029] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:25:16.029] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:25:16.029] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:16.029] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:16.029] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:25:16.030] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:25:16.030] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,18,35,41],[30,34,46,11,1,14,28,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50]],[[24,25],[],[20],[],[],[],[22],[]],[[32,33],[],[26],[52],[],[],[39]]],"actions":[[2,2,1,1,1,10,1,1],[2,0,1,0,0,0,1,0],[2,0,1,1,0,0,1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[50],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:16.030] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[50]}],sender[13]
+[2017-07-13 16:25:18.671] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:25:18.672] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:25:18.672] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:18.672] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:18.672] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[14]
+[2017-07-13 16:25:18.673] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:25:18.673] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,18,35,41],[30,34,46,11,1,14,28,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50]],[[24,25],[],[20],[],[],[],[22],[]],[[32,33],[],[26],[52],[],[],[39],[]]],"actions":[[2,2,1,1,1,10,1,1],[2,0,1,0,0,0,1,0],[2,0,1,1,0,0,1,0]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:18.673] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":0,"now_card_type":0,"now_card_data":[]}],sender[14]
+[2017-07-13 16:25:31.284] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[18]}]
+[2017-07-13 16:25:31.284] [DEBUG] poker_landlord - game base manager call out card. [ 18 ]
+[2017-07-13 16:25:31.284] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:31.284] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[47,38,31,27,35,41],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18]]}
+[2017-07-13 16:25:31.285] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18]]}
+[2017-07-13 16:25:31.285] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18]]}
+[2017-07-13 16:25:31.285] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:31.285] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[18],"rate":1}],sender[12]
+[2017-07-13 16:25:31.285] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[0]
+[2017-07-13 16:25:31.285] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,35,41],[30,34,46,11,1,14,28,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18]],[[24,25],[],[20],[],[],[],[22],[]],[[32,33],[],[26],[52],[],[],[39],[]]],"actions":[[2,2,1,1,1,10,1,1,1],[2,0,1,0,0,0,1,0],[2,0,1,1,0,0,1,0]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[18],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:31.286] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[18]}],sender[12]
+[2017-07-13 16:25:34.255] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[28]}]
+[2017-07-13 16:25:34.255] [DEBUG] poker_landlord - game base manager call out card. [ 28 ]
+[2017-07-13 16:25:34.255] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:34.255] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[24,25],[],[20],[],[],[],[22],[],[28]]}
+[2017-07-13 16:25:34.255] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":13,"holds":[30,34,46,11,1,14,23,42,4,37,29,16],"folds":[[24,25],[],[20],[],[],[],[22],[],[28]]}
+[2017-07-13 16:25:34.256] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[24,25],[],[20],[],[],[],[22],[],[28]]}
+[2017-07-13 16:25:34.256] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:34.256] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":1,"out_cards_data":[28],"rate":1}],sender[13]
+[2017-07-13 16:25:34.256] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:25:34.256] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,35,41],[30,34,46,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,40,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18]],[[24,25],[],[20],[],[],[],[22],[],[28]],[[32,33],[],[26],[52],[],[],[39],[]]],"actions":[[2,2,1,1,1,10,1,1,1],[2,0,1,0,0,0,1,0,1],[2,0,1,1,0,0,1,0]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":1,"now_card_type":1,"now_card_data":[28],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:34.256] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":1,"now_card_type":1,"now_card_data":[28]}],sender[13]
+[2017-07-13 16:25:43.629] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[40]}]
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - game base manager call out card. [ 40 ]
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40]]}
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40]]}
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[8,43,19,15,13,51,44,45,17,9,21],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40]]}
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[40],"rate":1}],sender[14]
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[1]
+[2017-07-13 16:25:43.630] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[47,38,31,27,35,41],[30,34,46,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18]],[[24,25],[],[20],[],[],[],[22],[],[28]],[[32,33],[],[26],[52],[],[],[39],[],[40]]],"actions":[[2,2,1,1,1,10,1,1,1],[2,0,1,0,0,0,1,0,1],[2,0,1,1,0,0,1,0,1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[40],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:43.631] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[40]}],sender[14]
+[2017-07-13 16:25:44.840] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[47]}]
+[2017-07-13 16:25:44.840] [DEBUG] poker_landlord - game base manager call out card. [ 47 ]
+[2017-07-13 16:25:44.840] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[38,31,27,35,41],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47]]}
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47]]}
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47]]}
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[47],"rate":1}],sender[12]
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:25:44.841] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,27,35,41],[30,34,46,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47]],[[24,25],[],[20],[],[],[],[22],[],[28]],[[32,33],[],[26],[52],[],[],[39],[],[40]]],"actions":[[2,2,1,1,1,10,1,1,1,1],[2,0,1,0,0,0,1,0,1],[2,0,1,1,0,0,1,0,1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[47],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:44.842] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[47]}],sender[12]
+[2017-07-13 16:25:48.264] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:25:48.264] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:25:48.264] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:48.264] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:48.264] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:25:48.265] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:25:48.265] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,27,35,41],[30,34,46,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47]],[[24,25],[],[20],[],[],[],[22],[],[28],[]],[[32,33],[],[26],[52],[],[],[39],[],[40]]],"actions":[[2,2,1,1,1,10,1,1,1,1],[2,0,1,0,0,0,1,0,1,0],[2,0,1,1,0,0,1,0,1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[47],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:48.265] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[47]}],sender[13]
+[2017-07-13 16:25:49.471] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:25:49.471] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:25:49.471] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:49.471] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:49.471] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[14]
+[2017-07-13 16:25:49.472] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:25:49.472] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,27,35,41],[30,34,46,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47]],[[24,25],[],[20],[],[],[],[22],[],[28],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[]]],"actions":[[2,2,1,1,1,10,1,1,1,1],[2,0,1,0,0,0,1,0,1,0],[2,0,1,1,0,0,1,0,1,0]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:49.472] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":0,"now_card_type":0,"now_card_data":[]}],sender[14]
+[2017-07-13 16:25:52.665] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[27]}]
+[2017-07-13 16:25:52.665] [DEBUG] poker_landlord - game base manager call out card. [ 27 ]
+[2017-07-13 16:25:52.665] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:52.665] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[38,31,35,41],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27]]}
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27]]}
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27]]}
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[27],"rate":1}],sender[12]
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[0]
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35,41],[30,34,46,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27]],[[24,25],[],[20],[],[],[],[22],[],[28],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1],[2,0,1,0,0,0,1,0,1,0],[2,0,1,1,0,0,1,0,1,0]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[27],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:52.666] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[27]}],sender[12]
+[2017-07-13 16:25:57.240] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[46]}]
+[2017-07-13 16:25:57.240] [DEBUG] poker_landlord - game base manager call out card. [ 46 ]
+[2017-07-13 16:25:57.240] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:57.240] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0],"folds":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46]]}
+[2017-07-13 16:25:57.241] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":13,"holds":[30,34,11,1,14,23,42,4,37,29,16],"folds":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46]]}
+[2017-07-13 16:25:57.241] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0],"folds":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46]]}
+[2017-07-13 16:25:57.241] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:57.241] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":1,"out_cards_data":[46],"rate":1}],sender[13]
+[2017-07-13 16:25:57.241] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:25:57.242] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35,41],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,51,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46]],[[32,33],[],[26],[52],[],[],[39],[],[40],[]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1],[2,0,1,0,0,0,1,0,1,0,1],[2,0,1,1,0,0,1,0,1,0]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":1,"now_card_type":1,"now_card_data":[46],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:57.242] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":1,"now_card_type":1,"now_card_data":[46]}],sender[13]
+[2017-07-13 16:25:59.606] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[51]}]
+[2017-07-13 16:25:59.606] [DEBUG] poker_landlord - game base manager call out card. [ 51 ]
+[2017-07-13 16:25:59.606] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:25:59.607] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51]]}
+[2017-07-13 16:25:59.607] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51]]}
+[2017-07-13 16:25:59.608] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[8,43,19,15,13,44,45,17,9,21],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51]]}
+[2017-07-13 16:25:59.609] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:25:59.609] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[51],"rate":1}],sender[14]
+[2017-07-13 16:25:59.609] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[1]
+[2017-07-13 16:25:59.609] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35,41],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1],[2,0,1,0,0,0,1,0,1,0,1],[2,0,1,1,0,0,1,0,1,0,1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[51],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:25:59.609] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[51]}],sender[14]
+[2017-07-13 16:26:02.254] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:26:02.254] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:26:02.254] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:02.254] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:02.254] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[12]
+[2017-07-13 16:26:02.255] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:26:02.255] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35,41],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0],[2,0,1,0,0,0,1,0,1,0,1],[2,0,1,1,0,0,1,0,1,0,1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[51],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:02.255] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[51]}],sender[12]
+[2017-07-13 16:26:09.203] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:26:09.203] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:26:09.203] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:09.203] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:09.203] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:26:09.204] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[2]
+[2017-07-13 16:26:09.204] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35,41],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9,21]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0],[2,0,1,0,0,0,1,0,1,0,1,0],[2,0,1,1,0,0,1,0,1,0,1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:09.204] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":2,"now_card_type":0,"now_card_data":[]}],sender[13]
+[2017-07-13 16:26:21.946] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[21]}]
+[2017-07-13 16:26:21.946] [DEBUG] poker_landlord - game base manager call out card. [ 21 ]
+[2017-07-13 16:26:21.946] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:21.946] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21]]}
+[2017-07-13 16:26:21.947] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21]]}
+[2017-07-13 16:26:21.947] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[8,43,19,15,13,44,45,17,9],"folds":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21]]}
+[2017-07-13 16:26:21.947] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:21.947] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[21],"rate":1}],sender[14]
+[2017-07-13 16:26:21.947] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[2]
+[2017-07-13 16:26:21.947] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35,41],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0],[2,0,1,0,0,0,1,0,1,0,1,0],[2,0,1,1,0,0,1,0,1,0,1,1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[21],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:21.948] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[21]}],sender[14]
+[2017-07-13 16:26:23.522] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[41]}]
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - game base manager call out card. [ 41 ]
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[38,31,35],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41]]}
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41]]}
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41]]}
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:23.523] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[41],"rate":1}],sender[12]
+[2017-07-13 16:26:23.524] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:26:23.524] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0,1],[2,0,1,0,0,0,1,0,1,0,1,0],[2,0,1,1,0,0,1,0,1,0,1,1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[41],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:23.524] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[41]}],sender[12]
+[2017-07-13 16:26:27.629] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[42]}]
+[2017-07-13 16:26:27.629] [DEBUG] poker_landlord - game base manager call out card. [ 42 ]
+[2017-07-13 16:26:27.630] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:27.630] [WARN] poker_landlord - check type filed -------------------------->>>>>
+[2017-07-13 16:26:27.630] [DEBUG] poker_landlord - check can out code = 5004
+[2017-07-13 16:26:27.630] [DEBUG] poker_landlord - user[13],event = out_card_push,data = {"error_code":5004,"out_user":13,"out_card_type":1,"out_cards_data":[42],"rate":1}
+[2017-07-13 16:26:29.048] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[29]}]
+[2017-07-13 16:26:29.048] [DEBUG] poker_landlord - game base manager call out card. [ 29 ]
+[2017-07-13 16:26:29.048] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:29.048] [WARN] poker_landlord - check type filed -------------------------->>>>>
+[2017-07-13 16:26:29.049] [DEBUG] poker_landlord - check can out code = 5004
+[2017-07-13 16:26:29.049] [DEBUG] poker_landlord - user[13],event = out_card_push,data = {"error_code":5004,"out_user":13,"out_card_type":1,"out_cards_data":[29],"rate":1}
+[2017-07-13 16:26:31.286] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:26:31.286] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:26:31.286] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:31.286] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:31.286] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:26:31.287] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:26:31.287] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0,1],[2,0,1,0,0,0,1,0,1,0,1,0,0],[2,0,1,1,0,0,1,0,1,0,1,1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[41],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:31.287] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[41]}],sender[13]
+[2017-07-13 16:26:38.674] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:26:38.674] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:26:38.674] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:38.675] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:38.675] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[14]
+[2017-07-13 16:26:38.675] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:26:38.675] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,31,35],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0,1],[2,0,1,0,0,0,1,0,1,0,1,0,0],[2,0,1,1,0,0,1,0,1,0,1,1,0]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:38.675] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":0,"now_card_type":0,"now_card_data":[]}],sender[14]
+[2017-07-13 16:26:40.914] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[31]}]
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - game base manager call out card. [ 31 ]
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[38,35],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]}
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]}
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0],"folds":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]}
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[31],"rate":1}],sender[12]
+[2017-07-13 16:26:40.915] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[0]
+[2017-07-13 16:26:40.916] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499855649016751512","game_index":1,"holds":[[38,35],[30,34,11,1,14,23,42,4,37,29,16],[8,43,19,15,13,44,45,17,9]],"folds":[[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]],[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]],[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]],"actions":[[2,2,1,1,1,10,1,1,1,1,1,0,1,1],[2,0,1,0,0,0,1,0,1,0,1,0,0],[2,0,1,1,0,0,1,0,1,0,1,1,0]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[31],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[7,10,3],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:26:40.916] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}],sender[12]
+[2017-07-13 16:27:07.090] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":14,"online":false}],sender[14]
+[2017-07-13 16:27:07.090] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[0]
+[2017-07-13 16:27:07.090] [DEBUG] poker_landlord - user[14],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[0,0],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[8,43,19,15,13,44,45,17,9],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:27:07.090] [DEBUG] poker_landlord - user[14],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:27:07.167] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:27:07.168] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:27:07.168] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[38,35],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:27:07.168] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:27:07.509] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-13 16:27:07.509] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[0]
+[2017-07-13 16:27:07.509] [DEBUG] poker_landlord - user[13],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[0,0],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[30,34,11,1,14,23,42,4,37,29,16],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:27:07.510] [DEBUG] poker_landlord - user[13],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:27:19.983] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:27:20.098] [DEBUG] poker_landlord - Socket[login][{"token":"78d81440019d91875010041330b82659","roomid":"751512","time":1499934439994,"sign":"d506a9045c5f00688ba026c0e337d82b"}]
+[2017-07-13 16:27:20.098] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":false,"ready":false,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:27:20.098] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:27:20.098] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:27:20.098] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:27:20.098] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[38,35],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:27:20.099] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:27:43.559] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:28:13.190] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:28:13.191] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:28:13.191] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[38,35],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:28:13.191] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:28:24.729] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - Socket[login][{"token":"3d676f44afa2ba03c19e9ca46af0f71b","roomid":"751512","time":1499934504735,"sign":"a53ed082c88b468f73e989b307256e1e"}]
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":false,"ready":false,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[38,35],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:28:24.870] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:29:32.118] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:30:37.423] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:30:37.423] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:30:37.423] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[38,35],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:30:37.423] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:30:48.544] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"751512","sign":"21389c5781aba7f4"}]
+[2017-07-13 16:30:48.646] [DEBUG] poker_landlord - Socket[login][{"token":"bb637e690bb382ab0bd0ff4fd782cf86","roomid":"751512","time":1499934648552,"sign":"7055348fe2c875f75c886047a365b0b3"}]
+[2017-07-13 16:30:48.646] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":false,"ready":false,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:30:48.647] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:30:48.647] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:30:48.647] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:30:48.647] [DEBUG] poker_landlord - user[12],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[38,35],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:30:48.647] [DEBUG] poker_landlord - user[12],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:30:51.484] [DEBUG] poker_landlord - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"115","gold":"586","roomid":"751512","sign":"48c032e891ca411b"}]
+[2017-07-13 16:30:51.598] [DEBUG] poker_landlord - Socket[login][{"token":"7e02531ee18807f70e3300205960a347","roomid":"751512","time":1499934651490,"sign":"7f9c8fa39c26db9fc414cb0c0a63543c"}]
+[2017-07-13 16:30:51.599] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":true,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":false,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:30:51.599] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}],sender[13]
+[2017-07-13 16:30:51.599] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:30:51.599] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[1]
+[2017-07-13 16:30:51.599] [DEBUG] poker_landlord - user[13],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[0,0],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[30,34,11,1,14,23,42,4,37,29,16],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[0,0,0,0,0,0,0,0,0],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:30:51.599] [DEBUG] poker_landlord - user[13],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:30:54.162] [DEBUG] poker_landlord - Http[enter_room][{"userid":"14","name":"诸葛稳赢","ingot":"106","gold":"592","roomid":"751512","sign":"6821e6d9ca6a8fd3"}]
+[2017-07-13 16:30:54.269] [DEBUG] poker_landlord - Socket[login][{"token":"82535aedc212a4092b954e41bfa7e166","roomid":"751512","time":1499934654168,"sign":"1e9ac28ff9b9a4a680fc4bc6848d2ab7"}]
+[2017-07-13 16:30:54.269] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"751512","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":1,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":true,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":true,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:30:54.270] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":2}],sender[14]
+[2017-07-13 16:30:54.270] [DEBUG] poker_landlord - login check  game state ==2
+[2017-07-13 16:30:54.270] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[1]
+[2017-07-13 16:30:54.270] [DEBUG] poker_landlord - user[14],event = game_sync_push,data = "{\"state\":2,\"num_of_pokers\":3,\"button\":0,\"turn\":1,\"base_score\":3,\"now_card_type\":1,\"now_card_data\":[31],\"rate\":1,\"landlord_card\":[7,10,3],\"seats\":[{\"user_id\":12,\"seat_index\":0,\"holds\":[0,0],\"folds\":[[0,2],[48,49],[3],[36],[53],[5,6,7,10],[12],[50],[18],[47],[27],[],[41],[31]]},{\"user_id\":13,\"seat_index\":1,\"holds\":[0,0,0,0,0,0,0,0,0,0,0],\"folds\":[[24,25],[],[20],[],[],[],[22],[],[28],[],[46],[],[]]},{\"user_id\":14,\"seat_index\":2,\"holds\":[8,43,19,15,13,44,45,17,9],\"folds\":[[32,33],[],[26],[52],[],[],[39],[],[40],[],[51],[21],[]]}]}"
+[2017-07-13 16:30:54.270] [DEBUG] poker_landlord - user[14],event = turn_push,data = {"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[31]}
+[2017-07-13 16:30:58.425] [DEBUG] poker_landlord - Socket[dissolve_request][null]
+[2017-07-13 16:30:58.425] [DEBUG] poker_landlord - broadcast[dissolve_notice_push] data[{"mask":8,"time":120,"states":[false,false,true]}],sender[14]
+[2017-07-13 16:30:59.942] [DEBUG] poker_landlord - broadcast[dissolve_notice_push] data[{"mask":12,"time":118.483,"states":[false,true,true]}],sender[13]
+[2017-07-13 16:31:01.077] [DEBUG] poker_landlord - broadcast[dissolve_notice_push] data[{"mask":14,"time":117.348,"states":[true,true,true]}],sender[12]
+[2017-07-13 16:31:01.079] [DEBUG] poker_landlord - send to room[game_state_push] data[{"state":1}],room_id[751512]
+[2017-07-13 16:31:01.079] [DEBUG] poker_landlord - send to room[game_over] data[{"end_seats_data":[{"user_id":12,"card_num":2,"boom_num":0,"base_score":3,"rate":1,"banker":0,"end_score":0,"spring":0,"total_score":0},{"user_id":13,"card_num":11,"boom_num":0,"base_score":3,"rate":1,"banker":0,"end_score":0,"spring":0,"total_score":0},{"user_id":14,"card_num":9,"boom_num":0,"base_score":3,"rate":1,"banker":0,"end_score":0,"spring":0,"total_score":0}],"force":true}],room_id[751512]
+[2017-07-13 16:31:01.079] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:31:01.080] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[0]
+[2017-07-13 16:31:01.080] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[0]
+[2017-07-13 16:31:01.080] [DEBUG] poker_landlord - send to room[game_result] data[{"over_seats_data":[{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0}]}],room_id[751512]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[0]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":14,"online":false}],sender[14]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[0]
+[2017-07-13 16:31:01.081] [DEBUG] poker_landlord - UPDATE users SET roomid = null WHERE userid = 12
+[2017-07-13 16:31:01.082] [DEBUG] poker_landlord - UPDATE users SET roomid = null WHERE userid = 13
+[2017-07-13 16:31:01.082] [DEBUG] poker_landlord - UPDATE users SET roomid = null WHERE userid = 14
+[2017-07-13 16:35:32.822] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-13 16:39:19.928] [DEBUG] poker_landlord - Http[create_room][{"userid":"12","ingot":"187","gold":"242","conf":"{\"server_code\":20002,\"type_index\":\"2\",\"rule_index\":528386}","sign":"8f4b0d7c5d321ad5"}]
+[2017-07-13 16:39:19.930] [DEBUG] poker_landlord - SELECT * FROM rooms WHERE id = "055791"
+[2017-07-13 16:39:19.932] [DEBUG] poker_landlord - create room room config = {"uuid":"","id":"055791","num_of_games":0,"create_time":1499935160,"next_button":0,"seats":[],"conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"seats_num":3,"change_info":{"over_index":0}}
+[2017-07-13 16:39:19.933] [DEBUG] poker_landlord - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499935159932055791','055791','{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17}','127.0.0.1',10400,1499935160,20002,1)
+[2017-07-13 16:39:19.943] [DEBUG] poker_landlord - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"187","gold":"242","roomid":"055791","sign":"f30ffba623f213dc"}]
+[2017-07-13 16:39:20.012] [DEBUG] poker_landlord - Socket[login][{"token":"43409486e97d239888805757bfa3391b","roomid":"055791","time":1499935159946,"sign":"bbc24cd18dbffe6fd013ec164344aac4"}]
+[2017-07-13 16:39:20.012] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"055791","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-13 16:39:20.012] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-13 16:39:32.301] [DEBUG] poker_landlord - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"115","gold":"586","roomid":"055791","sign":"902b424a81aaa2c1"}]
+[2017-07-13 16:39:32.382] [DEBUG] poker_landlord - Socket[login][{"token":"c4f74784a114f8ad9b26f8682e662651","roomid":"055791","time":1499935172305,"sign":"e81f1fc4dc7856aa3e6bb7214de79737"}]
+[2017-07-13 16:39:32.382] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"055791","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-13 16:39:32.382] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}],sender[13]
+[2017-07-13 16:39:34.222] [DEBUG] poker_landlord - Socket[ready][null]
+[2017-07-13 16:39:34.222] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[1]
+[2017-07-13 16:39:34.222] [DEBUG] poker_landlord - roominfo.seats.length 2 seats_num 3
+[2017-07-13 16:39:34.222] [DEBUG] poker_landlord - broadcast[user_ready_push] data[{"userid":13,"ready":true}],sender[13]
+[2017-07-13 16:39:34.860] [DEBUG] poker_landlord - Socket[ready][null]
+[2017-07-13 16:39:34.860] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[1]
+[2017-07-13 16:39:34.860] [DEBUG] poker_landlord - roominfo.seats.length 2 seats_num 3
+[2017-07-13 16:39:34.860] [DEBUG] poker_landlord - broadcast[user_ready_push] data[{"userid":12,"ready":true}],sender[12]
+[2017-07-13 16:39:41.008] [DEBUG] poker_landlord - Http[enter_room][{"userid":"14","name":"诸葛稳赢","ingot":"106","gold":"592","roomid":"055791","sign":"a152418c45bc4425"}]
+[2017-07-13 16:39:41.056] [DEBUG] poker_landlord - Socket[login][{"token":"9eaee66e3432075943c94adb69390109","roomid":"055791","time":1499935181014,"sign":"dd1d62135da0343d0cb6139ca53055bd"}]
+[2017-07-13 16:39:41.056] [DEBUG] poker_landlord - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"055791","conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":true,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":true,"seatindex":1},{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":2}]}}
+[2017-07-13 16:39:41.056] [DEBUG] poker_landlord - broadcast[new_user_comes_push] data[{"userid":14,"ip":"::ffff:192.168.0.180","score":0,"name":"诸葛稳赢","online":true,"ready":false,"seatindex":2}],sender[14]
+[2017-07-13 16:39:42.921] [DEBUG] poker_landlord - Socket[ready][null]
+[2017-07-13 16:39:42.921] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[1]
+[2017-07-13 16:39:42.922] [DEBUG] poker_landlord - roominfo.seats.length 3 seats_num 3
+[2017-07-13 16:39:42.922] [DEBUG] poker_landlord - base manager game begin  room_id = 55791
+[2017-07-13 16:39:42.922] [DEBUG] poker_landlord - base dispatch card
+[2017-07-13 16:39:42.922] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[34,1,38,21,3,53,35,52,17,15,6,19,26,0,5,18,36],"folds":[]}
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[12],event = poker_count_push,data = 3
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[12],event = game_num_push,data = 1
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":13,"holds":[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],"folds":[]}
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[13],event = poker_count_push,data = 3
+[2017-07-13 16:39:42.923] [DEBUG] poker_landlord - user[13],event = game_num_push,data = 1
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[47,50,51,9,40,11,41,24,30,42,10,33,37,28,25,39,44],"folds":[]}
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - user[14],event = poker_count_push,data = 3
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - user[14],event = game_num_push,data = 1
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - send to room[game_state_push] data[{"state":5}],room_id[55791]
+[2017-07-13 16:39:42.924] [DEBUG] poker_landlord - send to room[call_turn_push] data[{"turn":0,"begin_call":0,"current_max_value":0,"rate":1}],room_id[55791]
+[2017-07-13 16:39:42.925] [DEBUG] poker_landlord - Init game base Info to DB===> {"uuid":"1499935159932055791","game_index":1,"create_time":1499935160,"base_info":{"conf":{"server_type":20002,"type_index":"2","rule_index":528386,"creator":12,"double":false,"free":false,"max_games":10,"poker_nums":54,"card_nums":17},"seats_num":3,"current_index":51,"poker":[34,32,47,1,27,50,38,45,51,21,29,9,3,48,40,53,2,11,35,4,41,52,14,24,17,43,30,15,23,42,6,46,10,19,22,33,26,12,37,0,49,28,5,20,25,18,8,39,36,7,44,13,16,31],"begin_call":0},"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,0,5,18,36],[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,11,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[],[],[]],"actions":[[],[],[]],"result":[0,0,0],"statistic":[{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0}],"change_info":{"turn":0,"boom_value_index":-1,"state":5,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":-1,"rate":1,"landlord_card":[],"call_banker":[-1,-1,-1]}}
+[2017-07-13 16:39:42.925] [DEBUG] poker_landlord - broadcast[user_ready_push] data[{"userid":14,"ready":true}],sender[14]
+[2017-07-13 16:39:45.040] [DEBUG] poker_landlord - Socket[call_banker][{"call":3}]
+[2017-07-13 16:39:45.041] [DEBUG] poker_landlord - send to room[call_banker_push] data[{"user_id":12,"seat_index":0,"call":3,"rate":1}],room_id[55791]
+[2017-07-13 16:39:45.041] [DEBUG] poker_landlord - send to room[call_end_push] data[{"base_score":3,"button":0,"rate":1,"cards":[13,16,31]}],room_id[55791]
+[2017-07-13 16:39:45.041] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[34,1,38,21,3,53,35,52,17,15,6,19,26,0,5,18,36,13,16,31],"folds":[]}
+[2017-07-13 16:39:45.041] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:45.042] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-13 16:39:45.042] [DEBUG] poker_landlord - send to room[game_state_push] data[{"state":2}],room_id[55791]
+[2017-07-13 16:39:45.042] [DEBUG] poker_landlord - send to room[game_begin_push] data[0],room_id[55791]
+[2017-07-13 16:39:45.042] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499935159932055791","game_index":1,"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,0,5,18,36,13,16,31],[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,11,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[],[],[]],"actions":[[],[],[]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[13,16,31],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:40:12.272] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[0]}]
+[2017-07-13 16:40:12.272] [DEBUG] poker_landlord - game base manager call out card. [ 0 ]
+[2017-07-13 16:40:12.272] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":12,"holds":[34,1,38,21,3,53,35,52,17,15,6,19,26,5,18,36,13,16,31],"folds":[[0]]}
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[0]]}
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[0]]}
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":1,"out_cards_data":[0],"rate":1}],sender[12]
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[0]
+[2017-07-13 16:40:12.273] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499935159932055791","game_index":1,"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,5,18,36,13,16,31],[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,11,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[[0]],[],[]],"actions":[[1],[],[]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[0],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[13,16,31],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:40:12.274] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[0]}],sender[12]
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[13]
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[0]
+[2017-07-13 16:40:15.415] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499935159932055791","game_index":1,"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,5,18,36,13,16,31],[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,11,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[[0]],[[]],[]],"actions":[[1],[0],[]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":1,"now_card_data":[0],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[13,16,31],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:40:15.416] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":0,"now_card_type":1,"now_card_data":[0]}],sender[13]
+[2017-07-13 16:40:22.388] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[11]}]
+[2017-07-13 16:40:22.388] [DEBUG] poker_landlord - game base manager call out card. [ 11 ]
+[2017-07-13 16:40:22.388] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:40:22.389] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[11]]}
+[2017-07-13 16:40:22.389] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":14,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[11]]}
+[2017-07-13 16:40:22.389] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":14,"holds":[47,50,51,9,40,41,24,30,42,10,33,37,28,25,39,44],"folds":[[11]]}
+[2017-07-13 16:40:22.389] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:40:22.389] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":14,"out_card_type":1,"out_cards_data":[11],"rate":1}],sender[14]
+[2017-07-13 16:40:22.390] [DEBUG] poker_landlord - Show me info ====turn[0],now_max_index[0]
+[2017-07-13 16:40:22.390] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499935159932055791","game_index":1,"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,5,18,36,13,16,31],[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[[0]],[[]],[[11]]],"actions":[[1],[0],[1]],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[11],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[13,16,31],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:40:22.390] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":0,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[11]}],sender[14]
+[2017-07-13 16:40:30.178] [DEBUG] poker_landlord - Socket[out_card][{"card_type":0,"cards_data":[]}]
+[2017-07-13 16:40:30.178] [DEBUG] poker_landlord - game base manager call out card. []
+[2017-07-13 16:40:30.178] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:40:30.178] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:40:30.178] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":12,"out_card_type":0,"out_cards_data":[],"rate":1}],sender[12]
+[2017-07-13 16:40:30.178] [DEBUG] poker_landlord - Show me info ====turn[1],now_max_index[2]
+[2017-07-13 16:40:30.179] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499935159932055791","game_index":1,"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,5,18,36,13,16,31],[32,27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[[0],[]],[[]],[[11]]],"actions":[[1,0],[0],[1]],"change_info":{"turn":1,"boom_value_index":-1,"state":2,"now_max_index":2,"now_card_type":1,"now_card_data":[11],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[13,16,31],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:40:30.179] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":1,"black_three":0,"max_index":2,"now_card_type":1,"now_card_data":[11]}],sender[12]
+[2017-07-13 16:40:31.672] [DEBUG] poker_landlord - Socket[out_card][{"card_type":1,"cards_data":[32]}]
+[2017-07-13 16:40:31.672] [DEBUG] poker_landlord - game base manager call out card. [ 32 ]
+[2017-07-13 16:40:31.672] [DEBUG] poker_landlord - begin check out card action..........
+[2017-07-13 16:40:31.672] [DEBUG] poker_landlord - user[12],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[],[32]]}
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - user[13],event = game_holds_push,data = {"user_id":13,"holds":[27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],"folds":[[],[32]]}
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - user[14],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[[],[32]]}
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - check can out code = 0
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - broadcast[out_card_push] data[{"error_code":0,"out_user":13,"out_card_type":1,"out_cards_data":[32],"rate":1}],sender[13]
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - Show me info ====turn[2],now_max_index[2]
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - Update game info to DB===> {"room_uuid":"1499935159932055791","game_index":1,"holds":[[34,1,38,21,3,53,35,52,17,15,6,19,26,5,18,36,13,16,31],[27,45,29,48,2,4,14,43,23,46,22,12,49,20,8,7],[47,50,51,9,40,41,24,30,42,10,33,37,28,25,39,44]],"folds":[[[0],[]],[[],[32]],[[11]]],"actions":[[1,0],[0,1],[1]],"change_info":{"turn":2,"boom_value_index":-1,"state":2,"now_max_index":1,"now_card_type":1,"now_card_data":[32],"black_three":0,"boom_num_list":[0,0,0],"boom_value_list":[0,0,0],"button":0,"rate":1,"landlord_card":[13,16,31],"begin_call":0,"call_banker":[3,-1,-1]}}
+[2017-07-13 16:40:31.673] [DEBUG] poker_landlord - broadcast[turn_push] data[{"turn":2,"black_three":0,"max_index":1,"now_card_type":1,"now_card_data":[32]}],sender[13]
+[2017-07-13 16:40:41.446] [DEBUG] poker_landlord - Socket[dissolve_request][null]
+[2017-07-13 16:40:41.447] [DEBUG] poker_landlord - broadcast[dissolve_notice_push] data[{"mask":8,"time":120,"states":[false,false,true]}],sender[14]
+[2017-07-13 16:40:42.733] [DEBUG] poker_landlord - broadcast[dissolve_notice_push] data[{"mask":12,"time":118.714,"states":[false,true,true]}],sender[13]
+[2017-07-13 16:40:43.922] [DEBUG] poker_landlord - broadcast[dissolve_notice_push] data[{"mask":14,"time":117.525,"states":[true,true,true]}],sender[12]
+[2017-07-13 16:40:43.922] [DEBUG] poker_landlord - send to room[game_state_push] data[{"state":1}],room_id[55791]
+[2017-07-13 16:40:43.922] [DEBUG] poker_landlord - send to room[game_over] data[{"end_seats_data":[{"user_id":12,"card_num":19,"boom_num":0,"base_score":3,"rate":1,"banker":0,"end_score":0,"spring":0,"total_score":0},{"user_id":13,"card_num":16,"boom_num":0,"base_score":3,"rate":1,"banker":0,"end_score":0,"spring":0,"total_score":0},{"user_id":14,"card_num":16,"boom_num":0,"base_score":3,"rate":1,"banker":0,"end_score":0,"spring":0,"total_score":0}],"force":true}],room_id[55791]
+[2017-07-13 16:40:43.922] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:40:43.922] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[0]
+[2017-07-13 16:40:43.922] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[0]
+[2017-07-13 16:40:43.923] [DEBUG] poker_landlord - send to room[game_result] data[{"over_seats_data":[{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"total_score":0}]}],room_id[55791]
+[2017-07-13 16:40:43.923] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-13 16:40:43.923] [DEBUG] poker_landlord - base poker manager call set ready user[12],status[0]
+[2017-07-13 16:40:43.923] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-13 16:40:43.923] [DEBUG] poker_landlord - base poker manager call set ready user[13],status[0]
+[2017-07-13 16:40:43.924] [DEBUG] poker_landlord - broadcast[user_state_push] data[{"userid":14,"online":false}],sender[14]
+[2017-07-13 16:40:43.924] [DEBUG] poker_landlord - base poker manager call set ready user[14],status[0]
+[2017-07-13 16:40:43.925] [DEBUG] poker_landlord - UPDATE users SET roomid = null WHERE userid = 12
+[2017-07-13 16:40:43.925] [DEBUG] poker_landlord - UPDATE users SET roomid = null WHERE userid = 13
+[2017-07-13 16:40:43.925] [DEBUG] poker_landlord - UPDATE users SET roomid = null WHERE userid = 14
+[2017-07-13 16:49:46.200] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

@@ -1,0 +1,16 @@
+[2017-07-14 09:37:47.744] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-14 09:37:47.760] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-14 09:37:48.429] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-14 09:37:48.789] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:38:12.175] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-14 23:38:12.184] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-14 23:38:12.353] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-14 23:38:13.203] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:28.877] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-14 23:58:30.058] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-14 23:58:30.064] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-14 23:58:30.169] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-14 23:58:50.827] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-14 23:58:50.836] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-14 23:58:51.021] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-14 23:58:51.856] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

@@ -1,0 +1,21 @@
+[2017-07-03 15:06:04.315] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-03 15:06:04.331] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-03 15:06:04.763] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-03 15:06:05.362] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-03 16:16:26.712] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-03 16:16:29.069] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-03 16:16:29.078] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-03 16:16:29.170] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-03 16:29:27.169] [DEBUG] shisanshui - Http[create_room][{"userid":"16","ingot":"10","gold":"1000","conf":"{\"server_code\":20009,\"type_index\":\"2\",\"rule_index\":524370}","sign":"07d5e8981a650993"}]
+[2017-07-03 16:29:27.171] [DEBUG] shisanshui - SELECT * FROM rooms WHERE id = "505169"
+[2017-07-03 16:29:27.184] [DEBUG] shisanshui - create room room config = {"uuid":"","id":"505169","num_of_games":0,"create_time":1499070568,"next_button":0,"seats":[],"watch_seats":[],"conf":{"server_type":20009,"type_index":"2","rule_index":524370,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13},"seats_num":4,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"base_score":0,"banker_circle":[0,0]}}
+[2017-07-03 16:29:27.201] [DEBUG] shisanshui - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499070567201505169','505169','{"server_type":20009,"type_index":"2","rule_index":524370,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13}','127.0.0.1',11600,1499070568,20009,1)
+[2017-07-03 16:29:27.217] [DEBUG] shisanshui - Http[enter_room][{"userid":"16","name":"长孙赌侠","ingot":"10","gold":"1000","roomid":"505169","sign":"5e407148b5139d41"}]
+[2017-07-03 16:29:27.277] [DEBUG] shisanshui - Socket[login][{"token":"40ba2f6bebfe6670c7f74a73dfbdb65b","roomid":"505169","time":1499070567222,"sign":"67ed67e3f7e34973dd3fd7fe66306797"}]
+[2017-07-03 16:29:27.277] [DEBUG] shisanshui - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"505169","conf":{"server_type":20009,"type_index":"2","rule_index":524370,"creator":16,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13},"num_of_games":0,"seats":[{"userid":16,"ip":"::ffff:192.168.0.180","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-03 16:29:27.278] [DEBUG] shisanshui - broadcast[new_user_comes_push] data[{"userid":16,"ip":"::ffff:192.168.0.180","score":0,"name":"长孙赌侠","online":true,"ready":false,"seatindex":0,"watch":false}],sender[16]
+[2017-07-03 16:29:32.210] [DEBUG] shisanshui - Socket[dispress][null]
+[2017-07-03 16:29:32.210] [DEBUG] shisanshui - broadcast[dispress_push] data[{}],sender[16]
+[2017-07-03 16:29:32.211] [DEBUG] shisanshui - broadcast[user_state_push] data[{"userid":16,"online":false}],sender[16]
+[2017-07-03 16:29:32.211] [DEBUG] shisanshui - send to room[user_ready_push] data[{"userid":16,"ready":false}],room_id[505169]
+[2017-07-03 16:29:32.212] [DEBUG] shisanshui - UPDATE users SET roomid = null WHERE userid = 16

@@ -1,0 +1,49 @@
+[2017-07-11 09:47:23.542] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-11 09:47:23.556] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-11 09:47:24.105] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-11 09:47:24.608] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:51:02.522] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-11 17:51:02.529] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-11 17:51:02.632] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-11 17:51:03.555] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:54:15.714] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:58:09.409] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:01:46.199] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-11 18:01:46.206] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-11 18:01:46.309] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-11 18:01:47.227] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:03:30.204] [DEBUG] poker_21 - Http[create_room][{"userid":"21","ingot":"10","gold":"1000","conf":"{\"server_code\":20007,\"type_index\":2,\"rule_index\":530506}","sign":"7f4c435cb4e23831"}]
+[2017-07-11 18:03:30.205] [DEBUG] poker_21 - Conf: { server_code: 20007, type_index: 2, rule_index: 530506 }
+[2017-07-11 18:03:30.207] [DEBUG] poker_21 - SELECT * FROM rooms WHERE id = "705952"
+[2017-07-11 18:03:30.216] [DEBUG] poker_21 - create room room config = {"uuid":"","id":"705952","num_of_games":0,"create_time":1499767411,"next_button":0,"seats":[],"watch_seats":[],"conf":{"server_type":20007,"type_index":2,"rule_index":530506,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":2},"seats_num":5,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"base_score":0,"next_banker":-1}}
+[2017-07-11 18:03:30.221] [DEBUG] poker_21 - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499767410221705952','705952','{"server_type":20007,"type_index":2,"rule_index":530506,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":2}','127.0.0.1',11200,1499767411,20007,1)
+[2017-07-11 18:03:30.235] [DEBUG] poker_21 - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"705952","sign":"865ec0c7e0d2ad4d"}]
+[2017-07-11 18:03:30.268] [DEBUG] poker_21 - Socket[login][{"token":"3ebc1a061fb8a1babbacb2f80ebe7b75","roomid":"705952","time":1499767410242,"sign":"88b6de9745718e2b082a60aef3503de5"}]
+[2017-07-11 18:03:30.269] [DEBUG] poker_21 - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"705952","conf":{"server_type":20007,"type_index":2,"rule_index":530506,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":2},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-11 18:03:30.269] [DEBUG] poker_21 - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}],sender[21]
+[2017-07-11 18:03:36.532] [DEBUG] poker_21 - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"705952","sign":"791bf2b36b61bcb8"}]
+[2017-07-11 18:03:36.553] [DEBUG] poker_21 - Socket[login][{"token":"d2598cb2ea3557f5104acebc8ede0e64","roomid":"705952","time":1499767416539,"sign":"18c764d9b988099a998aa42a09c2cb60"}]
+[2017-07-11 18:03:36.553] [DEBUG] poker_21 - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"705952","conf":{"server_type":20007,"type_index":2,"rule_index":530506,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":2},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}]}}
+[2017-07-11 18:03:36.554] [DEBUG] poker_21 - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}],sender[22]
+[2017-07-11 18:03:39.525] [DEBUG] poker_21 - Socket[transfer][{"target":22}]
+[2017-07-11 18:03:39.525] [DEBUG] poker_21 - UPDATE rooms SET base_info='{"server_type":20007,"type_index":2,"rule_index":530506,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":2}' WHERE uuid='1499767410221705952'
+[2017-07-11 18:03:39.525] [DEBUG] poker_21 - send to room[transfer] data[{"new_seat":[22,21]}],room_id[705952]
+[2017-07-11 18:03:41.307] [DEBUG] poker_21 - Socket[kick][{"target":21}]
+[2017-07-11 18:03:41.308] [DEBUG] poker_21 - user[21], event = kick, data =  { kicked: 21, new_seat: [] }
+[2017-07-11 18:03:41.309] [DEBUG] poker_21 - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:03:41.310] [DEBUG] poker_21 - send to room[user_ready_push] data[{"userid":21,"ready":false}],room_id[705952]
+[2017-07-11 18:03:41.310] [DEBUG] poker_21 - UPDATE users SET roomid = null WHERE userid = 21
+[2017-07-11 18:03:41.311] [DEBUG] poker_21 - send to room[kick] data[{"kicked":21,"new_seat":[22]}],room_id[705952]
+[2017-07-11 18:03:51.511] [DEBUG] poker_21 - Socket[dispress][null]
+[2017-07-11 18:03:51.512] [DEBUG] poker_21 - broadcast[dispress_push] data[{}],sender[22]
+[2017-07-11 18:03:51.512] [DEBUG] poker_21 - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:03:51.512] [DEBUG] poker_21 - send to room[user_ready_push] data[{"userid":22,"ready":false}],room_id[705952]
+[2017-07-11 18:03:51.513] [DEBUG] poker_21 - UPDATE users SET roomid = null WHERE userid = 22
+[2017-07-11 18:17:48.768] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-11 18:17:48.774] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-11 18:17:48.870] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-11 18:17:49.794] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:29:41.512] [INFO] poker_21 - POKER 21 POINTS DB READY.
+[2017-07-11 18:29:41.518] [INFO] poker_21 - POKER 21 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11100
+[2017-07-11 18:29:41.657] [INFO] poker_21 - POKER 21 SOCKET RUNNING ON: 11200
+[2017-07-11 18:29:42.542] [DEBUG] poker_21 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

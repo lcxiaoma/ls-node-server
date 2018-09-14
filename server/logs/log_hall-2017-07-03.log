@@ -1,0 +1,1239 @@
+[2017-07-03 15:06:04.316] [INFO] hall - HALL DB READY.
+[2017-07-03 15:06:04.331] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-03 15:06:04.331] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-03 15:06:04.331] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-03 15:06:04.394] [DEBUG] hall - Route service try to load config.
+[2017-07-03 15:06:05.353] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-03 15:06:05.360] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-03 15:06:05.364] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-03 15:06:05.372] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-03 15:06:05.378] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-03 15:06:05.391] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-03 15:06:05.396] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-07-03 15:06:05.404] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-03 15:06:05.410] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-03 15:06:06.160] [DEBUG] hall - Route service try to load config.
+[2017-07-03 15:06:29.337] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 15:11:43.993] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:11:43.996] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:11:43.998] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:11:44.432] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:11:44.469] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:11:44.470] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:11:44.497] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:14:48.072] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:14:48.073] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:14:48.073] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:14:48.479] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:14:48.531] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:14:48.531] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:14:48.537] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:15:39.252] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:15:39.254] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:15:39.255] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:15:39.663] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:15:39.716] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:15:39.717] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:15:39.723] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:16:03.138] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:16:03.140] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:16:03.140] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:16:03.525] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:16:03.606] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:16:03.607] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:16:03.613] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:16:19.978] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:16:19.979] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:16:19.981] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:16:20.401] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:16:20.449] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:16:20.450] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:16:20.457] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:16:57.266] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:16:57.267] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:16:57.267] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:16:57.716] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:16:57.759] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:16:57.760] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:16:57.766] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:19:18.220] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:19:18.222] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:18.225] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:19:18.232] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:19:30.926] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:19:30.931] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:19:30.933] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:31.313] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:19:31.357] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:19:31.358] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:31.366] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:19:39.898] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:19:39.899] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:19:39.900] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:40.342] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:19:40.392] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:19:40.393] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:40.398] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:19:44.317] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:19:44.318] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:19:44.318] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:44.710] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:19:44.760] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:19:44.761] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:44.767] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:19:58.178] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:19:58.178] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:19:58.179] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:58.567] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:19:58.622] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:19:58.623] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:19:58.628] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:20:16.566] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:20:16.567] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:20:16.568] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:20:16.997] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:20:17.042] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:20:17.043] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:20:17.048] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:20:26.716] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:20:26.717] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:20:26.718] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:20:27.092] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:20:27.149] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:20:27.150] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:20:27.158] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:20:38.480] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:20:38.481] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:20:38.482] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:20:38.866] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:20:38.912] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:20:38.913] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:20:38.918] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:21:22.913] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:21:22.913] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:21:22.913] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:23.335] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:21:23.367] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:21:23.367] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:23.382] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:21:27.853] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:21:27.853] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:21:27.853] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:28.284] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:21:28.335] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:21:28.335] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:28.335] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:21:49.126] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:21:49.126] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:21:49.126] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:49.549] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:21:49.596] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:21:49.611] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:49.611] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:21:54.166] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:21:54.167] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:21:54.168] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:54.564] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:21:54.611] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:21:54.611] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:21:54.611] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:22:07.749] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:22:07.750] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:22:07.750] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:22:08.149] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:22:08.187] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:22:08.188] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:22:08.195] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:22:27.562] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:22:27.563] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:22:27.564] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:22:27.967] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:22:28.030] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:22:28.031] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:22:28.038] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:23:04.232] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:23:04.233] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:23:04.234] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:23:04.642] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:23:04.698] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:23:04.699] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:23:04.707] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:24:36.473] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:24:36.473] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:24:36.473] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:24:36.473] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:24:55.258] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:24:55.258] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:24:55.258] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:24:55.695] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:24:55.742] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:24:55.742] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:24:55.742] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:24:59.792] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:24:59.792] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:24:59.792] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:00.230] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:25:00.277] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:25:00.277] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:00.292] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:25:03.696] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:25:03.696] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:25:03.696] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:04.119] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:25:04.170] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:25:04.172] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:04.180] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:25:08.536] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:25:08.537] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:25:08.538] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:08.986] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:25:09.041] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:25:09.042] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:09.049] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:25:33.816] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:25:33.818] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:25:33.819] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:34.246] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:25:34.290] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:25:34.291] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:25:34.297] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:26:13.775] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:26:13.775] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:26:13.790] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:26:13.790] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:26:31.659] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:26:31.659] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:26:31.659] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:26:32.128] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:26:32.190] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:26:32.190] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:26:32.206] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:26:51.708] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:26:51.708] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:26:51.708] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:26:51.708] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:27:54.655] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:27:54.655] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:27:54.655] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:27:54.671] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:27:54.671] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:27:54.671] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:29:36.044] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:29:36.044] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:29:36.044] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:29:36.638] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:29:36.747] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:29:36.747] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:29:36.778] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:30:40.470] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:30:40.470] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:30:40.470] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:30:40.892] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:30:40.939] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:30:40.939] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:30:40.954] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:30:49.580] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:30:49.580] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:30:49.580] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:30:50.002] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:30:50.049] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:30:50.049] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:30:50.064] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:31:03.645] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:31:03.645] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:31:03.645] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:31:04.066] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:31:04.113] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:31:04.113] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:31:04.129] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:31:49.838] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:31:49.838] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:31:49.838] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:31:50.245] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:31:50.292] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:31:50.292] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:31:50.292] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:34:40.867] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:34:40.868] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:34:40.871] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:34:40.875] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:35:15.519] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:35:15.520] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:35:15.520] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:35:15.969] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:35:16.016] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:35:16.017] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:35:16.022] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:35:21.657] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:35:21.658] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:35:21.659] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:35:22.033] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:35:22.081] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:35:22.082] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:35:22.088] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:41:54.566] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:41:54.567] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:41:54.568] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:41:55.010] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:41:55.062] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:41:55.063] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:41:55.069] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:42:08.054] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:42:08.055] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:42:08.057] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:42:08.060] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:43:08.268] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:43:08.269] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:43:08.270] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:43:08.828] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:43:08.884] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:43:08.885] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:43:08.891] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:44:20.988] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:44:20.989] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:44:20.990] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:21.857] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:44:21.918] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:44:21.919] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:21.925] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:44:30.174] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:44:30.174] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:44:30.175] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:30.623] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:44:30.680] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:44:30.681] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:30.687] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:44:34.161] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:44:34.162] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:44:34.162] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:34.590] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:44:34.645] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:44:34.646] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:34.652] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:44:38.711] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:44:38.713] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:44:38.713] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:39.165] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:44:39.212] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:44:39.212] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:39.217] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:44:52.258] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:44:52.259] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:44:52.259] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:52.591] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:44:52.628] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:44:52.629] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:44:52.634] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:45:59.432] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:45:59.433] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:45:59.434] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:45:59.440] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:47:06.943] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:47:06.943] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:47:06.943] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:47:06.977] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:47:06.977] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:47:06.993] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:47:06.993] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:47:06.993] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:47:06.993] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:47:06.993] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:47:07.008] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:47:07.071] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:47:19.056] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 15:51:42.901] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 15:56:51.100] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:56:51.100] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:56:51.101] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:56:51.538] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:56:51.584] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:56:51.585] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:56:51.609] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:57:36.047] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:57:36.049] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 15:57:36.050] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:57:36.634] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:57:36.737] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 15:57:36.738] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:57:36.744] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 15:57:50.969] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:57:50.970] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:57:50.970] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:57:51.421] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:57:51.467] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:57:51.467] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:57:51.474] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:57:58.344] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:57:58.345] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 10
+[2017-07-03 15:57:58.346] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:57:58.787] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:57:58.825] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 15:57:58.826] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:57:58.832] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 10
+[2017-07-03 15:58:03.313] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:58:03.313] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 11
+[2017-07-03 15:58:03.314] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:58:03.755] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:58:03.805] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 15:58:03.806] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:58:03.812] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 11
+[2017-07-03 15:58:18.631] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:58:18.632] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 15:58:18.632] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 15:58:19.074] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:58:19.128] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:58:19.129] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:58:19.134] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 15:58:42.121] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:58:42.122] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 15:58:42.125] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 15:58:42.128] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 16:00:22.910] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:00:22.910] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 16:00:22.911] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:00:23.298] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:00:23.352] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:00:23.353] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:00:23.360] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 16:05:11.957] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:11.958] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 16:05:11.958] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:05:12.547] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:12.641] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:12.642] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:05:12.648] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 16:05:23.564] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:23.566] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:05:23.571] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 16:05:23.573] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:53.537] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:53.539] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 16:05:53.539] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:05:53.860] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:53.894] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:05:53.895] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:05:53.901] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 16:06:27.814] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:06:27.815] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 16:06:27.815] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:06:28.427] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:06:28.490] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:06:28.491] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:06:28.497] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 16:06:33.592] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:06:33.592] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 9
+[2017-07-03 16:06:33.593] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:06:33.974] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:06:34.013] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:06:34.014] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:06:34.021] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 9
+[2017-07-03 16:08:00.825] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:08:00.826] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 16:08:00.826] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:08:01.209] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:08:01.249] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:08:01.250] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:08:01.258] [DEBUG] hall - UPDATE users SET roomid = "257935" WHERE userid = 8
+[2017-07-03 16:08:11.032] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:08:11.033] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:08:11.034] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:08:16.707] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:08:16.708] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 8
+[2017-07-03 16:08:16.709] [DEBUG] hall - SELECT * FROM rooms WHERE id = "257935"
+[2017-07-03 16:08:17.199] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:08:17.289] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:08:17.290] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "257935"
+[2017-07-03 16:08:21.911] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:16:22.501] [INFO] hall - HALL DB READY.
+[2017-07-03 16:16:22.513] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-07-03 16:16:22.514] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-07-03 16:16:22.514] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-07-03 16:16:22.543] [DEBUG] hall - Route service try to load config.
+[2017-07-03 16:16:22.577] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-07-03 16:16:22.668] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-07-03 16:16:22.720] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-07-03 16:16:23.358] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-07-03 16:16:23.766] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-07-03 16:16:25.279] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-07-03 16:16:25.752] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-07-03 16:16:26.708] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-07-03 16:16:27.044] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-07-03 16:16:59.053] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:17:19.254] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:17:20.741] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:17:20.743] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:17:21.230] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:17:24.684] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:17:25.885] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:17:25.886] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:17:26.451] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:17:29.690] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:17:30.671] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:17:30.672] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:17:31.413] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:17:34.999] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:17:36.974] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:17:36.975] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-03 16:17:37.866] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:17:45.366] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"8699b490d544e4c4dc253a0e8a81df1a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-03 16:17:45.366] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:17:45.368] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:17:45.397] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:17:45.408] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:17:52.603] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:17:52.604] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:17:52.614] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:17:59.989] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:17:59.990] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:17:59.998] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 14
+[2017-07-03 16:18:05.299] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:18:05.300] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:18:05.309] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 15
+[2017-07-03 16:18:42.059] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:18:42.061] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:18:42.062] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:18:42.416] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:18:42.451] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:18:42.452] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:18:42.460] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:19:12.766] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:19:12.767] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:19:12.768] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:19:13.194] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:19:13.254] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:19:13.255] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:19:13.261] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:19:30.617] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:19:30.618] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:19:30.620] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:19:30.627] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:20:20.008] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:20:20.010] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:20:20.011] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:20.621] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:20:20.692] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:20:20.693] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:20.701] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:20:23.397] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:20:23.399] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:20:23.400] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:23.975] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:20:24.030] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:20:24.031] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:24.036] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:20:26.558] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:20:26.559] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:20:26.559] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:27.063] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:20:27.135] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:20:27.136] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:27.143] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 14
+[2017-07-03 16:20:29.262] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:20:29.263] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-03 16:20:29.264] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:29.786] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:20:29.842] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:20:29.843] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:20:29.850] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 15
+[2017-07-03 16:23:37.106] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:23:37.107] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:23:37.108] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:37.768] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:23:37.817] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:23:37.818] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:37.827] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:23:41.673] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:23:41.674] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:23:41.675] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:42.071] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:23:42.106] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:23:42.107] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:42.114] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:23:45.288] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:23:45.289] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:23:45.290] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:45.720] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:23:45.757] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:23:45.757] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:45.764] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:23:51.213] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:23:51.215] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:23:51.216] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:51.616] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:23:51.663] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:23:51.664] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:23:51.670] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 14
+[2017-07-03 16:24:16.339] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:24:16.339] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:24:16.340] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:16.862] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:24:16.934] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:24:16.935] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:16.942] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:24:19.841] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:24:19.842] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:24:19.843] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:20.726] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:24:20.808] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:24:20.809] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:20.815] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:24:25.525] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:24:25.526] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:24:25.526] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:25.932] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:24:25.973] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:24:25.974] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:25.980] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 14
+[2017-07-03 16:24:30.031] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:24:30.032] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-03 16:24:30.032] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:30.461] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:24:30.515] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:24:30.516] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:24:30.522] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 15
+[2017-07-03 16:25:58.795] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:25:58.795] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:25:58.798] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:26:09.699] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:26:19.003] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:26:19.004] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:26:19.004] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:26:19.503] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:26:19.561] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:26:19.562] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:26:41.425] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:26:41.446] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:26:42.561] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:26:42.562] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:26:42.563] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:26:42.569] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:26:44.089] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:26:44.090] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:26:44.091] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:26:44.097] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 15
+[2017-07-03 16:26:44.650] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:26:44.651] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:26:44.651] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:26:44.659] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 14
+[2017-07-03 16:29:04.404] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:29:05.625] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:29:05.626] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:29:05.960] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:29:08.931] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:29:10.122] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:29:10.123] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 17
+[2017-07-03 16:29:10.574] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:29:13.673] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:29:14.981] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:29:14.982] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 18
+[2017-07-03 16:29:15.610] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:29:18.165] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:29:19.488] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:29:19.489] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 19
+[2017-07-03 16:29:20.246] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:29:27.162] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq5","sign":"a1b135d7d5229bdfbf5ce728e7e97a6e","conf":"{\"server_code\":20009,\"type_index\":\"2\",\"rule_index\":524370}"}]
+[2017-07-03 16:29:27.162] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:29:27.163] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:29:27.211] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "505169"
+[2017-07-03 16:29:27.220] [DEBUG] hall - UPDATE users SET roomid = "505169" WHERE userid = 16
+[2017-07-03 16:29:32.653] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:29:40.753] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq5","sign":"a1b135d7d5229bdfbf5ce728e7e97a6e","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-03 16:29:40.753] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:29:40.755] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:29:40.765] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:29:40.769] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:29:46.926] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:29:46.926] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:29:46.933] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 17
+[2017-07-03 16:29:56.712] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:29:56.713] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:29:56.722] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 18
+[2017-07-03 16:30:03.924] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:30:03.925] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:30:03.931] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 19
+[2017-07-03 16:31:50.048] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:31:50.049] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:31:50.049] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:31:50.426] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:31:50.462] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:31:50.464] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:31:50.470] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:32:10.226] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:32:10.227] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:32:10.228] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:32:10.587] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:32:10.627] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:32:10.628] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:32:10.636] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:34:38.213] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:34:38.214] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:34:38.215] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:34:38.650] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:34:38.701] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:34:38.702] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:34:38.729] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:34:53.608] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:34:53.609] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:34:53.609] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:34:54.060] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:34:54.106] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:34:54.107] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:34:54.115] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:36:23.728] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:36:23.729] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:36:23.731] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:36:39.923] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:36:39.924] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:36:39.925] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:36:40.332] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:36:40.375] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:36:40.375] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:36:40.415] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:39:37.603] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:39:37.604] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:39:37.606] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:39:47.935] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:40:37.128] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:40:56.765] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:40:56.766] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:40:56.766] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:40:57.176] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:40:57.218] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:40:57.219] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:40:57.243] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:43:59.238] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:43:59.239] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:43:59.240] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:43:59.683] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:43:59.738] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:43:59.739] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:43:59.767] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:44:05.291] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:44:05.291] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 17
+[2017-07-03 16:44:05.292] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:44:05.774] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:44:05.834] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq6"
+[2017-07-03 16:44:05.835] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:44:05.841] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 17
+[2017-07-03 16:44:11.988] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:44:11.989] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 18
+[2017-07-03 16:44:11.989] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:44:12.442] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:44:12.492] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:44:12.493] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:44:12.499] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 18
+[2017-07-03 16:44:15.992] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:44:15.993] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 19
+[2017-07-03 16:44:15.994] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:44:16.441] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:44:16.498] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq8"
+[2017-07-03 16:44:16.499] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:44:16.505] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 19
+[2017-07-03 16:45:00.587] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:00.588] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:45:00.590] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:00.596] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:45:19.780] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:19.781] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:45:19.782] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:45:20.147] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:20.188] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:20.189] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:45:27.695] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:45:27.974] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:45:27.974] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq7"
+[2017-07-03 16:45:27.975] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:45:27.983] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 18
+[2017-07-03 16:45:41.069] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:41.070] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:45:41.071] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:45:41.472] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:41.522] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:45:41.523] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:45:41.529] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:47:05.873] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:47:05.873] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:47:05.874] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:47:06.348] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:47:06.394] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:47:06.395] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:47:06.402] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:51:05.125] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:51:05.126] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:51:05.127] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:51:05.555] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:51:05.615] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:51:05.616] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:51:05.621] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:52:13.656] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:52:13.657] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 16
+[2017-07-03 16:52:13.658] [DEBUG] hall - SELECT * FROM rooms WHERE id = "188899"
+[2017-07-03 16:52:14.080] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:52:14.130] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq5"
+[2017-07-03 16:52:14.131] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "188899"
+[2017-07-03 16:52:14.167] [DEBUG] hall - UPDATE users SET roomid = "188899" WHERE userid = 16
+[2017-07-03 16:53:12.461] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:53:12.462] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:53:12.462] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:13.177] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:53:13.229] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:53:13.229] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:13.238] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 14
+[2017-07-03 16:53:15.142] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:53:15.143] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-03 16:53:15.144] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:15.831] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:53:15.877] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:53:15.878] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:15.884] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 15
+[2017-07-03 16:53:18.590] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:53:18.591] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:53:18.591] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:19.154] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:53:19.199] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:53:19.200] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:19.205] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 12
+[2017-07-03 16:53:21.705] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:53:21.706] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:53:21.707] [DEBUG] hall - SELECT * FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:22.215] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:53:22.297] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:53:22.298] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "936679"
+[2017-07-03 16:53:22.304] [DEBUG] hall - UPDATE users SET roomid = "936679" WHERE userid = 13
+[2017-07-03 16:53:51.241] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:53:56.661] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:54:01.058] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:54:01.059] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:54:01.481] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:54:03.537] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:54:03.538] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 16:54:04.122] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:54:05.916] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:54:05.917] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 16:54:06.750] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:54:08.521] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:54:08.522] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-03 16:54:09.517] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:54:16.744] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"8699b490d544e4c4dc253a0e8a81df1a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-03 16:54:16.744] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:54:16.745] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:54:16.789] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:54:16.809] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 12
+[2017-07-03 16:54:23.721] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 16:54:23.722] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:54:23.732] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 13
+[2017-07-03 16:54:31.935] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 16:54:31.936] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:54:31.949] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 14
+[2017-07-03 16:54:39.158] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 16:54:39.160] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:54:39.167] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 15
+[2017-07-03 16:56:14.491] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:56:14.492] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:56:14.493] [DEBUG] hall - SELECT * FROM rooms WHERE id = "960023"
+[2017-07-03 16:56:15.137] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:56:15.221] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:56:15.222] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:56:15.229] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 12
+[2017-07-03 16:58:03.611] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:58:03.611] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:58:03.618] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:58:14.323] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:59:00.517] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-07-03 16:59:10.096] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:59:10.097] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:59:10.097] [DEBUG] hall - SELECT * FROM rooms WHERE id = "960023"
+[2017-07-03 16:59:10.915] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:59:10.962] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:59:10.963] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:59:10.998] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 12
+[2017-07-03 16:59:57.367] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:59:57.368] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 16:59:57.368] [DEBUG] hall - SELECT * FROM rooms WHERE id = "960023"
+[2017-07-03 16:59:57.808] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:59:57.852] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 16:59:57.853] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 16:59:57.859] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 12
+[2017-07-03 17:00:10.258] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:00:10.259] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 13
+[2017-07-03 17:00:10.260] [DEBUG] hall - SELECT * FROM rooms WHERE id = "960023"
+[2017-07-03 17:00:10.684] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:00:10.728] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:00:10.729] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 17:00:10.738] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 13
+[2017-07-03 17:00:14.774] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:00:14.775] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 14
+[2017-07-03 17:00:14.776] [DEBUG] hall - SELECT * FROM rooms WHERE id = "960023"
+[2017-07-03 17:00:15.194] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:00:15.242] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:00:15.243] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 17:00:15.249] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 14
+[2017-07-03 17:00:20.737] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:00:20.738] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 15
+[2017-07-03 17:00:20.738] [DEBUG] hall - SELECT * FROM rooms WHERE id = "960023"
+[2017-07-03 17:00:21.144] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:00:21.197] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:00:21.198] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "960023"
+[2017-07-03 17:00:21.204] [DEBUG] hall - UPDATE users SET roomid = "960023" WHERE userid = 15
+[2017-07-03 17:00:33.924] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:00:35.004] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:00:40.446] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"8699b490d544e4c4dc253a0e8a81df1a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-03 17:00:40.446] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:00:40.446] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:00:40.465] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "909847"
+[2017-07-03 17:00:40.473] [DEBUG] hall - UPDATE users SET roomid = "909847" WHERE userid = 12
+[2017-07-03 17:00:46.885] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:00:46.886] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "909847"
+[2017-07-03 17:00:46.893] [DEBUG] hall - UPDATE users SET roomid = "909847" WHERE userid = 13
+[2017-07-03 17:00:51.398] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:00:56.755] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:00:56.756] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "909847"
+[2017-07-03 17:00:56.762] [DEBUG] hall - UPDATE users SET roomid = "909847" WHERE userid = 14
+[2017-07-03 17:01:00.601] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:01:06.687] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:01:06.688] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "949847"
+[2017-07-03 17:01:13.169] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:01:13.170] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "909847"
+[2017-07-03 17:01:13.175] [DEBUG] hall - UPDATE users SET roomid = "909847" WHERE userid = 15
+[2017-07-03 17:01:59.083] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:02:06.739] [DEBUG] hall - Http[hall creat private room][{"account":"guest_qq1","sign":"8699b490d544e4c4dc253a0e8a81df1a","conf":"{\"server_code\":20010,\"type_index\":\"2\",\"rule_index\":532514}"}]
+[2017-07-03 17:02:06.739] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:02:06.740] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:02:06.767] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:02:06.775] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:02:09.484] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:02:17.607] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq2"
+[2017-07-03 17:02:17.608] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:02:17.613] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 13
+[2017-07-03 17:02:21.369] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:02:26.568] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq3"
+[2017-07-03 17:02:26.569] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:02:26.575] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 14
+[2017-07-03 17:02:30.329] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:02:38.133] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq4"
+[2017-07-03 17:02:38.134] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:02:38.143] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 15
+[2017-07-03 17:05:36.754] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:05:36.755] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:05:36.758] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:05:36.760] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:13:22.124] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:13:22.124] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:13:22.125] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:13:22.663] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:13:22.714] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:13:22.715] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:13:22.722] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:14:05.609] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:14:05.610] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:14:05.611] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:14:06.026] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:14:06.079] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:14:06.080] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:14:06.087] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:14:58.144] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:14:58.145] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:14:58.145] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:14:58.646] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:14:58.683] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:14:58.684] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:14:58.689] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:15:34.251] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:15:34.252] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:15:34.253] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:15:34.630] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:15:34.667] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:15:34.668] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:15:34.673] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:22:03.402] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:22:03.403] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:22:03.404] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:22:03.982] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:22:04.080] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:22:04.081] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:22:04.087] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:23:01.474] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:23:01.475] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:23:01.475] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:23:01.843] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:23:01.914] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:23:01.915] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:23:01.921] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:38:59.641] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:38:59.642] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:38:59.644] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:38:59.649] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:39:21.883] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:39:21.884] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:39:21.885] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:39:22.460] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:39:22.549] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:39:22.550] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:39:22.556] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:40:25.582] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:40:25.583] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:40:25.584] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:40:25.961] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:40:26.007] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:40:26.008] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:40:26.016] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:44:39.517] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:44:39.518] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:44:39.519] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:44:40.317] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:44:40.374] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:44:40.375] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:44:40.385] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:45:31.836] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:45:31.837] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:45:31.838] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:45:32.276] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:45:32.324] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:45:32.325] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:45:32.332] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:51:18.311] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:51:18.312] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:51:18.315] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:51:18.320] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:51:36.652] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:51:36.653] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:51:36.653] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:51:37.186] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:51:37.254] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:51:37.255] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:51:37.261] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:52:33.871] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:52:33.872] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:52:33.873] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:52:34.427] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:52:34.512] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:52:34.512] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:52:34.517] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:53:32.133] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:53:32.134] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:53:32.135] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:53:32.510] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:53:32.552] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:53:32.553] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:53:32.558] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:53:56.699] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:53:56.700] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:53:56.701] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:53:56.705] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 17:54:16.671] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:54:16.672] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 17:54:16.673] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 17:54:17.056] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:54:17.106] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 17:54:17.108] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 17:54:17.118] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 18:10:17.950] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:10:17.951] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 18:10:17.954] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 18:10:18.379] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:10:18.430] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:10:18.431] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 18:10:18.443] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 18:10:46.427] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:10:46.428] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 12
+[2017-07-03 18:10:46.429] [DEBUG] hall - SELECT * FROM rooms WHERE id = "943780"
+[2017-07-03 18:10:46.797] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:10:46.851] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:10:46.852] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 18:10:46.856] [DEBUG] hall - UPDATE users SET roomid = "943780" WHERE userid = 12
+[2017-07-03 18:11:00.465] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:11:00.465] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "943780"
+[2017-07-03 18:11:00.472] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_qq1"
+[2017-07-03 18:11:07.659] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000

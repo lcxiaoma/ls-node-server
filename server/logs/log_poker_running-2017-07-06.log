@@ -1,0 +1,196 @@
+[2017-07-06 09:53:57.313] [INFO] poker_running - POKER RUNNING DB READY.
+[2017-07-06 09:53:57.313] [INFO] poker_running - POKER RUNNING HTTP SERVICE RUNNING ON:127.0.0.1:10100
+[2017-07-06 09:53:57.798] [INFO] poker_running - POKER RUNNING SOCKET RUNNING ON:10200
+[2017-07-06 09:53:58.360] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-06 16:02:56.853] [DEBUG] poker_running - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-06 17:58:12.685] [DEBUG] poker_running - Http[create_room][{"userid":"12","ingot":"2","gold":"1000","conf":"{\"server_code\":20001,\"type_index\":\"2\",\"rule_index\":525138}","sign":"ae4677818e8fb9a9"}]
+[2017-07-06 17:58:12.688] [WARN] poker_running - rule not invalid type classic but not 16 cards
+[2017-07-06 17:58:12.688] [DEBUG] poker_running - create room,game_index = 2,game_rule= 527186
+[2017-07-06 17:58:12.689] [DEBUG] poker_running - SELECT * FROM rooms WHERE id = "111717"
+[2017-07-06 17:58:12.723] [DEBUG] poker_running - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499335092723111717','111717','{"server_type":20001,"type_index":"2","rule_index":527186,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16}','127.0.0.1',10200,1499335093,20001,1)
+[2017-07-06 17:58:12.738] [DEBUG] poker_running - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"2","gold":"1000","roomid":"111717","sign":"b472acc05b26c7a8"}]
+[2017-07-06 17:58:12.843] [DEBUG] poker_running - Socket[login][{"token":"797e4e66b27ebba93fd4a245df8a813f","roomid":"111717","time":1499335092743,"sign":"a1f0743e8d0fb1fd1e02222be8f8f95f"}]
+[2017-07-06 17:58:12.844] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"111717","conf":{"server_type":20001,"type_index":"2","rule_index":527186,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-06 17:58:12.845] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-06 17:58:12.847] [ERROR] poker_running - LOAD USER INFO ERROR: Error: ER_BAD_FIELD_ERROR: Unknown column 'daily_clear_time' in 'field list'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:33:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-06 17:58:12.847] [WARN] poker_running - login_result, errcode = 4 msg= read data failed.
+[2017-07-06 17:58:21.078] [DEBUG] poker_running - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"10","gold":"1000","roomid":"111717","sign":"737dd4815b11d05a"}]
+[2017-07-06 17:58:21.152] [DEBUG] poker_running - Socket[login][{"token":"26e0fccada50a44d73365d228bb8b7ec","roomid":"111717","time":1499335101082,"sign":"715e0350d14d8503f907bf771cdb5113"}]
+[2017-07-06 17:58:21.155] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"111717","conf":{"server_type":20001,"type_index":"2","rule_index":527186,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-06 17:58:21.155] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}],sender[13]
+[2017-07-06 17:58:21.157] [ERROR] poker_running - LOAD USER INFO ERROR: Error: ER_BAD_FIELD_ERROR: Unknown column 'daily_clear_time' in 'field list'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:33:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-06 17:58:21.157] [WARN] poker_running - login_result, errcode = 4 msg= read data failed.
+[2017-07-06 17:58:22.544] [DEBUG] poker_running - Socket[ready][null]
+[2017-07-06 17:58:22.544] [DEBUG] poker_running - base poker manager call set ready user[13],status[1]
+[2017-07-06 17:58:22.545] [DEBUG] poker_running - broadcast[user_ready_push] data[{"userid":13,"ready":true}],sender[13]
+[2017-07-06 17:58:23.924] [DEBUG] poker_running - Socket[ready][null]
+[2017-07-06 17:58:23.925] [DEBUG] poker_running - base poker manager call set ready user[12],status[1]
+[2017-07-06 17:58:23.925] [WARN] poker_running - show me I need Info  now_type [0], now_max_index[0], turn[0] ,banker[0] 
+[2017-07-06 17:58:23.926] [DEBUG] poker_running - base dispatch card
+[2017-07-06 17:58:23.926] [DEBUG] poker_running - dispatch info  card_num = 16,player_num = 2
+[2017-07-06 17:58:23.926] [DEBUG] poker_running - user[12],event = game_holds_push,data = {"user_id":12,"holds":[36,8,12,35,18,31,5,9,7,20,4,3,29,41,14,32],"folds":[]}
+[2017-07-06 17:58:23.926] [DEBUG] poker_running - user[13],event = game_holds_push,data = {"user_id":12,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-06 17:58:23.926] [DEBUG] poker_running - user[12],event = poker_count_push,data = 16
+[2017-07-06 17:58:23.926] [DEBUG] poker_running - user[12],event = game_num_push,data = 1
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - user[12],event = game_begin_push,data = 0
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - user[12],event = game_holds_push,data = {"user_id":13,"holds":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"folds":[]}
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - user[13],event = game_holds_push,data = {"user_id":13,"holds":[39,34,27,19,13,10,40,24,6,15,1,17,46,38,23,28],"folds":[]}
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - user[13],event = poker_count_push,data = 16
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - user[13],event = game_num_push,data = 1
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - user[13],event = game_begin_push,data = 0
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - send to room[game_state_push] data[{"state":2}],room_id[111717]
+[2017-07-06 17:58:23.927] [DEBUG] poker_running - send to room[turn_push] data[{"turn":0,"black_three":0,"red_ten":-1,"max_index":0,"now_card_type":0,"now_card_data":[]}],room_id[111717]
+[2017-07-06 17:58:23.928] [DEBUG] poker_running - Init game base Info to DB===> {"uuid":"1499335092723111717","game_index":1,"create_time":1499335093,"base_info":{"conf":{"server_type":20001,"type_index":"2","rule_index":527186,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":2,"current_index":32,"poker":[36,39,8,34,12,27,35,19,18,13,31,10,5,40,9,24,7,6,20,15,4,1,3,17,29,46,41,38,14,23,32,28,37,11,25,30,2,0,21,43,45,16,22,51,47,33,26,42]},"holds":[[36,8,12,35,18,31,5,9,7,20,4,3,29,41,14,32],[39,34,27,19,13,10,40,24,6,15,1,17,46,38,23,28]],"folds":[[],[]],"actions":[[],[]],"result":[0,0],"statistic":[{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"redheart_ten":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"redheart_ten":0,"total_score":0}],"change_info":{"turn":0,"boom_value_index":-1,"state":2,"now_max_index":0,"now_card_type":0,"now_card_data":[],"black_three":0,"boom_num_list":[0,0],"boom_value_list":[0,0],"button":0,"redheart_ten":-1}}
+[2017-07-06 17:58:23.928] [DEBUG] poker_running - broadcast[user_ready_push] data[{"userid":12,"ready":true}],sender[12]
+[2017-07-06 17:58:35.505] [DEBUG] poker_running - Socket[dissolve_request][null]
+[2017-07-06 17:58:35.506] [DEBUG] poker_running - broadcast[dissolve_notice_push] data[{"mask":2,"time":120,"states":[true,false]}],sender[12]
+[2017-07-06 17:58:36.146] [DEBUG] poker_running - broadcast[dissolve_notice_push] data[{"mask":6,"time":119.36,"states":[true,true]}],sender[13]
+[2017-07-06 17:58:36.147] [DEBUG] poker_running - call game end ---------------> 111717 true
+[2017-07-06 17:58:36.149] [DEBUG] poker_running - send to room[game_state_push] data[{"state":1}],room_id[111717]
+[2017-07-06 17:58:36.149] [DEBUG] poker_running - send to room[game_over] data[{"end_seats_data":[{"user_id":12,"card_num":16,"boom_num":0,"end_score":0,"redheart_ten":-1,"total_score":0},{"user_id":13,"card_num":16,"boom_num":0,"end_score":0,"redheart_ten":-1,"total_score":0}],"force":true,"redheart_ten":-1}],room_id[111717]
+[2017-07-06 17:58:36.150] [DEBUG] poker_running - base poker manager call set ready user[12],status[0]
+[2017-07-06 17:58:36.150] [DEBUG] poker_running - base poker manager call set ready user[13],status[0]
+[2017-07-06 17:58:36.150] [DEBUG] poker_running - show me check game over ................. 1 10 1
+[2017-07-06 17:58:36.151] [DEBUG] poker_running - call game over ----------------> 111717 true
+[2017-07-06 17:58:36.151] [DEBUG] poker_running - send to room[game_result] data[{"over_seats_data":[{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"redheart_ten_counts":0,"total_score":0},{"max_score":0,"boom_counts":0,"win_counts":0,"lose_counts":0,"redheart_ten_counts":0,"total_score":0}]}],room_id[111717]
+[2017-07-06 17:58:36.153] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-06 17:58:36.154] [DEBUG] poker_running - base poker manager call set ready user[12],status[0]
+[2017-07-06 17:58:36.155] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-06 17:58:36.155] [DEBUG] poker_running - base poker manager call set ready user[13],status[0]
+[2017-07-06 17:58:36.156] [DEBUG] poker_running - UPDATE users SET roomid = null WHERE userid = 12
+[2017-07-06 17:58:36.156] [DEBUG] poker_running - UPDATE users SET roomid = null WHERE userid = 13
+[2017-07-06 18:02:16.201] [DEBUG] poker_running - Http[create_room][{"userid":"12","ingot":"2","gold":"1000","conf":"{\"server_code\":20001,\"type_index\":\"2\",\"rule_index\":525130}","sign":"c20100e057785a64"}]
+[2017-07-06 18:02:16.204] [WARN] poker_running - rule not invalid type classic but not 16 cards
+[2017-07-06 18:02:16.204] [DEBUG] poker_running - create room,game_index = 2,game_rule= 527178
+[2017-07-06 18:02:16.204] [DEBUG] poker_running - SELECT * FROM rooms WHERE id = "234346"
+[2017-07-06 18:02:16.206] [DEBUG] poker_running - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499335336206234346','234346','{"server_type":20001,"type_index":"2","rule_index":527178,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16}','127.0.0.1',10200,1499335337,20001,1)
+[2017-07-06 18:02:16.215] [DEBUG] poker_running - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"2","gold":"1000","roomid":"234346","sign":"b78891c8ee4fb8e4"}]
+[2017-07-06 18:02:16.320] [DEBUG] poker_running - Socket[login][{"token":"cefa119ae258fcd1d11f3236efab8ff4","roomid":"234346","time":1499335336223,"sign":"78722944d5a38baa888b28c0cc88b45f"}]
+[2017-07-06 18:02:16.320] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"234346","conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}]}}
+[2017-07-06 18:02:16.321] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-06 18:02:16.322] [ERROR] poker_running - LOAD USER INFO ERROR: Error: ER_BAD_FIELD_ERROR: Unknown column 'daily_clear_time' in 'field list'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:33:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-06 18:02:16.323] [WARN] poker_running - login_result, errcode = 4 msg= read data failed.
+[2017-07-06 18:02:28.224] [DEBUG] poker_running - Http[enter_room][{"userid":"13","name":"上官不输","ingot":"10","gold":"1000","roomid":"234346","sign":"479627b200fa2ac2"}]
+[2017-07-06 18:02:28.305] [DEBUG] poker_running - Socket[login][{"token":"df90156e6ff2aae86479e36bae09464c","roomid":"234346","time":1499335348230,"sign":"0b6c79e5e67c109f5f6b4d7444481bbd"}]
+[2017-07-06 18:02:28.305] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"234346","conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}]}}
+[2017-07-06 18:02:28.305] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":true,"ready":false,"seatindex":1}],sender[13]
+[2017-07-06 18:02:28.307] [ERROR] poker_running - LOAD USER INFO ERROR: Error: ER_BAD_FIELD_ERROR: Unknown column 'daily_clear_time' in 'field list'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:33:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-06 18:02:28.307] [WARN] poker_running - login_result, errcode = 4 msg= read data failed.
+[2017-07-06 18:04:27.929] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":13,"online":false}],sender[13]
+[2017-07-06 18:04:27.929] [DEBUG] poker_running - base poker manager call set ready user[13],status[0]
+[2017-07-06 18:04:28.050] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-06 18:04:28.050] [DEBUG] poker_running - base poker manager call set ready user[12],status[0]
+[2017-07-06 18:04:44.357] [DEBUG] poker_running - Http[enter_room][{"userid":"12","name":"独孤好运","ingot":"2","gold":"1000","roomid":"234346","sign":"b78891c8ee4fb8e4"}]
+[2017-07-06 18:04:44.471] [DEBUG] poker_running - Socket[login][{"token":"a3dcbe956c3975231da982c6ace75074","roomid":"234346","time":1499335484360,"sign":"38b0080eaf1acceb0511fcb8f7598450"}]
+[2017-07-06 18:04:44.472] [DEBUG] poker_running - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"234346","conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":12,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"num_of_games":0,"seats":[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0},{"userid":13,"ip":"::ffff:192.168.0.180","score":0,"name":"上官不输","online":false,"ready":false,"seatindex":1}]}}
+[2017-07-06 18:04:44.472] [DEBUG] poker_running - broadcast[new_user_comes_push] data[{"userid":12,"ip":"::ffff:192.168.0.180","score":0,"name":"独孤好运","online":true,"ready":false,"seatindex":0}],sender[12]
+[2017-07-06 18:04:44.473] [ERROR] poker_running - LOAD USER INFO ERROR: Error: ER_BAD_FIELD_ERROR: Unknown column 'daily_clear_time' in 'field list'
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\db.js:33:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-06 18:04:44.474] [WARN] poker_running - login_result, errcode = 4 msg= read data failed.
+[2017-07-06 18:05:03.003] [DEBUG] poker_running - broadcast[user_state_push] data[{"userid":12,"online":false}],sender[12]
+[2017-07-06 18:05:03.003] [DEBUG] poker_running - base poker manager call set ready user[12],status[0]

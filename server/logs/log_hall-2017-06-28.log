@@ -1,0 +1,96 @@
+[2017-06-28 09:50:38.552] [INFO] hall - HALL DB READY.
+[2017-06-28 09:50:38.570] [INFO] hall - CLIENT SERVICE RUNING ON:9001
+[2017-06-28 09:50:38.572] [INFO] hall - ROOM SERVICE RUNNING ON:127.0.0.1:9002
+[2017-06-28 09:50:38.572] [INFO] hall - PAY SERVICE RUNNING ON: 127.0.0.1:8888
+[2017-06-28 09:50:38.696] [DEBUG] hall - Route service try to load config.
+[2017-06-28 09:50:39.633] [INFO] hall - GAME SERVER REGEST:
+	server type :20002
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10300
+	socket port :10400
+	max client  :2000
+[2017-06-28 09:50:39.664] [INFO] hall - GAME SERVER REGEST:
+	server type :20004
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10700
+	socket port :10800
+	max client  :2000
+[2017-06-28 09:50:39.696] [INFO] hall - GAME SERVER REGEST:
+	server type :20005
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10900
+	socket port :11000
+	max client  :2000
+[2017-06-28 09:50:39.743] [INFO] hall - GAME SERVER REGEST:
+	server type :20001
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10100
+	socket port :10200
+	max client  :2000
+[2017-06-28 09:50:39.805] [INFO] hall - GAME SERVER REGEST:
+	server type :20003
+	server id   :1
+	server addr :192.168.0.142
+	http port   :10500
+	socket port :10600
+	max client  :2000
+[2017-06-28 09:50:39.846] [INFO] hall - GAME SERVER REGEST:
+	server type :20008
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11300
+	socket port :11400
+	max client  :2000
+[2017-06-28 09:50:39.968] [INFO] hall - GAME SERVER REGEST:
+	server type :20009
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11500
+	socket port :11600
+	max client  :2000
+[2017-06-28 09:50:40.119] [INFO] hall - GAME SERVER REGEST:
+	server type :20007
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11100
+	socket port :11200
+	max client  :2000
+[2017-06-28 09:50:40.136] [INFO] hall - GAME SERVER REGEST:
+	server type :20011
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11900
+	socket port :12000
+	max client  :2000
+[2017-06-28 09:50:40.442] [DEBUG] hall - Route service try to load config.
+[2017-06-28 09:51:26.851] [INFO] hall - GAME SERVER REGEST:
+	server type :20010
+	server id   :1
+	server addr :192.168.0.142
+	http port   :11700
+	socket port :11800
+	max client  :2000
+[2017-06-28 10:03:04.597] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-28 10:03:04.605] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 2
+[2017-06-28 10:03:04.608] [DEBUG] hall - SELECT * FROM rooms WHERE id = "111927"
+[2017-06-28 10:03:04.953] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-28 10:03:04.973] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-28 10:03:04.974] [DEBUG] hall - SELECT ip,port,server_type,server_id FROM rooms WHERE id = "111927"
+[2017-06-28 10:03:05.002] [DEBUG] hall - UPDATE users SET roomid = "111927" WHERE userid = 2
+[2017-06-28 10:04:29.711] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_aaa1"
+[2017-06-28 10:04:29.712] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 1
+[2017-06-28 10:04:30.073] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_aaa1"
+[2017-06-28 10:06:45.177] [DEBUG] hall - SELECT userid,account,name,lv,exp,coins,gems,roomid,`lock`,agent FROM users WHERE account = "guest_1234"
+[2017-06-28 10:06:45.178] [DEBUG] hall - SELECT roomid FROM users WHERE userid = 2
+[2017-06-28 10:06:45.522] [DEBUG] hall - SELECT gems,coins,userid FROM users WHERE account = "guest_1234"
+[2017-06-28 11:11:17.205] [WARN] hall - GAME SERVER OFFLINE:
+	server type :20010
+	server id   :1
+	server addr :127.0.0.1
+	http port   :11700
+	socket port :11800
+	max client  :2000

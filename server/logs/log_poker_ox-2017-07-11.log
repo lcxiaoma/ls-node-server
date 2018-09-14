@@ -1,0 +1,50 @@
+[2017-07-11 09:47:23.534] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-11 09:47:23.554] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-11 09:47:24.102] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-11 09:47:24.583] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:51:00.006] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-11 17:51:00.015] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-11 17:51:00.143] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-11 17:51:01.044] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:54:16.209] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:58:09.374] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:01:43.632] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-11 18:01:43.646] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-11 18:01:43.771] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-11 18:01:44.668] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:02:24.100] [DEBUG] poker_ox - Http[create_room][{"userid":"21","ingot":"10","gold":"1000","conf":"{\"server_code\":20003,\"type_index\":\"2\",\"rule_index\":538698}","sign":"8b5cd7f186ee1f7b"}]
+[2017-07-11 18:02:24.102] [DEBUG] poker_ox - SELECT * FROM rooms WHERE id = "797035"
+[2017-07-11 18:02:24.112] [DEBUG] poker_ox - create room room config = {"uuid":"","id":"797035","num_of_games":0,"create_time":1499767345,"next_button":0,"seats":[],"watch_seats":[],"conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"seats_num":5,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"base_score":0,"banker_circle":[0,0]}}
+[2017-07-11 18:02:24.117] [DEBUG] poker_ox - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499767344117797035','797035','{"server_type":20003,"type_index":"2","rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5}','127.0.0.1',10600,1499767345,20003,1)
+[2017-07-11 18:02:24.128] [DEBUG] poker_ox - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"797035","sign":"ee8f4c83cce11267"}]
+[2017-07-11 18:02:24.162] [DEBUG] poker_ox - Socket[login][{"token":"74c6296ae067fcc1e9c57a71459b7eb4","roomid":"797035","time":1499767344133,"sign":"59f8d605043a7e42e54a2ba6a962de3d"}]
+[2017-07-11 18:02:24.163] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"797035","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-11 18:02:24.164] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}],sender[21]
+[2017-07-11 18:02:31.303] [DEBUG] poker_ox - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"797035","sign":"6d1ba4ebca8cc6b6"}]
+[2017-07-11 18:02:31.327] [DEBUG] poker_ox - Socket[login][{"token":"5c210a0e1296f60ca9b81f3436491f47","roomid":"797035","time":1499767351308,"sign":"199bdbfa71c343e6e1e27ef911801583"}]
+[2017-07-11 18:02:31.327] [DEBUG] poker_ox - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"797035","conf":{"server_type":20003,"type_index":"2","rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}]}}
+[2017-07-11 18:02:31.328] [DEBUG] poker_ox - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}],sender[22]
+[2017-07-11 18:02:32.218] [DEBUG] poker_ox - Socket[ready][null]
+[2017-07-11 18:02:32.220] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":22,"ready":true}],room_id[797035]
+[2017-07-11 18:02:34.978] [DEBUG] poker_ox - Socket[transfer][{"target":22}]
+[2017-07-11 18:02:34.978] [DEBUG] poker_ox - UPDATE rooms SET base_info='{"server_type":20003,"type_index":"2","rule_index":538698,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":5}' WHERE uuid='1499767344117797035'
+[2017-07-11 18:02:34.979] [DEBUG] poker_ox - send to room[transfer] data[{"new_seat":[22,21]}],room_id[797035]
+[2017-07-11 18:02:38.832] [DEBUG] poker_ox - Socket[kick][{"target":21}]
+[2017-07-11 18:02:38.832] [DEBUG] poker_ox - user[21],event = kick,data = {"kicked":21,"new_seat":[]}
+[2017-07-11 18:02:38.833] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:02:38.833] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":21,"ready":false}],room_id[797035]
+[2017-07-11 18:02:38.833] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 21
+[2017-07-11 18:02:38.835] [DEBUG] poker_ox - send to room[kick] data[{"kicked":21,"new_seat":[22]}],room_id[797035]
+[2017-07-11 18:02:41.326] [DEBUG] poker_ox - Socket[dispress][null]
+[2017-07-11 18:02:41.327] [DEBUG] poker_ox - broadcast[dispress_push] data[{}],sender[22]
+[2017-07-11 18:02:41.327] [DEBUG] poker_ox - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:02:41.327] [DEBUG] poker_ox - send to room[user_ready_push] data[{"userid":22,"ready":false}],room_id[797035]
+[2017-07-11 18:02:41.327] [DEBUG] poker_ox - UPDATE users SET roomid = null WHERE userid = 22
+[2017-07-11 18:17:46.149] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-11 18:17:46.156] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-11 18:17:46.269] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-11 18:17:47.205] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:29:40.935] [INFO] poker_ox - POKER OX DB READY.
+[2017-07-11 18:29:40.946] [INFO] poker_ox - POKER OX HTTP SERVICE RUNNING ON:127.0.0.1:10500
+[2017-07-11 18:29:41.158] [INFO] poker_ox - POKER OX SOCKET RUNNING ON: 10600
+[2017-07-11 18:29:41.968] [DEBUG] poker_ox - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

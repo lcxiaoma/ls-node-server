@@ -1,0 +1,50 @@
+[2017-07-11 09:47:23.540] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-11 09:47:23.551] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-11 09:47:24.096] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-11 09:47:24.592] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:51:01.387] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-11 17:51:01.397] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-11 17:51:01.534] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-11 17:51:02.418] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:54:15.547] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:58:09.712] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:01:45.009] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-11 18:01:45.017] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-11 18:01:45.166] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-11 18:01:46.038] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:03:56.453] [DEBUG] sangong - Http[create_room][{"userid":"21","ingot":"10","gold":"1000","conf":"{\"server_code\":20008,\"type_index\":2,\"rule_index\":538698}","sign":"6404b2c8793d47d7"}]
+[2017-07-11 18:03:56.455] [DEBUG] sangong - SELECT * FROM rooms WHERE id = "773138"
+[2017-07-11 18:03:56.464] [DEBUG] sangong - create room room config = {"uuid":"","id":"773138","num_of_games":0,"create_time":1499767437,"next_button":0,"seats":[],"watch_seats":[],"conf":{"server_type":20008,"type_index":2,"rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3},"seats_num":5,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"base_score":0,"banker_circle":[0,0]}}
+[2017-07-11 18:03:56.469] [DEBUG] sangong - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499767436469773138','773138','{"server_type":20008,"type_index":2,"rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3}','127.0.0.1',11400,1499767437,20008,1)
+[2017-07-11 18:03:56.480] [DEBUG] sangong - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"773138","sign":"6cc4e254e36baa74"}]
+[2017-07-11 18:03:56.521] [DEBUG] sangong - Socket[login][{"token":"f5ac4897fe843f534736e7a2d395fde6","roomid":"773138","time":1499767436486,"sign":"70232bd7d9378cca99c491087f12db53"}]
+[2017-07-11 18:03:56.522] [DEBUG] sangong - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"773138","conf":{"server_type":20008,"type_index":2,"rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-11 18:03:56.523] [DEBUG] sangong - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}],sender[21]
+[2017-07-11 18:04:02.769] [DEBUG] sangong - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"773138","sign":"c67005e61f04f69f"}]
+[2017-07-11 18:04:02.784] [DEBUG] sangong - Socket[login][{"token":"e14600736ec5995f4c648a62ac520746","roomid":"773138","time":1499767442776,"sign":"50bdc7f083813c5c91484261495fc777"}]
+[2017-07-11 18:04:02.785] [DEBUG] sangong - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"773138","conf":{"server_type":20008,"type_index":2,"rule_index":538698,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}]}}
+[2017-07-11 18:04:02.785] [DEBUG] sangong - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}],sender[22]
+[2017-07-11 18:04:03.771] [DEBUG] sangong - Socket[ready][null]
+[2017-07-11 18:04:03.772] [DEBUG] sangong - send to room[user_ready_push] data[{"userid":22,"ready":true}],room_id[773138]
+[2017-07-11 18:04:06.452] [DEBUG] sangong - Socket[transfer][{"target":22}]
+[2017-07-11 18:04:06.453] [DEBUG] sangong - UPDATE rooms SET base_info='{"server_type":20008,"type_index":2,"rule_index":538698,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":3}' WHERE uuid='1499767436469773138'
+[2017-07-11 18:04:06.453] [DEBUG] sangong - send to room[transfer] data[{"new_seat":[22,21]}],room_id[773138]
+[2017-07-11 18:04:11.790] [DEBUG] sangong - Socket[kick][{"target":21}]
+[2017-07-11 18:04:11.790] [DEBUG] sangong - user[21],event = kick,data = {"kicked":21,"new_seat":[]}
+[2017-07-11 18:04:11.791] [DEBUG] sangong - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:04:11.791] [DEBUG] sangong - send to room[user_ready_push] data[{"userid":21,"ready":false}],room_id[773138]
+[2017-07-11 18:04:11.791] [DEBUG] sangong - UPDATE users SET roomid = null WHERE userid = 21
+[2017-07-11 18:04:11.792] [DEBUG] sangong - send to room[kick] data[{"kicked":21,"new_seat":[22]}],room_id[773138]
+[2017-07-11 18:04:15.229] [DEBUG] sangong - Socket[dispress][null]
+[2017-07-11 18:04:15.229] [DEBUG] sangong - broadcast[dispress_push] data[{}],sender[22]
+[2017-07-11 18:04:15.230] [DEBUG] sangong - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:04:15.230] [DEBUG] sangong - send to room[user_ready_push] data[{"userid":22,"ready":false}],room_id[773138]
+[2017-07-11 18:04:15.230] [DEBUG] sangong - UPDATE users SET roomid = null WHERE userid = 22
+[2017-07-11 18:17:47.544] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-11 18:17:47.552] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-11 18:17:47.679] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-11 18:17:48.575] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:29:41.052] [INFO] sangong - POKER SANGONG DB READY.
+[2017-07-11 18:29:41.058] [INFO] sangong - POKER SANGONG HTTP SERVICE RUNNING ON:127.0.0.1:11300
+[2017-07-11 18:29:41.250] [INFO] sangong - POKER OX SOCKET RUNNING ON: 11400
+[2017-07-11 18:29:42.079] [DEBUG] sangong - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

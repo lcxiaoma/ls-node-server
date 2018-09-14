@@ -1,0 +1,13 @@
+[2017-06-30 14:15:29.491] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-06-30 14:15:29.511] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-06-30 14:15:29.978] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-06-30 14:15:30.550] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-06-30 14:25:41.451] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-06-30 14:25:41.462] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-06-30 14:25:41.578] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-06-30 14:25:42.495] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-06-30 14:33:54.646] [DEBUG] poker_landlord - create room room config = {"uuid":"","id":"880425","num_of_games":0,"create_time":1498804435,"next_button":0,"seats":[],"conf":{"server_type":20001,"type_index":"2","rule_index":527178,"creator":3,"doubles":false,"free":false,"max_games":10,"poker_nums":48,"card_nums":16},"seats_num":3}
+[2017-06-30 16:33:34.737] [INFO] poker_landlord - POKER LANDLORD DB READY.
+[2017-06-30 16:33:34.744] [INFO] poker_landlord - POKER LANDLORD HTTP SERVICE RUNNING ON:127.0.0.1:10300
+[2017-06-30 16:33:34.858] [INFO] poker_landlord - POKER LANDLORD SOCKET RUNNING ON:10400
+[2017-06-30 16:33:35.782] [DEBUG] poker_landlord - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

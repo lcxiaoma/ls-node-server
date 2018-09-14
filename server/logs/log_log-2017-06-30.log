@@ -1,0 +1,86 @@
+[2017-06-30 14:15:29.511] [INFO] log - ACCOUNT LOG MANAGER READY.
+[2017-06-30 14:15:29.515] [INFO] log - HALL LOG MANAGER READY.
+[2017-06-30 14:15:29.506] [INFO] log - POKER SHISANSHUI LOG MANAGER READY.
+[2017-06-30 14:15:29.498] [INFO] log - POKER 21 POINTS LOG MANAGER READY.
+[2017-06-30 14:15:29.506] [INFO] log - POKER OX LOG MANAGER READY.
+[2017-06-30 14:15:29.498] [INFO] log - POKER SANGONG LOG MANAGER READY.
+[2017-06-30 14:15:29.515] [INFO] log - POKER 10.5 POINTS LOG MANAGER READY.
+[2017-06-30 14:15:29.515] [INFO] log - POKER TAXAS LOG MANAGER READY.
+[2017-06-30 14:15:29.519] [INFO] log - POKER GOLDFLOWER LOG MANAGER READY.
+[2017-06-30 14:15:29.534] [INFO] log - POKER RUNNING LOG MANAGER READY.
+[2017-06-30 14:15:29.495] [INFO] log - POKER LANDLORD LOG MANAGER READY.
+[2017-06-30 14:24:28.740] [INFO] log - POKER 10.5 POINTS LOG MANAGER READY.
+[2017-06-30 14:25:02.071] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 14:25:41.113] [INFO] log - ACCOUNT LOG MANAGER READY.
+[2017-06-30 14:25:41.186] [INFO] log - HALL LOG MANAGER READY.
+[2017-06-30 14:25:41.459] [INFO] log - POKER LANDLORD LOG MANAGER READY.
+[2017-06-30 14:25:41.523] [INFO] log - POKER RUNNING LOG MANAGER READY.
+[2017-06-30 14:25:41.908] [INFO] log - POKER OX LOG MANAGER READY.
+[2017-06-30 14:25:42.032] [INFO] log - POKER GOLDFLOWER LOG MANAGER READY.
+[2017-06-30 14:25:42.515] [INFO] log - POKER TAXAS LOG MANAGER READY.
+[2017-06-30 14:25:42.717] [INFO] log - POKER SANGONG LOG MANAGER READY.
+[2017-06-30 14:25:43.249] [INFO] log - POKER SHISANSHUI LOG MANAGER READY.
+[2017-06-30 14:25:43.531] [INFO] log - POKER 21 POINTS LOG MANAGER READY.
+[2017-06-30 14:25:43.982] [INFO] log - POKER 10.5 POINTS LOG MANAGER READY.
+[2017-06-30 14:25:49.320] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 14:33:54.670] [ERROR] log - INSERT CREATE ROOM LOG: Error: ER_NO_SUCH_TABLE: Table 'log_100001.create_room_log' doesn't exist
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\logdb.js:33:18
+    at Handshake.onConnect [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-06-30 15:10:00.108] [ERROR] log - INSERT CREATE ROOM LOG: Error: ER_NO_SUCH_TABLE: Table 'log_100001.create_room_log' doesn't exist
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\logdb.js:33:18
+    at Handshake.onConnect [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-06-30 15:18:29.112] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 15:34:19.440] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 15:38:04.242] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 15:40:22.027] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 16:33:34.386] [INFO] log - ACCOUNT LOG MANAGER READY.
+[2017-06-30 16:33:34.467] [INFO] log - HALL LOG MANAGER READY.
+[2017-06-30 16:33:34.741] [INFO] log - POKER LANDLORD LOG MANAGER READY.
+[2017-06-30 16:33:34.737] [INFO] log - POKER RUNNING LOG MANAGER READY.
+[2017-06-30 16:33:35.210] [INFO] log - POKER OX LOG MANAGER READY.
+[2017-06-30 16:33:35.411] [INFO] log - POKER GOLDFLOWER LOG MANAGER READY.
+[2017-06-30 16:33:35.867] [INFO] log - POKER TAXAS LOG MANAGER READY.
+[2017-06-30 16:33:36.107] [INFO] log - POKER SANGONG LOG MANAGER READY.
+[2017-06-30 16:33:36.655] [INFO] log - POKER SHISANSHUI LOG MANAGER READY.
+[2017-06-30 16:33:36.968] [INFO] log - POKER 21 POINTS LOG MANAGER READY.
+[2017-06-30 16:33:37.474] [INFO] log - POKER 10.5 POINTS LOG MANAGER READY.
+[2017-06-30 16:33:53.829] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-06-30 16:52:29.342] [INFO] log - POKER SANDAHA LOG MANAGER READY.

@@ -1,0 +1,77 @@
+[2017-07-06 09:53:57.282] [INFO] log - ACCOUNT LOG MANAGER READY.
+[2017-07-06 09:53:57.282] [INFO] log - HALL LOG MANAGER READY.
+[2017-07-06 09:53:57.298] [INFO] log - POKER SANGONG LOG MANAGER READY.
+[2017-07-06 09:53:57.282] [INFO] log - POKER SHISANSHUI LOG MANAGER READY.
+[2017-07-06 09:53:57.313] [INFO] log - POKER 10.5 POINTS LOG MANAGER READY.
+[2017-07-06 09:53:57.298] [INFO] log - POKER TAXAS LOG MANAGER READY.
+[2017-07-06 09:53:57.314] [INFO] log - POKER LANDLORD LOG MANAGER READY.
+[2017-07-06 09:53:57.298] [INFO] log - POKER 21 POINTS LOG MANAGER READY.
+[2017-07-06 09:53:57.313] [INFO] log - POKER RUNNING LOG MANAGER READY.
+[2017-07-06 09:53:57.282] [INFO] log - POKER GOLDFLOWER LOG MANAGER READY.
+[2017-07-06 09:53:57.313] [INFO] log - POKER OX LOG MANAGER READY.
+[2017-07-06 09:54:35.787] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 10:07:22.101] [DEBUG] log - insert ingot log
+[2017-07-06 10:09:50.941] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 10:19:17.362] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 10:31:39.479] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 10:44:03.166] [DEBUG] log - insert ingot log
+[2017-07-06 10:49:39.083] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 10:54:31.853] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 10:54:44.264] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 11:12:55.084] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 11:18:27.194] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 11:48:07.391] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 12:39:25.601] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 12:40:02.864] [DEBUG] log - insert ingot log
+[2017-07-06 12:54:09.049] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 13:01:45.487] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 13:11:47.743] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 13:13:32.386] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 13:33:44.821] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 14:50:15.417] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 14:51:58.774] [INFO] log - POKER SANDAHA LOG MANAGER READY.
+[2017-07-06 16:02:55.054] [INFO] log - HALL LOG MANAGER READY.
+[2017-07-06 17:58:12.743] [ERROR] log - INSERT CREATE ROOM LOG: Error: ER_NO_SUCH_TABLE: Table 'log_100001.create_room_log' doesn't exist
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\logdb.js:33:18
+    at Handshake.onConnect [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+[2017-07-06 18:02:16.212] [ERROR] log - INSERT CREATE ROOM LOG: Error: ER_NO_SUCH_TABLE: Table 'log_100001.create_room_log' doesn't exist
+    at Query.Sequence._packetToError (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:189:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:208:25)
+    at E:\WorkSpace\server\server\utils\logdb.js:33:18
+    at Ping.onOperationComplete [as _callback] (E:\WorkSpace\server\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\WorkSpace\server\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\WorkSpace\server\server\node_modules\mysql\lib\Connection.js:103:28)

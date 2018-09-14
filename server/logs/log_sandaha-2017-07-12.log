@@ -1,0 +1,54 @@
+[2017-07-12 09:39:58.356] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-12 09:39:58.365] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-12 09:39:58.797] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-12 09:39:59.387] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 11:48:03.691] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:22:33.974] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:24:58.060] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:27:48.150] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:31:41.249] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:43:51.628] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 15:44:02.906] [DEBUG] sandaha - Http[create_room][{"userid":"19","ingot":"10","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":532514,\"server_code\":20010}","sign":"3a58ea0a290c300c"}]
+[2017-07-12 15:44:02.909] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "992342"
+[2017-07-12 15:44:02.921] [DEBUG] sandaha - create room room config = {"uuid":"","id":"992342","num_of_games":0,"create_time":1499845443,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-12 15:44:02.941] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499845442941992342','992342','{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499845443,20010,1)
+[2017-07-12 16:23:01.422] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:31.967] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:24:36.324] [DEBUG] sandaha - Http[create_room][{"userid":"19","ingot":"10","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":532514,\"server_code\":20010}","sign":"3a58ea0a290c300c"}]
+[2017-07-12 16:24:36.324] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "880363"
+[2017-07-12 16:24:36.328] [DEBUG] sandaha - create room room config = {"uuid":"","id":"880363","num_of_games":0,"create_time":1499847877,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-12 16:24:36.328] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499847876328880363','880363','{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499847877,20010,1)
+[2017-07-12 16:26:16.035] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:26:21.087] [DEBUG] sandaha - Http[create_room][{"userid":"19","ingot":"9","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":532514,\"server_code\":20010}","sign":"ab221b03927f00de"}]
+[2017-07-12 16:26:21.087] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "678860"
+[2017-07-12 16:26:21.089] [DEBUG] sandaha - create room room config = {"uuid":"","id":"678860","num_of_games":0,"create_time":1499847982,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-12 16:26:21.089] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499847981089678860','678860','{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499847982,20010,1)
+[2017-07-12 16:31:30.252] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:32:21.272] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:35:37.396] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:36:32.917] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:36.447] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-12 16:37:36.455] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-12 16:37:36.598] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-12 16:37:37.478] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:37:55.530] [DEBUG] sandaha - Http[create_room][{"userid":"19","ingot":"8","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":532514,\"server_code\":20010}","sign":"e361e4e9dabef284"}]
+[2017-07-12 16:37:55.531] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "490781"
+[2017-07-12 16:37:55.542] [DEBUG] sandaha - create room room config = {"uuid":"","id":"490781","num_of_games":0,"create_time":1499848676,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-12 16:37:55.549] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499848675549490781','490781','{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499848676,20010,1)
+[2017-07-12 16:41:48.178] [INFO] sandaha - POKER SANDAHA DB READY.
+[2017-07-12 16:41:48.184] [INFO] sandaha - POKER SANDAHA HTTP SERVICE RUNNING ON:127.0.0.1:11700
+[2017-07-12 16:41:48.296] [INFO] sandaha - POKER SANDAHA SOCKET RUNNING ON:11800
+[2017-07-12 16:41:49.211] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:43:09.253] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 16:48:05.998] [DEBUG] sandaha - Http[create_room][{"userid":"19","ingot":"7","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":532514,\"server_code\":20010}","sign":"6e119089e88dbb29"}]
+[2017-07-12 16:48:05.999] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "128393"
+[2017-07-12 16:48:06.009] [DEBUG] sandaha - create room room config = {"uuid":"","id":"128393","num_of_games":0,"create_time":1499849287,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-12 16:48:06.015] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499849286015128393','128393','{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499849287,20010,1)
+[2017-07-12 16:51:04.479] [DEBUG] sandaha - Http[create_room][{"userid":"19","ingot":"6","gold":"1000","conf":"{\"type_index\":2,\"rule_index\":532514,\"server_code\":20010}","sign":"000e2ea7364c73bb"}]
+[2017-07-12 16:51:04.480] [DEBUG] sandaha - SELECT * FROM rooms WHERE id = "316873"
+[2017-07-12 16:51:04.482] [DEBUG] sandaha - create room room config = {"uuid":"","id":"316873","num_of_games":0,"create_time":1499849465,"next_button":0,"seats":[],"conf":{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21},"seats_num":4}
+[2017-07-12 16:51:04.482] [DEBUG] sandaha - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499849464482316873','316873','{"server_type":20010,"type_index":2,"rule_index":532514,"creator":19,"double":false,"free":false,"max_games":10,"poker_nums":92,"card_nums":21}','127.0.0.1',11800,1499849465,20010,1)
+[2017-07-12 17:02:55.971] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:04:46.048] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 17:11:14.274] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-12 18:39:25.838] [DEBUG] sandaha - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

@@ -1,0 +1,5 @@
+[2017-07-06 09:53:57.313] [INFO] points10 - POKER 10.5 POINTS DB READY.
+[2017-07-06 09:53:57.329] [INFO] points10 - POKER 10.5 POINTS HTTP SERVICE RUNNING ON:127.0.0.1:11900
+[2017-07-06 09:53:57.782] [INFO] points10 - POKER 10.5 SOCKET RUNNING ON: 12000
+[2017-07-06 09:53:58.376] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-06 16:02:59.424] [DEBUG] points10 - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]

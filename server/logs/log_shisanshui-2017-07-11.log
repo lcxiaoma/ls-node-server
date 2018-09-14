@@ -1,0 +1,48 @@
+[2017-07-11 09:47:23.534] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-11 09:47:23.551] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-11 09:47:24.090] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-11 09:47:24.593] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:51:02.040] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-11 17:51:02.047] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-11 17:51:02.170] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-11 17:51:03.067] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:54:15.739] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 17:58:09.406] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:01:45.575] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-11 18:01:45.585] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-11 18:01:45.717] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-11 18:01:46.613] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:04:19.789] [DEBUG] shisanshui - Http[create_room][{"userid":"21","ingot":"10","gold":"1000","conf":"{\"server_code\":20009,\"type_index\":\"2\",\"rule_index\":524370}","sign":"32df4efa7802a01e"}]
+[2017-07-11 18:04:19.791] [DEBUG] shisanshui - SELECT * FROM rooms WHERE id = "490653"
+[2017-07-11 18:04:19.801] [DEBUG] shisanshui - create room room config = {"uuid":"","id":"490653","num_of_games":0,"create_time":1499767460,"next_button":0,"seats":[],"watch_seats":[],"conf":{"server_type":20009,"type_index":"2","rule_index":524370,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13},"seats_num":4,"change_info":{"less_begin":false,"current_banker_index":0,"current_banker_score":0,"current_banker_count":0,"base_score":0,"banker_circle":[0,0]}}
+[2017-07-11 18:04:19.807] [DEBUG] shisanshui - INSERT INTO rooms(uuid,id,base_info,ip,port,create_time,server_type,server_id)                 VALUES('1499767459807490653','490653','{"server_type":20009,"type_index":"2","rule_index":524370,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13}','127.0.0.1',11600,1499767460,20009,1)
+[2017-07-11 18:04:19.818] [DEBUG] shisanshui - Http[enter_room][{"userid":"21","name":"独孤稳赢","ingot":"10","gold":"1000","roomid":"490653","sign":"8bd0b3adbd5386e2"}]
+[2017-07-11 18:04:19.853] [DEBUG] shisanshui - Socket[login][{"token":"36fc4b7a4de594b947c5ad2f4bc42fe1","roomid":"490653","time":1499767459824,"sign":"c600b4e6baa7186eef0ab160bb046f1b"}]
+[2017-07-11 18:04:19.853] [DEBUG] shisanshui - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"490653","conf":{"server_type":20009,"type_index":"2","rule_index":524370,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}]}}
+[2017-07-11 18:04:19.854] [DEBUG] shisanshui - broadcast[new_user_comes_push] data[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false}],sender[21]
+[2017-07-11 18:04:27.306] [DEBUG] shisanshui - Http[enter_room][{"userid":"22","name":"皇甫有钱","ingot":"10","gold":"1000","roomid":"490653","sign":"23a2f0411f7cbe60"}]
+[2017-07-11 18:04:27.339] [DEBUG] shisanshui - Socket[login][{"token":"ad15b8b2e0718aa47b9d1ef25097ef18","roomid":"490653","time":1499767467313,"sign":"28e5b3722ce2ac8ee9bab651fb29be54"}]
+[2017-07-11 18:04:27.340] [DEBUG] shisanshui - login result ==> {"errcode":0,"errmsg":"ok","data":{"roomid":"490653","conf":{"server_type":20009,"type_index":"2","rule_index":524370,"creator":21,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13},"num_of_games":0,"seats":[{"userid":21,"ip":"::ffff:192.168.0.152","score":0,"name":"独孤稳赢","online":true,"ready":false,"seatindex":0,"watch":false},{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}]}}
+[2017-07-11 18:04:27.340] [DEBUG] shisanshui - broadcast[new_user_comes_push] data[{"userid":22,"ip":"::ffff:192.168.0.152","score":0,"name":"皇甫有钱","online":true,"ready":false,"seatindex":1,"watch":false}],sender[22]
+[2017-07-11 18:04:29.437] [DEBUG] shisanshui - Socket[transfer][{"target":22}]
+[2017-07-11 18:04:29.438] [DEBUG] shisanshui - UPDATE rooms SET base_info='{"server_type":20009,"type_index":"2","rule_index":524370,"creator":22,"double":false,"free":false,"max_games":10,"poker_nums":52,"card_nums":13}' WHERE uuid='1499767459807490653'
+[2017-07-11 18:04:29.438] [DEBUG] shisanshui - send to room[transfer] data[{"new_seat":[22,21]}],room_id[490653]
+[2017-07-11 18:04:31.607] [DEBUG] shisanshui - Socket[kick][{"target":21}]
+[2017-07-11 18:04:31.607] [DEBUG] shisanshui - user[21],event = kick,data = {"kicked":21,"new_seat":[]}
+[2017-07-11 18:04:31.608] [DEBUG] shisanshui - broadcast[user_state_push] data[{"userid":21,"online":false}],sender[21]
+[2017-07-11 18:04:31.609] [DEBUG] shisanshui - send to room[user_ready_push] data[{"userid":21,"ready":false}],room_id[490653]
+[2017-07-11 18:04:31.610] [DEBUG] shisanshui - UPDATE users SET roomid = null WHERE userid = 21
+[2017-07-11 18:04:31.610] [DEBUG] shisanshui - send to room[kick] data[{"kicked":21,"new_seat":[22]}],room_id[490653]
+[2017-07-11 18:04:35.181] [DEBUG] shisanshui - Socket[dispress][null]
+[2017-07-11 18:04:35.182] [DEBUG] shisanshui - broadcast[dispress_push] data[{}],sender[22]
+[2017-07-11 18:04:35.183] [DEBUG] shisanshui - broadcast[user_state_push] data[{"userid":22,"online":false}],sender[22]
+[2017-07-11 18:04:35.183] [DEBUG] shisanshui - send to room[user_ready_push] data[{"userid":22,"ready":false}],room_id[490653]
+[2017-07-11 18:04:35.183] [DEBUG] shisanshui - UPDATE users SET roomid = null WHERE userid = 22
+[2017-07-11 18:17:48.358] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-11 18:17:48.370] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-11 18:17:48.490] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-11 18:17:49.407] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
+[2017-07-11 18:29:40.748] [INFO] shisanshui - POKER SHISANSHUI DB READY.
+[2017-07-11 18:29:40.802] [INFO] shisanshui - POKER SHISANSHUI HTTP SERVICE RUNNING ON:127.0.0.1:11500
+[2017-07-11 18:29:40.984] [INFO] shisanshui - POKER OX SOCKET RUNNING ON: 11600
+[2017-07-11 18:29:41.824] [DEBUG] shisanshui - Http[get_server_info][{"serverid":"1","sign":"d40c9bff35b98a82"}]
